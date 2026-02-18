@@ -1,0 +1,248 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.574,
+                                                        "Pop_Share": 8.31,
+                                                        "Box_Number": 7
+                                                    },
+                                                    "split_condition": "Ethnicity -> Babwisi,Bantu,Banyarwanda,Indigenous African Pygmy,Nilotic"
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.378,
+                                                        "Pop_Share": 3.69,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Ethnicity -> Ethur,Mvuba,Niloc,Nilohamites,Other"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Father_Edu -> No Formal Education,Currently Attending School"
+                                        },
+                                        {
+                                            "id": 9,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.698,
+                                                "Pop_Share": 11,
+                                                "Box_Number": 9
+                                            },
+                                            "split_condition": "Father_Edu -> Less Than Primary,Primary,Completed University"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Edu -> No Formal Education,Currently Attending School"
+                                },
+                                {
+                                    "id": 10,
+                                    "children": [
+                                        {
+                                            "id": 11,
+                                            "children": [
+                                                {
+                                                    "id": 12,
+                                                    "children": [
+                                                        {
+                                                            "id": 13,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.865,
+                                                                "Pop_Share": 32.04,
+                                                                "Box_Number": 13
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Agricultural Farming And Fishery Workers,Casual Labourer,Other Unpaid Family Work,Unemployed"
+                                                        },
+                                                        {
+                                                            "id": 14,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.217,
+                                                                "Pop_Share": 2.28,
+                                                                "Box_Number": 14
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Non-Agricultural,Paid Employee"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Ethnicity -> Babukusu,Bantu,Indian,Indigenous African Pygmy,Nilohamites"
+                                                },
+                                                {
+                                                    "id": 15,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.66,
+                                                        "Pop_Share": 15.99,
+                                                        "Box_Number": 15
+                                                    },
+                                                    "split_condition": "Ethnicity -> Babwisi,Banyabindi,Banyarwanda,Ethur,Mvuba,Niloc,Nilotic,Other"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Father_Occ -> Agricultural Farming And Fishery Workers,Casual Labourer,Non-Agricultural,Paid Employee,Unemployed"
+                                        },
+                                        {
+                                            "id": 16,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.858,
+                                                "Pop_Share": 1.08,
+                                                "Box_Number": 16
+                                            },
+                                            "split_condition": "Father_Occ -> Other Unpaid Family Work"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Mother_Edu -> Less Than Primary,Primary,Completed Post Primary Specialized Training Or Certificate"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> No Formal Education,Currently Attending School,Less Than Primary,Primary,Completed University"
+                        },
+                        {
+                            "id": 17,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "children": [
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.754,
+                                                "Pop_Share": 1.5,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Father_Occ -> Agricultural Farming And Fishery Workers,Casual Labourer,Other Unpaid Family Work,Paid Employee"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.407,
+                                                "Pop_Share": 3.25,
+                                                "Box_Number": 20
+                                            },
+                                            "split_condition": "Father_Occ -> Non-Agricultural,Unemployed"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Mother_Edu -> No Formal Education,Less Than Primary,Primary"
+                                },
+                                {
+                                    "id": 21,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.512,
+                                        "Pop_Share": 2.14,
+                                        "Box_Number": 21
+                                    },
+                                    "split_condition": "Mother_Edu -> Currently Attending School,Completed Post Primary Specialized Training Or Certificate"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> Completed Post Primary Specialized Training Or Certificate,O-Level,A-Level"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> No Formal Education,Currently Attending School,Less Than Primary,Primary,Completed Post Primary Specialized Training Or Certificate"
+                },
+                {
+                    "id": 22,
+                    "children": [
+                        {
+                            "id": 23,
+                            "children": [
+                                {
+                                    "id": 24,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.035,
+                                        "Pop_Share": 1.06,
+                                        "Box_Number": 24
+                                    },
+                                    "split_condition": "Mother_Occ -> Agricultural Farming And Fishery Workers,Non-Agricultural,Paid Employee"
+                                },
+                                {
+                                    "id": 25,
+                                    "children": [
+                                        {
+                                            "id": 26,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.102,
+                                                "Pop_Share": 6.23,
+                                                "Box_Number": 26
+                                            },
+                                            "split_condition": "Mother_Edu -> O-Level"
+                                        },
+                                        {
+                                            "id": 27,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.595,
+                                                "Pop_Share": 2.64,
+                                                "Box_Number": 27
+                                            },
+                                            "split_condition": "Mother_Edu -> A-Level,Completed Post Secondary Specialized Training Or Diploma,Completed Degree And Above"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Mother_Occ -> Casual Labourer,Other Unpaid Family Work,Unemployed"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Father_Edu -> No Formal Education,Currently Attending School,Less Than Primary,Primary,Completed Post Primary Specialized Training Or Certificate"
+                        },
+                        {
+                            "id": 28,
+                            "info": {
+                                "Relative_Type_Mean": 1.947,
+                                "Pop_Share": 5.93,
+                                "Box_Number": 28
+                            },
+                            "split_condition": "Father_Edu -> O-Level,A-Level,Completed University"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> O-Level,A-Level,Completed Post Secondary Specialized Training Or Diploma,Completed Degree And Above,Completed University"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> No Formal Education,Currently Attending School,Less Than Primary,Primary,Completed Post Primary Specialized Training Or Certificate,O-Level,A-Level,Completed University"
+        },
+        {
+            "id": 29,
+            "children": [
+                {
+                    "id": 30,
+                    "info": {
+                        "Relative_Type_Mean": 2.072,
+                        "Pop_Share": 1.84,
+                        "Box_Number": 30
+                    },
+                    "split_condition": "Mother_Edu -> No Formal Education,Primary,O-Level,Completed Post Secondary Specialized Training Or Diploma"
+                },
+                {
+                    "id": 31,
+                    "info": {
+                        "Relative_Type_Mean": 7.751,
+                        "Pop_Share": 1.04,
+                        "Box_Number": 31
+                    },
+                    "split_condition": "Mother_Edu -> Currently Attending School,Less Than Primary,Completed Post Primary Specialized Training Or Certificate,A-Level,Completed Degree And Above"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> Completed Post Secondary Specialized Training Or Diploma,Completed Degree And Above"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

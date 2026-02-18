@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MLI,2019,expost,3,1.077,17.52,,,,Unemployed,,,
+MLI,2019,expost,7,0.842,58.38,,No School,,Agriculture And Mines,"Unemployed,Agriculture And Mines,Commerce And Transport,Restaurant/Hotel",Muslim,
+MLI,2019,expost,8,0.848,1.03,,No School,,Agriculture And Mines,"Industries And Construction,Fashion/Tailoring, Services",Muslim,
+MLI,2019,expost,9,0.774,2.47,,No School,,Agriculture And Mines,,"Christian,Animist,Other,No Religion",
+MLI,2019,expost,10,1.242,1.95,,"Primary,Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education",,Agriculture And Mines,,,
+MLI,2019,expost,13,1.288,10.8,,No School,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,
+MLI,2019,expost,14,1.602,1.71,,Primary,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,
+MLI,2019,expost,16,1.759,4.43,,"Secondary 1st Cycle,Secondary 2nd Cycle",,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,
+MLI,2019,expost,17,2.281,1.71,,Higher Education,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,

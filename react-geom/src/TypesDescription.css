@@ -1,0 +1,43 @@
+.types-description-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.types-description-wrapper h2 {
+  text-align: center;
+}
+
+.selection {
+  --text-divider-gap: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.selection::before,
+.selection::after {
+  content: '';
+  height: 2px;
+  background-color: black;
+  flex-grow: 1;
+}
+
+.selection::before {
+  margin-right: var(--text-divider-gap);
+}
+
+.selection::after {
+  margin-left: var(--text-divider-gap);
+}
+
+.selection select {
+  padding: 0.5rem;
+}
+
+.type-description ul {
+  list-style: none;
+}

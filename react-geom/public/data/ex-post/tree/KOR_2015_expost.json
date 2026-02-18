@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.059,
+                                        "Pop_Share": 11.55,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Mother_Edu -> No Schooling,Graduate Degree"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.062,
+                                        "Pop_Share": 2.28,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Mother_Edu -> Community College,College/University"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Birth_Area -> Seoul,Daegu,Incheon,Gwangju,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeju-Do,Overseas"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 1.091,
+                                "Pop_Share": 23.63,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Birth_Area -> Busan,Daejeon,Ulsan,Gyeonggi-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,North Korea"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Edu -> No Schooling,Community College,College/University,Graduate Degree"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "children": [
+                                        {
+                                            "id": 11,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.92,
+                                                "Pop_Share": 22.4,
+                                                "Box_Number": 11
+                                            },
+                                            "split_condition": "Birth_Area -> Seoul,Busan,Daegu,Daejeon,Gyeonggi-Do,Chungcheongnam-Do,Jeollabuk-Do,North Korea,Overseas"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.949,
+                                                "Pop_Share": 18.5,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Birth_Area -> Incheon,Gwangju,Ulsan,Gangwon-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Edu -> No Schooling,Elementary School,Middle School,High School"
+                                },
+                                {
+                                    "id": 13,
+                                    "children": [
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.125,
+                                                "Pop_Share": 4.9,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Family Worker"
+                                        },
+                                        {
+                                            "id": 15,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.798,
+                                                "Pop_Share": 1.28,
+                                                "Box_Number": 15
+                                            },
+                                            "split_condition": "Father_Occ -> Self-Employed(With No Employee)"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Father_Edu -> Community College,College/University,Graduate Degree"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Self-Employed(With No Employee),Family Worker"
+                        },
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.108,
+                                "Pop_Share": 7.36,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Father_Occ -> Employer (With Employees)"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Mother_Edu -> Elementary School,Middle School,High School"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker"
+        },
+        {
+            "id": 17,
+            "info": {
+                "Relative_Type_Mean": 0.847,
+                "Pop_Share": 8.1,
+                "Box_Number": 17
+            },
+            "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,No Job/Housewife"
+        }
+    ],
+    "nodeName": "Father_Occ"
+}

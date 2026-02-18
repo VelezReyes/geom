@@ -1,0 +1,4 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MNG,2016,expost,2,1.467,20.16,Urban,,,,,,
+MNG,2016,expost,4,0.84,71.09,Rural,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education",,,,
+MNG,2016,expost,5,1.132,8.75,Rural,,"Tertiary Education (Not A University Diploma),Bachelor's Degree Or More,Master's Degree Or Phd",,,,

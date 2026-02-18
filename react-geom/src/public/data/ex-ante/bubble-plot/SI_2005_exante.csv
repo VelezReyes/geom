@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SI,2005,exante,4,0.832,29.77,,"Unknown,Low,Medium",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+SI,2005,exante,5,0.927,20.87,,High,,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+SI,2005,exante,6,1.014,12.25,,,,"Manager,Professional,Technician,Clerical,Service,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+SI,2005,exante,10,1.128,10.38,,,,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary","Manager,Professional,Technician",,
+SI,2005,exante,11,1.004,7.17,,,,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",Clerical,,
+SI,2005,exante,12,1.244,8.05,,,,Technician,"Manager,Professional,Technician,Clerical",,
+SI,2005,exante,14,1.273,6.41,,"Medium,High",,"Manager,Professional,Armed Forces","Manager,Professional,Technician,Clerical",,
+SI,2005,exante,16,1.649,2.81,,,,"Manager,Professional,Armed Forces","Manager,Professional",,
+SI,2005,exante,17,1.408,2.28,,,,"Manager,Professional,Armed Forces","Technician,Clerical",,

@@ -1,0 +1,248 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 1.124,
+                                "Pop_Share": 11.09,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Birth_Area -> Northern Region"
+                        },
+                        {
+                            "id": 5,
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.705,
+                                                "Pop_Share": 3.73,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Ethnicity -> None,Traditional,Other"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "children": [
+                                                {
+                                                    "id": 9,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.8,
+                                                        "Pop_Share": 32.39,
+                                                        "Box_Number": 9
+                                                    },
+                                                    "split_condition": "Sex -> Female"
+                                                },
+                                                {
+                                                    "id": 10,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.846,
+                                                        "Pop_Share": 28.16,
+                                                        "Box_Number": 10
+                                                    },
+                                                    "split_condition": "Sex -> Male"
+                                                }
+                                            ],
+                                            "nodeName": "Sex",
+                                            "split_condition": "Ethnicity -> Christianity,Islam"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Edu -> None"
+                                },
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.174,
+                                        "Pop_Share": 1.78,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Mother_Edu -> Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,A-Level,Diploma,Masters/Phd"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Birth_Area -> Central Region,Southern Region"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Father_Edu -> None"
+                },
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.227,
+                                        "Pop_Share": 2.82,
+                                        "Box_Number": 14
+                                    },
+                                    "split_condition": "Birth_Area -> Northern Region"
+                                },
+                                {
+                                    "id": 15,
+                                    "children": [
+                                        {
+                                            "id": 16,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.088,
+                                                "Pop_Share": 4.23,
+                                                "Box_Number": 16
+                                            },
+                                            "split_condition": "Father_Edu -> Primary School Leaving Certificate"
+                                        },
+                                        {
+                                            "id": 17,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.259,
+                                                "Pop_Share": 2.42,
+                                                "Box_Number": 17
+                                            },
+                                            "split_condition": "Father_Edu -> Junior Certificate Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Birth_Area -> Central Region,Southern Region"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> None,A-Level,Diploma"
+                        },
+                        {
+                            "id": 18,
+                            "children": [
+                                {
+                                    "id": 19,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.407,
+                                        "Pop_Share": 2.88,
+                                        "Box_Number": 19
+                                    },
+                                    "split_condition": "Mother_Edu -> Primary School Leaving Certificate"
+                                },
+                                {
+                                    "id": 20,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.732,
+                                        "Pop_Share": 1.32,
+                                        "Box_Number": 20
+                                    },
+                                    "split_condition": "Mother_Edu -> Junior Certificate Of Education,Malawi School Certificate Of Education,Degree,Masters/Phd"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Mother_Edu -> Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,Degree,Masters/Phd"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> Primary School Leaving Certificate,Junior Certificate Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Father_Edu -> None,Primary School Leaving Certificate,Junior Certificate Of Education"
+        },
+        {
+            "id": 21,
+            "children": [
+                {
+                    "id": 22,
+                    "children": [
+                        {
+                            "id": 23,
+                            "children": [
+                                {
+                                    "id": 24,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.351,
+                                        "Pop_Share": 2.9,
+                                        "Box_Number": 24
+                                    },
+                                    "split_condition": "Mother_Edu -> None"
+                                },
+                                {
+                                    "id": 25,
+                                    "children": [
+                                        {
+                                            "id": 26,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.689,
+                                                "Pop_Share": 1.33,
+                                                "Box_Number": 26
+                                            },
+                                            "split_condition": "Mother_Edu -> Primary School Leaving Certificate"
+                                        },
+                                        {
+                                            "id": 27,
+                                            "info": {
+                                                "Relative_Type_Mean": 2.073,
+                                                "Pop_Share": 1.38,
+                                                "Box_Number": 27
+                                            },
+                                            "split_condition": "Mother_Edu -> Junior Certificate Of Education,A-Level"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Mother_Edu -> Primary School Leaving Certificate,Junior Certificate Of Education,A-Level"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> Malawi School Certificate Of Education"
+                        },
+                        {
+                            "id": 28,
+                            "info": {
+                                "Relative_Type_Mean": 2.469,
+                                "Pop_Share": 1.34,
+                                "Box_Number": 28
+                            },
+                            "split_condition": "Father_Edu -> A-Level,Diploma,Degree,Masters/Phd"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> None,Primary School Leaving Certificate,Junior Certificate Of Education,A-Level"
+                },
+                {
+                    "id": 29,
+                    "children": [
+                        {
+                            "id": 30,
+                            "info": {
+                                "Relative_Type_Mean": 2.552,
+                                "Pop_Share": 1.23,
+                                "Box_Number": 30
+                            },
+                            "split_condition": "Father_Edu -> Malawi School Certificate Of Education,A-Level"
+                        },
+                        {
+                            "id": 31,
+                            "info": {
+                                "Relative_Type_Mean": 4.057,
+                                "Pop_Share": 1.01,
+                                "Box_Number": 31
+                            },
+                            "split_condition": "Father_Edu -> Diploma,Degree,Masters/Phd"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> Malawi School Certificate Of Education,Diploma,Degree,Masters/Phd"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> Malawi School Certificate Of Education,A-Level,Diploma,Degree,Masters/Phd"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

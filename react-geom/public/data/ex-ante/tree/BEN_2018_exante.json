@@ -1,0 +1,216 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.144,
+                                                "Pop_Share": 1.27,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Father_Occ -> Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Other"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "children": [
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.919,
+                                                        "Pop_Share": 32.03,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Sex -> Female"
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.961,
+                                                        "Pop_Share": 22.64,
+                                                        "Box_Number": 9
+                                                    },
+                                                    "split_condition": "Sex -> Male"
+                                                }
+                                            ],
+                                            "nodeName": "Sex",
+                                            "split_condition": "Father_Occ -> Self Employed"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Mother_Edu -> No School"
+                                },
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.245,
+                                        "Pop_Share": 1.8,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Mother_Edu -> Primary,Secondary I Cycle,Secondary Ii Cycle"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Mother_Occ -> Senior Executive, Middle Manager,Unskilled Worker,Employer,Self Employed"
+                        },
+                        {
+                            "id": 11,
+                            "info": {
+                                "Relative_Type_Mean": 0.788,
+                                "Pop_Share": 7.01,
+                                "Box_Number": 11
+                            },
+                            "split_condition": "Mother_Occ -> Skilled Worker,Manual Worker,Other"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Ethnicity -> Muslim,Christian,Other"
+                },
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "info": {
+                                "Relative_Type_Mean": 0.649,
+                                "Pop_Share": 8.68,
+                                "Box_Number": 13
+                            },
+                            "split_condition": "Sex -> Female"
+                        },
+                        {
+                            "id": 14,
+                            "info": {
+                                "Relative_Type_Mean": 0.718,
+                                "Pop_Share": 6.42,
+                                "Box_Number": 14
+                            },
+                            "split_condition": "Sex -> Male"
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Ethnicity -> Animist,Atheist"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Father_Edu -> No School"
+        },
+        {
+            "id": 15,
+            "children": [
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "info": {
+                                "Relative_Type_Mean": 1.68,
+                                "Pop_Share": 3.1,
+                                "Box_Number": 17
+                            },
+                            "split_condition": "Father_Occ -> Senior Executive, Middle Manager,Employer"
+                        },
+                        {
+                            "id": 18,
+                            "children": [
+                                {
+                                    "id": 19,
+                                    "children": [
+                                        {
+                                            "id": 20,
+                                            "children": [
+                                                {
+                                                    "id": 21,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.416,
+                                                        "Pop_Share": 2.02,
+                                                        "Box_Number": 21
+                                                    },
+                                                    "split_condition": "Ethnicity -> Muslim"
+                                                },
+                                                {
+                                                    "id": 22,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.217,
+                                                        "Pop_Share": 8.27,
+                                                        "Box_Number": 22
+                                                    },
+                                                    "split_condition": "Ethnicity -> Christian"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Mother_Edu -> No School"
+                                        },
+                                        {
+                                            "id": 23,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.517,
+                                                "Pop_Share": 2.78,
+                                                "Box_Number": 23
+                                            },
+                                            "split_condition": "Mother_Edu -> Primary"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Ethnicity -> Muslim,Christian"
+                                },
+                                {
+                                    "id": 24,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.896,
+                                        "Pop_Share": 1.65,
+                                        "Box_Number": 24
+                                    },
+                                    "split_condition": "Ethnicity -> Animist,Other,Atheist"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Father_Occ -> Skilled Worker,Unskilled Worker,Manual Worker,Self Employed,Other"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Mother_Edu -> No School,Primary"
+                },
+                {
+                    "id": 25,
+                    "children": [
+                        {
+                            "id": 26,
+                            "info": {
+                                "Relative_Type_Mean": 1.92,
+                                "Pop_Share": 1.07,
+                                "Box_Number": 26
+                            },
+                            "split_condition": "Father_Edu -> Primary,Secondary I Cycle"
+                        },
+                        {
+                            "id": 27,
+                            "info": {
+                                "Relative_Type_Mean": 2.579,
+                                "Pop_Share": 1.26,
+                                "Box_Number": 27
+                            },
+                            "split_condition": "Father_Edu -> Secondary Ii Cycle,Superior"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> Secondary I Cycle,Secondary Ii Cycle,Superior"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> Primary,Secondary I Cycle,Secondary Ii Cycle,Superior"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

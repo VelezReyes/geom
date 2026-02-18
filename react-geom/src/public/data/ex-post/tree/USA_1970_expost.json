@@ -1,0 +1,184 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.866,
+                                        "Pop_Share": 13.59,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Birth_Area -> Northeast,North Central,West"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.737,
+                                        "Pop_Share": 9.41,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Birth_Area -> South,Foreign Country"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Occ -> Low"
+                        },
+                        {
+                            "id": 7,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "children": [
+                                        {
+                                            "id": 9,
+                                            "children": [
+                                                {
+                                                    "id": 10,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.911,
+                                                        "Pop_Share": 7.98,
+                                                        "Box_Number": 10
+                                                    },
+                                                    "split_condition": "Birth_Area -> Northeast,North Central,West,Foreign Country"
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.78,
+                                                        "Pop_Share": 3.48,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Birth_Area -> South"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Mother_Edu -> 0-5 Grades,6-8 Grades"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.056,
+                                                "Pop_Share": 8.97,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Mother_Edu -> 9-11 Grades,High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Father_Occ -> Middle"
+                                },
+                                {
+                                    "id": 13,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.14,
+                                        "Pop_Share": 5.01,
+                                        "Box_Number": 13
+                                    },
+                                    "split_condition": "Father_Occ -> High"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Father_Occ -> Middle,High"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Father_Edu -> 0-5 Grades,6-8 Grades,9-11 Grades"
+                },
+                {
+                    "id": 14,
+                    "children": [
+                        {
+                            "id": 15,
+                            "info": {
+                                "Relative_Type_Mean": 1.16,
+                                "Pop_Share": 15.3,
+                                "Box_Number": 15
+                            },
+                            "split_condition": "Father_Occ -> Low,Middle"
+                        },
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.39,
+                                "Pop_Share": 9.12,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Father_Occ -> High"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Father_Edu -> High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Ethnicity -> White,Asian, Pac. Islander,Other"
+        },
+        {
+            "id": 17,
+            "children": [
+                {
+                    "id": 18,
+                    "children": [
+                        {
+                            "id": 19,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.723,
+                                        "Pop_Share": 2.6,
+                                        "Box_Number": 20
+                                    },
+                                    "split_condition": "Birth_Area -> Northeast,North Central,West,Foreign Country"
+                                },
+                                {
+                                    "id": 21,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.536,
+                                        "Pop_Share": 15.95,
+                                        "Box_Number": 21
+                                    },
+                                    "split_condition": "Birth_Area -> South"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Edu -> 0-5 Grades,6-8 Grades,9-11 Grades,Advanced College Degree"
+                        },
+                        {
+                            "id": 22,
+                            "info": {
+                                "Relative_Type_Mean": 0.8,
+                                "Pop_Share": 1.73,
+                                "Box_Number": 22
+                            },
+                            "split_condition": "Father_Edu -> High School,12 Grades + Non Academic Training,Some College,College Degree"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Occ -> Low"
+                },
+                {
+                    "id": 23,
+                    "info": {
+                        "Relative_Type_Mean": 0.968,
+                        "Pop_Share": 6.86,
+                        "Box_Number": 23
+                    },
+                    "split_condition": "Father_Occ -> Middle,High"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Ethnicity -> Black,Am. Indian, Aleut, Eskimo,Hispanic"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

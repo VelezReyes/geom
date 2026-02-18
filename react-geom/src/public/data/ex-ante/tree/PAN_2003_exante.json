@@ -1,0 +1,264 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.367,
+                                                "Pop_Share": 20.28,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Father_Edu -> "
+                                        },
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.427,
+                                                "Pop_Share": 3.92,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Father_Edu -> 3 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Birth_Area -> Urban"
+                                },
+                                {
+                                    "id": 8,
+                                    "children": [
+                                        {
+                                            "id": 9,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.641,
+                                                "Pop_Share": 3.51,
+                                                "Box_Number": 9
+                                            },
+                                            "split_condition": "Father_Edu -> "
+                                        },
+                                        {
+                                            "id": 10,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.91,
+                                                "Pop_Share": 1.01,
+                                                "Box_Number": 10
+                                            },
+                                            "split_condition": "Father_Edu -> 3 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Birth_Area -> Rural"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> "
+                        },
+                        {
+                            "id": 11,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "children": [
+                                        {
+                                            "id": 13,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.59,
+                                                "Pop_Share": 11.29,
+                                                "Box_Number": 13
+                                            },
+                                            "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                        },
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.808,
+                                                "Pop_Share": 4.5,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Mother_Edu -> 6 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Birth_Area -> Urban"
+                                },
+                                {
+                                    "id": 15,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.924,
+                                        "Pop_Share": 8.59,
+                                        "Box_Number": 15
+                                    },
+                                    "split_condition": "Birth_Area -> Rural"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> 3 Years Of Education,6 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> 3 Years Of Education"
+                },
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "children": [
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.647,
+                                                "Pop_Share": 5.53,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Birth_Area -> Urban"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.949,
+                                                "Pop_Share": 4.13,
+                                                "Box_Number": 20
+                                            },
+                                            "split_condition": "Birth_Area -> Rural"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                },
+                                {
+                                    "id": 21,
+                                    "children": [
+                                        {
+                                            "id": 22,
+                                            "children": [
+                                                {
+                                                    "id": 23,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.865,
+                                                        "Pop_Share": 7.87,
+                                                        "Box_Number": 23
+                                                    },
+                                                    "split_condition": "Father_Edu -> 6 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 24,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.076,
+                                                        "Pop_Share": 1.9,
+                                                        "Box_Number": 24
+                                                    },
+                                                    "split_condition": "Father_Edu -> "
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Birth_Area -> Urban"
+                                        },
+                                        {
+                                            "id": 25,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.175,
+                                                "Pop_Share": 14.91,
+                                                "Box_Number": 25
+                                            },
+                                            "split_condition": "Birth_Area -> Rural"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 6 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> 6 Years Of Education"
+                        },
+                        {
+                            "id": 26,
+                            "info": {
+                                "Relative_Type_Mean": 1.79,
+                                "Pop_Share": 1.73,
+                                "Box_Number": 26
+                            },
+                            "split_condition": "Father_Edu -> "
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Edu -> 6 Years Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Mother_Edu -> 3 Years Of Education,6 Years Of Education"
+        },
+        {
+            "id": 27,
+            "children": [
+                {
+                    "id": 28,
+                    "children": [
+                        {
+                            "id": 29,
+                            "info": {
+                                "Relative_Type_Mean": 1.231,
+                                "Pop_Share": 2.19,
+                                "Box_Number": 29
+                            },
+                            "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                        },
+                        {
+                            "id": 30,
+                            "info": {
+                                "Relative_Type_Mean": 1.932,
+                                "Pop_Share": 5.58,
+                                "Box_Number": 30
+                            },
+                            "split_condition": "Father_Edu -> "
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                },
+                {
+                    "id": 31,
+                    "children": [
+                        {
+                            "id": 32,
+                            "info": {
+                                "Relative_Type_Mean": 2.358,
+                                "Pop_Share": 1.22,
+                                "Box_Number": 32
+                            },
+                            "split_condition": "Mother_Edu -> "
+                        },
+                        {
+                            "id": 33,
+                            "info": {
+                                "Relative_Type_Mean": 3.477,
+                                "Pop_Share": 1.82,
+                                "Box_Number": 33
+                            },
+                            "split_condition": "Mother_Edu -> "
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> "
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Mother_Edu -> "
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

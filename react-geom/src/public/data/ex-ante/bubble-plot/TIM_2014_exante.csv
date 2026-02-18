@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+TIM,2014,exante,4,1.666,1.93,,"Primary,Secondary,Academy,University,Non-Formal,No Education, Literate","Primary,Pre-Secondary,Secondary,Academy,University,No Education, Literate",,,"Tetum,Fatalucu,Galolen,Macalero,Macasae,Mangilih,Bahasa Indonesia,Inggris,Other (Specify___)",
+TIM,2014,exante,5,1.45,2.01,,"Primary,Secondary,Academy,University,Non-Formal,No Education, Literate","Vocational,No Education, Iliterate,Don't Know",,,"Tetum,Fatalucu,Galolen,Macalero,Macasae,Mangilih,Bahasa Indonesia,Inggris,Other (Specify___)",
+TIM,2014,exante,8,1.387,4.57,Urban,"Pre-Secondary,Vocational,No Education, Iliterate,Don't Know",,,,"Tetum,Bahasa Indonesia,Inggris,Other (Specify___)",
+TIM,2014,exante,9,1.112,5.43,Urban,"Pre-Secondary,Vocational,No Education, Iliterate,Don't Know",,,,"Fatalucu,Galolen,Macalero,Macasae,Mangilih",
+TIM,2014,exante,11,1.183,6.12,Rural,"Pre-Secondary,Vocational,No Education, Iliterate,Don't Know",,,,"Tetum,Galolen,Macalero,Inggris",
+TIM,2014,exante,12,0.99,14.13,Rural,"Pre-Secondary,Vocational,No Education, Iliterate,Don't Know",,,,"Fatalucu,Macasae,Mangilih,Bahasa Indonesia,Other (Specify___)",
+TIM,2014,exante,15,1.051,14.3,Urban,"Pre-School,Secondary,University,No Education, Iliterate,Don't Know",,,,"Baequeno,Bunak,Isni,Kaklun Bikeli,Kemak,Laklei,Mambae,Midiki,Naueti,Sa Ani,Tetum Terik,Tokodete,Uaimua,Portuguese,Does Not Speak Yet",
+TIM,2014,exante,16,1.33,1.41,Urban,"Primary,Pre-Secondary,Academy,Non-Formal,No Education, Literate",,,,"Baequeno,Bunak,Isni,Kaklun Bikeli,Kemak,Laklei,Mambae,Midiki,Naueti,Sa Ani,Tetum Terik,Tokodete,Uaimua,Portuguese,Does Not Speak Yet",
+TIM,2014,exante,19,0.873,43.53,Rural,"Pre-School,Pre-Secondary,University,Vocational,No Education, Literate,No Education, Iliterate,Don't Know",,,,"Baequeno,Bunak,Isni,Kaklun Bikeli,Kemak,Laklei,Mambae,Midiki,Naueti,Tetum Terik,Uaimua",
+TIM,2014,exante,20,1.157,1.68,Rural,"Primary,Secondary,Academy",,,,"Baequeno,Bunak,Isni,Kaklun Bikeli,Kemak,Laklei,Mambae,Midiki,Naueti,Tetum Terik,Uaimua",
+TIM,2014,exante,21,0.687,4.88,Rural,,,,,"Sa Ani,Tokodete,Portuguese,Does Not Speak Yet",

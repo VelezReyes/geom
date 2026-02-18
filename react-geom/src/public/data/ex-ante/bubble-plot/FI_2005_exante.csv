@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+FI,2005,exante,6,0.854,16.16,,"Unknown,Low,Medium,High","Unknown,Low","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+FI,2005,exante,10,0.98,1.26,,"Unknown,High",Medium,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Elementary",,
+FI,2005,exante,11,0.838,11.01,,"Unknown,High",High,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Elementary",,
+FI,2005,exante,13,0.916,12.51,,"Unknown,High","Medium,High","Dead/Unknown/Not Working,Service,Craft/Trades,Plant Operator,Elementary,Armed Forces","Technician,Service,Agriculture,Craft/Trades,Plant Operator",,
+FI,2005,exante,14,1.061,3.3,,"Unknown,High","Medium,High",Agriculture,"Technician,Service,Agriculture,Craft/Trades,Plant Operator",,
+FI,2005,exante,15,0.951,18.19,,"Low,Medium","Medium,High","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+FI,2005,exante,16,1.03,13.4,,"Unknown,Low,Medium,High","Unknown,Low,Medium,High","Manager,Professional,Technician,Clerical","Dead/Unknown/Not Working,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+FI,2005,exante,17,1.379,1.99,,,"Unknown,Low,Medium,High",,"Dead/Unknown/Not Working,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+FI,2005,exante,18,1.147,13.57,,,"Unknown,Low,Medium,High",,"Manager,Professional,Clerical",,
+FI,2005,exante,20,1.395,3.63,,"Unknown,Medium,High",,,,,
+FI,2005,exante,21,1.801,4.99,,,,,,,

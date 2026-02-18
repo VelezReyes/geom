@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+EL,2011,expost,5,0.796,2.54,"Local,European Union","Unknown,Low,Medium",Low,,"Dead/Unknown/Not Working,Manager,Plant Operator",,
+EL,2011,expost,6,0.767,4.35,"Local,European Union","Unknown,Low,Medium",Low,,"Clerical,Service,Agriculture,Elementary",,
+EL,2011,expost,8,1.013,21.88,"Local,European Union","Unknown,Low,Medium","Medium,High","Dead/Unknown/Not Working,Manager,Professional,Technician,Clerical,Service,Plant Operator,Armed Forces",,,
+EL,2011,expost,10,0.871,40.21,"Local,European Union","Unknown,Low,Medium","Medium,High","Agriculture,Craft/Trades,Elementary","Dead/Unknown/Not Working,Clerical,Agriculture,Craft/Trades,Elementary",,
+EL,2011,expost,11,1.074,1.68,"Local,European Union","Unknown,Low,Medium","Medium,High","Agriculture,Craft/Trades,Elementary","Manager,Professional,Technician,Service,Plant Operator",,
+EL,2011,expost,12,0.549,5.79,Other,"Unknown,Low,Medium",,,,,
+EL,2011,expost,16,1.159,11.16,"Local,European Union",High,,"Dead/Unknown/Not Working,Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Armed Forces",,,
+EL,2011,expost,17,1.135,2.3,"Local,European Union",High,,"Manager,Elementary",,,
+EL,2011,expost,19,1.501,4.31,"Local,European Union",,,,"Dead/Unknown/Not Working,Manager,Technician,Agriculture,Craft/Trades,Elementary",,
+EL,2011,expost,20,1.62,3.55,"Local,European Union",,,,"Professional,Clerical,Service,Plant Operator",,
+EL,2011,expost,21,0.737,2.24,Other,High,,,,,

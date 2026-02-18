@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MLI,2019,exante,3,1.077,17.52,,,,Unemployed,,,
+MLI,2019,exante,5,0.839,61.88,,No School,,Agriculture And Mines,,,
+MLI,2019,exante,6,1.242,1.95,,"Primary,Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education",,Agriculture And Mines,,,
+MLI,2019,exante,10,1.313,9.8,,No School,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services","Unemployed,Commerce And Transport",,
+MLI,2019,exante,11,1.057,1.01,,No School,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services","Agriculture And Mines,Industries And Construction,Restaurant/Hotel,Fashion/Tailoring, Services",,
+MLI,2019,exante,12,1.602,1.71,,Primary,,"Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,
+MLI,2019,exante,15,1.868,3.81,,"Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education","No School,Primary","Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services","Unemployed,Fashion/Tailoring",,
+MLI,2019,exante,16,1.49,1.01,,"Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education","No School,Primary","Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services","Agriculture And Mines,Commerce And Transport,Restaurant/Hotel, Services",,
+MLI,2019,exante,17,2.326,1.32,,"Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education","Secondary 1st Cycle,Secondary 2nd Cycle,Higher Education","Industries And Construction,Commerce And Transport,Restaurant/Hotel,Fashion/Tailoring, Services",,,

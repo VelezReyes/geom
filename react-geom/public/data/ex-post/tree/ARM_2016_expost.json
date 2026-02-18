@@ -1,0 +1,56 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 0.926,
+                        "Pop_Share": 35.14,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Father_Edu -> No Degree/No Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education"
+                },
+                {
+                    "id": 4,
+                    "children": [
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 1.27,
+                                "Pop_Share": 8.44,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Mother_Edu -> No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Bachelor's Degree Or More"
+                        },
+                        {
+                            "id": 6,
+                            "info": {
+                                "Relative_Type_Mean": 2.064,
+                                "Pop_Share": 7.21,
+                                "Box_Number": 6
+                            },
+                            "split_condition": "Mother_Edu -> Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma),Master's Degree Or Phd"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> Primary Education,Tertiary Education (Not A University Diploma),Bachelor's Degree Or More,Master's Degree Or Phd"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Birth_Area -> Urban"
+        },
+        {
+            "id": 7,
+            "info": {
+                "Relative_Type_Mean": 0.741,
+                "Pop_Share": 49.22,
+                "Box_Number": 7
+            },
+            "split_condition": "Birth_Area -> Rural"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

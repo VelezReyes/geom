@@ -1,0 +1,328 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.273,
+                                        "Pop_Share": 2.24,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Occ -> "
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.748,
+                                                "Pop_Share": 18.5,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Mother_Edu -> "
+                                        },
+                                        {
+                                            "id": 8,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.052,
+                                                "Pop_Share": 1.91,
+                                                "Box_Number": 8
+                                            },
+                                            "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Father_Occ -> "
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Birth_Area -> Guatemala,El Progreso,Sacatepequez,Chimaltenengo,Escuintla,Santa Rosa,Solola,Retalhuleu,Peten,Izabal,Zacapa,Chiquimula,Jalapa,Other Country"
+                        },
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "children": [
+                                        {
+                                            "id": 11,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.654,
+                                                "Pop_Share": 1.01,
+                                                "Box_Number": 11
+                                            },
+                                            "split_condition": "Mother_Occ -> "
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.47,
+                                                "Pop_Share": 20.86,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Mother_Occ -> "
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Ethnicity -> White,Indigenous"
+                                },
+                                {
+                                    "id": 13,
+                                    "children": [
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.861,
+                                                "Pop_Share": 1.02,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Mother_Occ -> "
+                                        },
+                                        {
+                                            "id": 15,
+                                            "children": [
+                                                {
+                                                    "id": 16,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.691,
+                                                        "Pop_Share": 5.28,
+                                                        "Box_Number": 16
+                                                    },
+                                                    "split_condition": "Father_Occ -> "
+                                                },
+                                                {
+                                                    "id": 17,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.527,
+                                                        "Pop_Share": 4.13,
+                                                        "Box_Number": 17
+                                                    },
+                                                    "split_condition": "Father_Occ -> "
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Mother_Occ -> "
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Ethnicity -> Mix-Race"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Totonicapan,Quetzaltenango,Suchitepequez,San Marcos,Huehuetenango,Quiche,Baja Verapaz,Alta Verapaz,Jutiapa"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Father_Edu -> "
+                },
+                {
+                    "id": 18,
+                    "children": [
+                        {
+                            "id": 19,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "children": [
+                                        {
+                                            "id": 21,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.968,
+                                                "Pop_Share": 4.03,
+                                                "Box_Number": 21
+                                            },
+                                            "split_condition": "Mother_Edu -> "
+                                        },
+                                        {
+                                            "id": 22,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.549,
+                                                "Pop_Share": 4.3,
+                                                "Box_Number": 22
+                                            },
+                                            "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                                },
+                                {
+                                    "id": 23,
+                                    "info": {
+                                        "Relative_Type_Mean": 2.215,
+                                        "Pop_Share": 1.04,
+                                        "Box_Number": 23
+                                    },
+                                    "split_condition": "Father_Edu -> "
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Occ -> "
+                        },
+                        {
+                            "id": 24,
+                            "children": [
+                                {
+                                    "id": 25,
+                                    "children": [
+                                        {
+                                            "id": 26,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.665,
+                                                "Pop_Share": 6,
+                                                "Box_Number": 26
+                                            },
+                                            "split_condition": "Ethnicity -> White,Indigenous"
+                                        },
+                                        {
+                                            "id": 27,
+                                            "children": [
+                                                {
+                                                    "id": 28,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.985,
+                                                        "Pop_Share": 4.84,
+                                                        "Box_Number": 28
+                                                    },
+                                                    "split_condition": "Birth_Area -> Guatemala,Santa Rosa,Solola,Totonicapan,Quetzaltenango,San Marcos,Huehuetenango,Quiche,Alta Verapaz,Peten,Zacapa,Chiquimula"
+                                                },
+                                                {
+                                                    "id": 29,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.745,
+                                                        "Pop_Share": 3.89,
+                                                        "Box_Number": 29
+                                                    },
+                                                    "split_condition": "Birth_Area -> El Progreso,Sacatepequez,Chimaltenengo,Escuintla,Suchitepequez,Retalhuleu,Baja Verapaz,Izabal,Jalapa,Jutiapa,Other Country"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Mix-Race,Afro-Descendant"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Edu -> "
+                                },
+                                {
+                                    "id": 30,
+                                    "children": [
+                                        {
+                                            "id": 31,
+                                            "children": [
+                                                {
+                                                    "id": 32,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.409,
+                                                        "Pop_Share": 2.19,
+                                                        "Box_Number": 32
+                                                    },
+                                                    "split_condition": "Birth_Area -> Guatemala,El Progreso,Escuintla,Santa Rosa,Totonicapan,Zacapa"
+                                                },
+                                                {
+                                                    "id": 33,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.015,
+                                                        "Pop_Share": 5.17,
+                                                        "Box_Number": 33
+                                                    },
+                                                    "split_condition": "Birth_Area -> Sacatepequez,Chimaltenengo,Solola,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Huehuetenango,Quiche,Baja Verapaz,Alta Verapaz,Peten,Izabal,Chiquimula,Jalapa,Jutiapa,Other Country"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Father_Occ -> "
+                                        },
+                                        {
+                                            "id": 34,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.734,
+                                                "Pop_Share": 2.06,
+                                                "Box_Number": 34
+                                            },
+                                            "split_condition": "Father_Occ -> "
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Occ -> "
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Mother_Edu -> 3 Years Of Education"
+        },
+        {
+            "id": 35,
+            "children": [
+                {
+                    "id": 36,
+                    "info": {
+                        "Relative_Type_Mean": 1.825,
+                        "Pop_Share": 6.89,
+                        "Box_Number": 36
+                    },
+                    "split_condition": "Mother_Edu -> 6 Years Of Education"
+                },
+                {
+                    "id": 37,
+                    "children": [
+                        {
+                            "id": 38,
+                            "children": [
+                                {
+                                    "id": 39,
+                                    "info": {
+                                        "Relative_Type_Mean": 2.576,
+                                        "Pop_Share": 1.05,
+                                        "Box_Number": 39
+                                    },
+                                    "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                                },
+                                {
+                                    "id": 40,
+                                    "info": {
+                                        "Relative_Type_Mean": 3.195,
+                                        "Pop_Share": 2.04,
+                                        "Box_Number": 40
+                                    },
+                                    "split_condition": "Father_Edu -> "
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                        },
+                        {
+                            "id": 41,
+                            "info": {
+                                "Relative_Type_Mean": 4.773,
+                                "Pop_Share": 1.56,
+                                "Box_Number": 41
+                            },
+                            "split_condition": "Father_Edu -> "
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> "
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Mother_Edu -> 6 Years Of Education"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

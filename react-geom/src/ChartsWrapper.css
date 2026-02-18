@@ -1,0 +1,13 @@
+.chart-container {
+  display: flex;
+}
+
+.chart-container > div {
+  flex: 1;
+  overflow: hidden;
+}
+
+.chart-container svg {
+  overflow: hidden;
+  min-width: 100%;
+}

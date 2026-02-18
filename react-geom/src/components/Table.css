@@ -1,0 +1,32 @@
+.table-container {
+  max-height: 600px;
+  overflow-y: auto;
+  /* border: 1px solid #ccc; */
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.table-container th:hover {
+  background-color: #f1f1f1;
+}
+
+.table-container table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

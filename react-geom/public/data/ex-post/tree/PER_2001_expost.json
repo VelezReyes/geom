@@ -1,0 +1,760 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "children": [
+                                                        {
+                                                            "id": 8,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.608,
+                                                                "Pop_Share": 1.26,
+                                                                "Box_Number": 8
+                                                            },
+                                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Puno"
+                                                        },
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.445,
+                                                                "Pop_Share": 2.28,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Birth_Area -> Cajamarca"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Ethnicity -> White,Mix-Race,Other"
+                                                },
+                                                {
+                                                    "id": 10,
+                                                    "children": [
+                                                        {
+                                                            "id": 11,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.392,
+                                                                "Pop_Share": 3.57,
+                                                                "Box_Number": 11
+                                                            },
+                                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac"
+                                                        },
+                                                        {
+                                                            "id": 12,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.402,
+                                                                "Pop_Share": 3.95,
+                                                                "Box_Number": 12
+                                                            },
+                                                            "split_condition": "Birth_Area -> Ayacucho,Cajamarca,Puno"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Ethnicity -> Indigenous,Afro-Descendant"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Cajamarca,Puno"
+                                        },
+                                        {
+                                            "id": 13,
+                                            "children": [
+                                                {
+                                                    "id": 14,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.443,
+                                                        "Pop_Share": 4.36,
+                                                        "Box_Number": 14
+                                                    },
+                                                    "split_condition": "Birth_Area -> Huancavelica,Hu\u00e1nuco,Loreto"
+                                                },
+                                                {
+                                                    "id": 15,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.311,
+                                                        "Pop_Share": 1.42,
+                                                        "Box_Number": 15
+                                                    },
+                                                    "split_condition": "Birth_Area -> Ica"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Birth_Area -> Huancavelica,Hu\u00e1nuco,Ica,Loreto"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Edu -> "
+                                },
+                                {
+                                    "id": 16,
+                                    "children": [
+                                        {
+                                            "id": 17,
+                                            "children": [
+                                                {
+                                                    "id": 18,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.611,
+                                                        "Pop_Share": 1.13,
+                                                        "Box_Number": 18
+                                                    },
+                                                    "split_condition": "Ethnicity -> White,Mix-Race,Afro-Descendant"
+                                                },
+                                                {
+                                                    "id": 19,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.531,
+                                                        "Pop_Share": 4.1,
+                                                        "Box_Number": 19
+                                                    },
+                                                    "split_condition": "Ethnicity -> Indigenous"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Huancavelica,Puno"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.508,
+                                                "Pop_Share": 3.95,
+                                                "Box_Number": 20
+                                            },
+                                            "split_condition": "Birth_Area -> Cajamarca,Hu\u00e1nuco,Ica,Loreto"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Edu -> 2 Years Of Education,3 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Mother_Edu -> 14 Years Of Education"
+                        },
+                        {
+                            "id": 21,
+                            "children": [
+                                {
+                                    "id": 22,
+                                    "children": [
+                                        {
+                                            "id": 23,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.709,
+                                                "Pop_Share": 2.06,
+                                                "Box_Number": 23
+                                            },
+                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Apurimac"
+                                        },
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.891,
+                                                "Pop_Share": 2.41,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Birth_Area -> Anchash,Ayacucho,Huancavelica,Hu\u00e1nuco"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Huancavelica,Hu\u00e1nuco"
+                                },
+                                {
+                                    "id": 25,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.773,
+                                        "Pop_Share": 4.17,
+                                        "Box_Number": 25
+                                    },
+                                    "split_condition": "Birth_Area -> Cajamarca,Ica,Loreto,Puno"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,11 Years Of Education,12 Years Of Education,15 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Cajamarca,Huancavelica,Hu\u00e1nuco,Ica,Loreto,Puno"
+                },
+                {
+                    "id": 26,
+                    "children": [
+                        {
+                            "id": 27,
+                            "children": [
+                                {
+                                    "id": 28,
+                                    "children": [
+                                        {
+                                            "id": 29,
+                                            "children": [
+                                                {
+                                                    "id": 30,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.545,
+                                                        "Pop_Share": 2.16,
+                                                        "Box_Number": 30
+                                                    },
+                                                    "split_condition": "Father_Edu -> "
+                                                },
+                                                {
+                                                    "id": 31,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.695,
+                                                        "Pop_Share": 1.63,
+                                                        "Box_Number": 31
+                                                    },
+                                                    "split_condition": "Father_Edu -> 2 Years Of Education,3 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Birth_Area -> Arequipa,Junin-Pasco,La Libertad"
+                                        },
+                                        {
+                                            "id": 32,
+                                            "children": [
+                                                {
+                                                    "id": 33,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.905,
+                                                        "Pop_Share": 1.04,
+                                                        "Box_Number": 33
+                                                    },
+                                                    "split_condition": "Birth_Area -> Cusco-Madre De Dios,Callao"
+                                                },
+                                                {
+                                                    "id": 34,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.682,
+                                                        "Pop_Share": 1.8,
+                                                        "Box_Number": 34
+                                                    },
+                                                    "split_condition": "Birth_Area -> Lima,Moquegua-Tacna"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Birth_Area -> Cusco-Madre De Dios,Lima,Callao,Moquegua-Tacna"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Birth_Area -> Arequipa,Cusco-Madre De Dios,Junin-Pasco,La Libertad,Lima,Callao,Moquegua-Tacna"
+                                },
+                                {
+                                    "id": 35,
+                                    "children": [
+                                        {
+                                            "id": 36,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.477,
+                                                "Pop_Share": 2.6,
+                                                "Box_Number": 36
+                                            },
+                                            "split_condition": "Father_Edu -> "
+                                        },
+                                        {
+                                            "id": 37,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.535,
+                                                "Pop_Share": 1.97,
+                                                "Box_Number": 37
+                                            },
+                                            "split_condition": "Father_Edu -> 2 Years Of Education,3 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Birth_Area -> Lambayeque,Piura-Tumbes"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> 15 Years Of Education"
+                        },
+                        {
+                            "id": 38,
+                            "children": [
+                                {
+                                    "id": 39,
+                                    "children": [
+                                        {
+                                            "id": 40,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.955,
+                                                "Pop_Share": 1.58,
+                                                "Box_Number": 40
+                                            },
+                                            "split_condition": "Birth_Area -> Arequipa,Lima"
+                                        },
+                                        {
+                                            "id": 41,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.062,
+                                                "Pop_Share": 1.77,
+                                                "Box_Number": 41
+                                            },
+                                            "split_condition": "Birth_Area -> Cusco-Madre De Dios,Callao"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Birth_Area -> Arequipa,Cusco-Madre De Dios,Lima,Callao"
+                                },
+                                {
+                                    "id": 42,
+                                    "children": [
+                                        {
+                                            "id": 43,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.873,
+                                                "Pop_Share": 1,
+                                                "Box_Number": 43
+                                            },
+                                            "split_condition": "Mother_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education,11 Years Of Education,12 Years Of Education,14 Years Of Education"
+                                        },
+                                        {
+                                            "id": 44,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.717,
+                                                "Pop_Share": 5.29,
+                                                "Box_Number": 44
+                                            },
+                                            "split_condition": "Mother_Edu -> 2 Years Of Education,3 Years Of Education,8 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Birth_Area -> Junin-Pasco,La Libertad,Lambayeque,Moquegua-Tacna,Piura-Tumbes"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,14 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Birth_Area -> Arequipa,Cusco-Madre De Dios,Junin-Pasco,La Libertad,Lambayeque,Lima,Callao,Moquegua-Tacna,Piura-Tumbes"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> 2 Years Of Education,3 Years Of Education"
+        },
+        {
+            "id": 45,
+            "children": [
+                {
+                    "id": 46,
+                    "children": [
+                        {
+                            "id": 47,
+                            "children": [
+                                {
+                                    "id": 48,
+                                    "children": [
+                                        {
+                                            "id": 49,
+                                            "children": [
+                                                {
+                                                    "id": 50,
+                                                    "children": [
+                                                        {
+                                                            "id": 51,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.801,
+                                                                "Pop_Share": 1.12,
+                                                                "Box_Number": 51
+                                                            },
+                                                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education"
+                                                        },
+                                                        {
+                                                            "id": 52,
+                                                            "children": [
+                                                                {
+                                                                    "id": 53,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.705,
+                                                                        "Pop_Share": 1.18,
+                                                                        "Box_Number": 53
+                                                                    },
+                                                                    "split_condition": "Mother_Edu -> 1 Years Of Education"
+                                                                },
+                                                                {
+                                                                    "id": 54,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.819,
+                                                                        "Pop_Share": 1.54,
+                                                                        "Box_Number": 54
+                                                                    },
+                                                                    "split_condition": "Mother_Edu -> 2 Years Of Education,3 Years Of Education"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Mother_Edu",
+                                                            "split_condition": "Father_Edu -> 6 Years Of Education,9 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Edu",
+                                                    "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Apurimac,Cajamarca,Hu\u00e1nuco,Ica,Loreto"
+                                                },
+                                                {
+                                                    "id": 55,
+                                                    "children": [
+                                                        {
+                                                            "id": 56,
+                                                            "children": [
+                                                                {
+                                                                    "id": 57,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.772,
+                                                                        "Pop_Share": 1.79,
+                                                                        "Box_Number": 57
+                                                                    },
+                                                                    "split_condition": "Ethnicity -> White,Indigenous,Other"
+                                                                },
+                                                                {
+                                                                    "id": 58,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.75,
+                                                                        "Pop_Share": 1.24,
+                                                                        "Box_Number": 58
+                                                                    },
+                                                                    "split_condition": "Ethnicity -> Mix-Race,Afro-Descendant"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Ethnicity",
+                                                            "split_condition": "Mother_Edu -> 2 Years Of Education"
+                                                        },
+                                                        {
+                                                            "id": 59,
+                                                            "children": [
+                                                                {
+                                                                    "id": 60,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.894,
+                                                                        "Pop_Share": 1.57,
+                                                                        "Box_Number": 60
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Anchash,Ayacucho,Huancavelica,Piura-Tumbes,Puno"
+                                                                },
+                                                                {
+                                                                    "id": 61,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.827,
+                                                                        "Pop_Share": 1.24,
+                                                                        "Box_Number": 61
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Junin-Pasco,La Libertad,Lambayeque"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Birth_Area",
+                                                            "split_condition": "Mother_Edu -> 1 Years Of Education,3 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Edu",
+                                                    "split_condition": "Birth_Area -> Anchash,Ayacucho,Huancavelica,Junin-Pasco,La Libertad,Lambayeque,Piura-Tumbes,Puno"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,9 Years Of Education"
+                                        },
+                                        {
+                                            "id": 62,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.09,
+                                                "Pop_Share": 1.98,
+                                                "Box_Number": 62
+                                            },
+                                            "split_condition": "Father_Edu -> 7 Years Of Education,8 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education"
+                                },
+                                {
+                                    "id": 63,
+                                    "children": [
+                                        {
+                                            "id": 64,
+                                            "children": [
+                                                {
+                                                    "id": 65,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.889,
+                                                        "Pop_Share": 2.5,
+                                                        "Box_Number": 65
+                                                    },
+                                                    "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Ica,Loreto,Puno"
+                                                },
+                                                {
+                                                    "id": 66,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1,
+                                                        "Pop_Share": 4.79,
+                                                        "Box_Number": 66
+                                                    },
+                                                    "split_condition": "Birth_Area -> Anchash,Apurimac,Ayacucho,Cajamarca,Huancavelica,Hu\u00e1nuco,Junin-Pasco,La Libertad,Lambayeque,Piura-Tumbes"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,8 Years Of Education"
+                                        },
+                                        {
+                                            "id": 67,
+                                            "children": [
+                                                {
+                                                    "id": 68,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.441,
+                                                        "Pop_Share": 1.44,
+                                                        "Box_Number": 68
+                                                    },
+                                                    "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Cajamarca,Loreto"
+                                                },
+                                                {
+                                                    "id": 69,
+                                                    "children": [
+                                                        {
+                                                            "id": 70,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.129,
+                                                                "Pop_Share": 1.11,
+                                                                "Box_Number": 70
+                                                            },
+                                                            "split_condition": "Father_Edu -> 7 Years Of Education,10 Years Of Education,11 Years Of Education,15 Years Of Education"
+                                                        },
+                                                        {
+                                                            "id": 71,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.166,
+                                                                "Pop_Share": 1.89,
+                                                                "Box_Number": 71
+                                                            },
+                                                            "split_condition": "Father_Edu -> 9 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Edu",
+                                                    "split_condition": "Birth_Area -> Apurimac,Ayacucho,Huancavelica,Hu\u00e1nuco,Ica,Junin-Pasco,La Libertad,Lambayeque,Piura-Tumbes,Puno"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Father_Edu -> 7 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Edu -> 4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Ayacucho,Cajamarca,Huancavelica,Hu\u00e1nuco,Ica,Junin-Pasco,La Libertad,Lambayeque,Loreto,Piura-Tumbes,Puno"
+                        },
+                        {
+                            "id": 72,
+                            "children": [
+                                {
+                                    "id": 73,
+                                    "children": [
+                                        {
+                                            "id": 74,
+                                            "children": [
+                                                {
+                                                    "id": 75,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.154,
+                                                        "Pop_Share": 1.51,
+                                                        "Box_Number": 75
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 3 Years Of Education,7 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 76,
+                                                    "children": [
+                                                        {
+                                                            "id": 77,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.44,
+                                                                "Pop_Share": 2.17,
+                                                                "Box_Number": 77
+                                                            },
+                                                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,9 Years Of Education"
+                                                        },
+                                                        {
+                                                            "id": 78,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.815,
+                                                                "Pop_Share": 1.01,
+                                                                "Box_Number": 78
+                                                            },
+                                                            "split_condition": "Father_Edu -> 12 Years Of Education,15 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Edu",
+                                                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,9 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,9 Years Of Education,12 Years Of Education,15 Years Of Education"
+                                        },
+                                        {
+                                            "id": 79,
+                                            "children": [
+                                                {
+                                                    "id": 80,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.926,
+                                                        "Pop_Share": 1.44,
+                                                        "Box_Number": 80
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 1 Years Of Education,3 Years Of Education,7 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 81,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.134,
+                                                        "Pop_Share": 2.77,
+                                                        "Box_Number": 81
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 2 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,9 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Father_Edu -> 6 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,9 Years Of Education,12 Years Of Education,15 Years Of Education"
+                                },
+                                {
+                                    "id": 82,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.576,
+                                        "Pop_Share": 1.37,
+                                        "Box_Number": 82
+                                    },
+                                    "split_condition": "Father_Edu -> 7 Years Of Education,8 Years Of Education,10 Years Of Education,11 Years Of Education,13 Years Of Education,14 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Birth_Area -> Arequipa,Cusco-Madre De Dios,Lima,Callao,Moquegua-Tacna"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education"
+                },
+                {
+                    "id": 83,
+                    "children": [
+                        {
+                            "id": 84,
+                            "children": [
+                                {
+                                    "id": 85,
+                                    "children": [
+                                        {
+                                            "id": 86,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.456,
+                                                "Pop_Share": 2.54,
+                                                "Box_Number": 86
+                                            },
+                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Arequipa,Ayacucho,Cusco-Madre De Dios,Huancavelica,Hu\u00e1nuco,Ica,Junin-Pasco,La Libertad,Lambayeque,Lima,Moquegua-Tacna,Piura-Tumbes,Puno"
+                                        },
+                                        {
+                                            "id": 87,
+                                            "info": {
+                                                "Relative_Type_Mean": 2.035,
+                                                "Pop_Share": 1.28,
+                                                "Box_Number": 87
+                                            },
+                                            "split_condition": "Birth_Area -> Cajamarca,Callao,Loreto"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Edu -> 1 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education,12 Years Of Education"
+                                },
+                                {
+                                    "id": 88,
+                                    "children": [
+                                        {
+                                            "id": 89,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.402,
+                                                "Pop_Share": 1.47,
+                                                "Box_Number": 89
+                                            },
+                                            "split_condition": "Birth_Area -> Amazonas-San Martin-Ucayali,Anchash,Apurimac,Arequipa,Ayacucho,Huancavelica,Hu\u00e1nuco,Ica,Junin-Pasco,La Libertad,Lambayeque,Loreto,Piura-Tumbes"
+                                        },
+                                        {
+                                            "id": 90,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.854,
+                                                "Pop_Share": 1.45,
+                                                "Box_Number": 90
+                                            },
+                                            "split_condition": "Birth_Area -> Cajamarca,Cusco-Madre De Dios,Lima,Callao,Moquegua-Tacna,Puno"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Edu -> 4 Years Of Education,5 Years Of Education,8 Years Of Education,10 Years Of Education,11 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education"
+                        },
+                        {
+                            "id": 91,
+                            "children": [
+                                {
+                                    "id": 92,
+                                    "info": {
+                                        "Relative_Type_Mean": 3.133,
+                                        "Pop_Share": 1.04,
+                                        "Box_Number": 92
+                                    },
+                                    "split_condition": "Ethnicity -> White,Indigenous,Other"
+                                },
+                                {
+                                    "id": 93,
+                                    "children": [
+                                        {
+                                            "id": 94,
+                                            "info": {
+                                                "Relative_Type_Mean": 2.81,
+                                                "Pop_Share": 1.47,
+                                                "Box_Number": 94
+                                            },
+                                            "split_condition": "Mother_Edu -> 8 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                        },
+                                        {
+                                            "id": 95,
+                                            "info": {
+                                                "Relative_Type_Mean": 2.33,
+                                                "Pop_Share": 1.56,
+                                                "Box_Number": 95
+                                            },
+                                            "split_condition": "Mother_Edu -> 10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Ethnicity -> Mix-Race,Afro-Descendant"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Father_Edu -> 13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> 8 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> 1 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

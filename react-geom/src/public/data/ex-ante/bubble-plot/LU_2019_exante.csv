@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+LU,2019,exante,4,0.951,21.38,Local,,"Unknown,Low","Dead/Unknown/Not Working,Manager,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,,
+LU,2019,exante,5,1.237,2.87,Local,,"Unknown,Low","Professional,Clerical,Armed Forces",,,
+LU,2019,exante,10,0.712,15.34,European Union,"Unknown,Low","Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Plant Operator,Elementary",,
+LU,2019,exante,11,0.84,5.09,European Union,"Unknown,Low","Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Armed Forces",,
+LU,2019,exante,12,1.111,2.43,European Union,"Medium,High","Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
+LU,2019,exante,13,1.363,1.35,European Union,,"Unknown,Low","Manager,Professional",,,
+LU,2019,exante,14,0.568,8.54,Other,,"Unknown,Low",,,,
+LU,2019,exante,16,1.029,18.42,,,"Medium,High","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
+LU,2019,exante,17,1.291,24.58,,,"Medium,High","Manager,Professional,Technician,Clerical",,,

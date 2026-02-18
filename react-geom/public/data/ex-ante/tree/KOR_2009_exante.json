@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.923,
+                                        "Pop_Share": 13.82,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Birth_Area -> Seoul,Daegu,Daejeon,Incheon,Gyeonggi-Do,Gangwon-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do,Overseas"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.159,
+                                        "Pop_Share": 7.23,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Birth_Area -> Busan,Gwangju,Ulsan,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,North Korea"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Edu -> No Schooling,Elementary School,Middle School,High School"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 1.225,
+                                "Pop_Share": 6.27,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Father_Edu -> Community College,College/University,Graduate Degree"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees)"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.718,
+                                "Pop_Share": 5.66,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,No Job/Housewife"
+                        },
+                        {
+                            "id": 10,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.003,
+                                        "Pop_Share": 19.99,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Sex -> Male"
+                                },
+                                {
+                                    "id": 12,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.892,
+                                        "Pop_Share": 20.69,
+                                        "Box_Number": 12
+                                    },
+                                    "split_condition": "Sex -> Female"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Father_Occ -> Self-Employed(With No Employee),Family Worker"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,Self-Employed(With No Employee),Family Worker,No Job/Housewife"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Ethnicity -> None,Protestant,Daesoon Faith,Other"
+        },
+        {
+            "id": 13,
+            "children": [
+                {
+                    "id": 14,
+                    "children": [
+                        {
+                            "id": 15,
+                            "info": {
+                                "Relative_Type_Mean": 1.031,
+                                "Pop_Share": 18.66,
+                                "Box_Number": 15
+                            },
+                            "split_condition": "Father_Edu -> No Schooling,Elementary School,Middle School,High School,Graduate Degree"
+                        },
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.33,
+                                "Pop_Share": 1.17,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Father_Edu -> Community College,College/University"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Ethnicity -> Buddhist,Confucian"
+                },
+                {
+                    "id": 17,
+                    "info": {
+                        "Relative_Type_Mean": 1.153,
+                        "Pop_Share": 6.5,
+                        "Box_Number": 17
+                    },
+                    "split_condition": "Ethnicity -> Catholic,Won Buddhist,Chondo Faith"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Ethnicity -> Buddhist,Catholic,Confucian,Won Buddhist,Chondo Faith"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

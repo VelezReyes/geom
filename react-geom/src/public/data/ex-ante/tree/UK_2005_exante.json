@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "info": {
+                "Relative_Type_Mean": 1.235,
+                "Pop_Share": 21.77,
+                "Box_Number": 2
+            },
+            "split_condition": "Mother_Occ -> Manager,Professional"
+        },
+        {
+            "id": 3,
+            "children": [
+                {
+                    "id": 4,
+                    "children": [
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 1.17,
+                                "Pop_Share": 9.96,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Mother_Occ -> Technician,Clerical,Agriculture"
+                        },
+                        {
+                            "id": 6,
+                            "info": {
+                                "Relative_Type_Mean": 0.989,
+                                "Pop_Share": 16.29,
+                                "Box_Number": 6
+                            },
+                            "split_condition": "Mother_Occ -> Service,Craft/Trades,Plant Operator,Elementary"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Father_Occ -> Manager,Professional,Technician,Clerical,Agriculture"
+                },
+                {
+                    "id": 7,
+                    "children": [
+                        {
+                            "id": 8,
+                            "info": {
+                                "Relative_Type_Mean": 0.911,
+                                "Pop_Share": 25.04,
+                                "Box_Number": 8
+                            },
+                            "split_condition": "Sex -> Male"
+                        },
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.836,
+                                "Pop_Share": 26.94,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Sex -> Female"
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Father_Occ -> Service,Craft/Trades,Plant Operator,Elementary"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Occ -> Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

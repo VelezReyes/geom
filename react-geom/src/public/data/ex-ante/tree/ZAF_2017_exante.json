@@ -1,0 +1,152 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.466,
+                                                        "Pop_Share": 8.04,
+                                                        "Box_Number": 7
+                                                    },
+                                                    "split_condition": "Mother_Occ -> Professionals,Service And Sales,Craft,Operators,Elementary"
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.364,
+                                                        "Pop_Share": 28.54,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Mother_Occ -> Technicians And Professionals,Clerical Support,Farm, Forest, Fishery,Others"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Occ",
+                                            "split_condition": "Sex -> Female"
+                                        },
+                                        {
+                                            "id": 9,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.504,
+                                                "Pop_Share": 17.39,
+                                                "Box_Number": 9
+                                            },
+                                            "split_condition": "Sex -> Male"
+                                        }
+                                    ],
+                                    "nodeName": "Sex",
+                                    "split_condition": "Ethnicity -> African"
+                                },
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.567,
+                                        "Pop_Share": 6.55,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Ethnicity -> Asian/Indian,Coloured"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Mother_Edu -> 1 Grade/Years Of Education,2 Grade/Years Of Education,3 Grade/Years Of Education,4 Grade/Years Of Education"
+                        },
+                        {
+                            "id": 11,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "children": [
+                                        {
+                                            "id": 13,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.617,
+                                                "Pop_Share": 7.69,
+                                                "Box_Number": 13
+                                            },
+                                            "split_condition": "Ethnicity -> African"
+                                        },
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.737,
+                                                "Pop_Share": 1.43,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Ethnicity -> Asian/Indian,Coloured"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Occ -> Military,Service And Sales,Farm, Forest, Fishery,Craft,Others"
+                                },
+                                {
+                                    "id": 15,
+                                    "children": [
+                                        {
+                                            "id": 16,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.806,
+                                                "Pop_Share": 5.44,
+                                                "Box_Number": 16
+                                            },
+                                            "split_condition": "Mother_Occ -> Managers,Technicians And Professionals,Elementary"
+                                        },
+                                        {
+                                            "id": 17,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.177,
+                                                "Pop_Share": 1.09,
+                                                "Box_Number": 17
+                                            },
+                                            "split_condition": "Mother_Occ -> Professionals,Clerical Support,Operators"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Mother_Occ -> Managers,Professionals,Technicians And Professionals,Clerical Support,Operators,Elementary"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Mother_Edu -> 5 Grade/Years Of Education,6 Grade/Years Of Education,7 Grade/Years Of Education,8 Grade/Years Of Education,9 Grade/Years Of Education,10 Grade/Years Of Education,11 Grade/Years Of Education,12 Grade/Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> 1 Grade/Years Of Education,2 Grade/Years Of Education,3 Grade/Years Of Education,4 Grade/Years Of Education,5 Grade/Years Of Education,6 Grade/Years Of Education,7 Grade/Years Of Education,9 Grade/Years Of Education,11 Grade/Years Of Education"
+                },
+                {
+                    "id": 18,
+                    "info": {
+                        "Relative_Type_Mean": 1.36,
+                        "Pop_Share": 15.59,
+                        "Box_Number": 18
+                    },
+                    "split_condition": "Father_Edu -> 8 Grade/Years Of Education,10 Grade/Years Of Education,12 Grade/Years Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Ethnicity -> African,Asian/Indian,Coloured"
+        },
+        {
+            "id": 19,
+            "info": {
+                "Relative_Type_Mean": 3.096,
+                "Pop_Share": 8.23,
+                "Box_Number": 19
+            },
+            "split_condition": "Ethnicity -> White"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

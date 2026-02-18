@@ -1,0 +1,7 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SI,2011,expost,4,0.929,46.24,Local,,"Unknown,Low,Medium",,"Dead/Unknown/Not Working,Professional,Agriculture,Elementary,Armed Forces",,
+SI,2011,expost,5,0.792,9.19,Other,,"Unknown,Low,Medium",,"Dead/Unknown/Not Working,Professional,Agriculture,Elementary,Armed Forces",,
+SI,2011,expost,8,0.996,13.63,,,"Unknown,Low,Medium","Dead/Unknown/Not Working,Professional,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary","Manager,Technician,Service,Craft/Trades",,
+SI,2011,expost,9,1.213,2.76,,,"Unknown,Low,Medium","Manager,Technician,Armed Forces","Manager,Technician,Service,Craft/Trades",,
+SI,2011,expost,10,1.105,3.75,,,"Unknown,Low,Medium",,"Clerical,Plant Operator",,
+SI,2011,expost,11,1.171,24.44,,,High,,,,

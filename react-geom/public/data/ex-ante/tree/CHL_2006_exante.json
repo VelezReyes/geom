@@ -1,0 +1,456 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "children": [
+                                                        {
+                                                            "id": 8,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.553,
+                                                                "Pop_Share": 1.67,
+                                                                "Box_Number": 8
+                                                            },
+                                                            "split_condition": "Sex -> Female"
+                                                        },
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.6,
+                                                                "Pop_Share": 1.31,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Sex -> Male"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Sex",
+                                                    "split_condition": "Birth_Area -> Tarapca,Libertador"
+                                                },
+                                                {
+                                                    "id": 10,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.581,
+                                                        "Pop_Share": 10.59,
+                                                        "Box_Number": 10
+                                                    },
+                                                    "split_condition": "Birth_Area -> Valparaiso,Maule,Biobio"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Birth_Area -> Tarapca,Valparaiso,Libertador,Maule,Biobio"
+                                        },
+                                        {
+                                            "id": 11,
+                                            "children": [
+                                                {
+                                                    "id": 12,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.496,
+                                                        "Pop_Share": 6.21,
+                                                        "Box_Number": 12
+                                                    },
+                                                    "split_condition": "Sex -> Female"
+                                                },
+                                                {
+                                                    "id": 13,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.545,
+                                                        "Pop_Share": 5.04,
+                                                        "Box_Number": 13
+                                                    },
+                                                    "split_condition": "Sex -> Male"
+                                                }
+                                            ],
+                                            "nodeName": "Sex",
+                                            "split_condition": "Birth_Area -> Antofagasta,Araucania,Los Lagos,Aisen"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education"
+                                },
+                                {
+                                    "id": 14,
+                                    "children": [
+                                        {
+                                            "id": 15,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.715,
+                                                "Pop_Share": 4.53,
+                                                "Box_Number": 15
+                                            },
+                                            "split_condition": "Birth_Area -> Tarapca,Antofagasta,Valparaiso,Aisen"
+                                        },
+                                        {
+                                            "id": 16,
+                                            "children": [
+                                                {
+                                                    "id": 17,
+                                                    "children": [
+                                                        {
+                                                            "id": 18,
+                                                            "children": [
+                                                                {
+                                                                    "id": 19,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.693,
+                                                                        "Pop_Share": 4.56,
+                                                                        "Box_Number": 19
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Libertador,Maule"
+                                                                },
+                                                                {
+                                                                    "id": 20,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.65,
+                                                                        "Pop_Share": 7.6,
+                                                                        "Box_Number": 20
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Biobio,Araucania,Los Lagos"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Birth_Area",
+                                                            "split_condition": "Sex -> Female"
+                                                        },
+                                                        {
+                                                            "id": 21,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.727,
+                                                                "Pop_Share": 9.21,
+                                                                "Box_Number": 21
+                                                            },
+                                                            "split_condition": "Sex -> Male"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Sex",
+                                                    "split_condition": "Mother_Edu -> 8 Years Of Education,14 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 22,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.779,
+                                                        "Pop_Share": 1.56,
+                                                        "Box_Number": 22
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 12 Years Of Education,15 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Birth_Area -> Libertador,Maule,Biobio,Araucania,Los Lagos"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 8 Years Of Education,12 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Ethnicity -> Aymara,Quechua,Atacameno,Coya,Diaguita,Other"
+                        },
+                        {
+                            "id": 23,
+                            "children": [
+                                {
+                                    "id": 24,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.562,
+                                        "Pop_Share": 1.75,
+                                        "Box_Number": 24
+                                    },
+                                    "split_condition": "Birth_Area -> Tarapca,Antofagasta,Valparaiso,Libertador,Maule,Biobio,Araucania,Aisen"
+                                },
+                                {
+                                    "id": 25,
+                                    "children": [
+                                        {
+                                            "id": 26,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.471,
+                                                "Pop_Share": 2.13,
+                                                "Box_Number": 26
+                                            },
+                                            "split_condition": "Father_Edu -> 2 Years Of Education,4 Years Of Education"
+                                        },
+                                        {
+                                            "id": 27,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.487,
+                                                "Pop_Share": 1.41,
+                                                "Box_Number": 27
+                                            },
+                                            "split_condition": "Father_Edu -> 8 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Birth_Area -> Los Lagos"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Ethnicity -> Mapuche,Kawaskar,Yagan"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Tarapca,Antofagasta,Valparaiso,Libertador,Maule,Biobio,Araucania,Los Lagos,Aisen"
+                },
+                {
+                    "id": 28,
+                    "children": [
+                        {
+                            "id": 29,
+                            "children": [
+                                {
+                                    "id": 30,
+                                    "children": [
+                                        {
+                                            "id": 31,
+                                            "children": [
+                                                {
+                                                    "id": 32,
+                                                    "children": [
+                                                        {
+                                                            "id": 33,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.9,
+                                                                "Pop_Share": 1.03,
+                                                                "Box_Number": 33
+                                                            },
+                                                            "split_condition": "Birth_Area -> Atacama,Los Rios"
+                                                        },
+                                                        {
+                                                            "id": 34,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.769,
+                                                                "Pop_Share": 1.27,
+                                                                "Box_Number": 34
+                                                            },
+                                                            "split_condition": "Birth_Area -> Coquimbo,Metropolitana De Santiago"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Sex -> Female"
+                                                },
+                                                {
+                                                    "id": 35,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.968,
+                                                        "Pop_Share": 1.75,
+                                                        "Box_Number": 35
+                                                    },
+                                                    "split_condition": "Sex -> Male"
+                                                }
+                                            ],
+                                            "nodeName": "Sex",
+                                            "split_condition": "Birth_Area -> Atacama,Coquimbo,Metropolitana De Santiago,Los Rios"
+                                        },
+                                        {
+                                            "id": 36,
+                                            "children": [
+                                                {
+                                                    "id": 37,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.675,
+                                                        "Pop_Share": 6.14,
+                                                        "Box_Number": 37
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 38,
+                                                    "children": [
+                                                        {
+                                                            "id": 39,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.806,
+                                                                "Pop_Share": 5.82,
+                                                                "Box_Number": 39
+                                                            },
+                                                            "split_condition": "Sex -> Female"
+                                                        },
+                                                        {
+                                                            "id": 40,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.963,
+                                                                "Pop_Share": 4.37,
+                                                                "Box_Number": 40
+                                                            },
+                                                            "split_condition": "Sex -> Male"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Sex",
+                                                    "split_condition": "Mother_Edu -> 8 Years Of Education,15 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Birth_Area -> Magallanes,Arica And Perinacota"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,8 Years Of Education,15 Years Of Education"
+                                },
+                                {
+                                    "id": 41,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.256,
+                                        "Pop_Share": 1.21,
+                                        "Box_Number": 41
+                                    },
+                                    "split_condition": "Mother_Edu -> 6 Years Of Education,9 Years Of Education,12 Years Of Education,14 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Ethnicity -> Aymara,Rapa Nui,Atacameno,Coya,Yagan,Diaguita,Other"
+                        },
+                        {
+                            "id": 42,
+                            "info": {
+                                "Relative_Type_Mean": 0.596,
+                                "Pop_Share": 2.34,
+                                "Box_Number": 42
+                            },
+                            "split_condition": "Ethnicity -> Quechua,Mapuche,Kawaskar"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Atacama,Coquimbo,Magallanes,Metropolitana De Santiago,Los Rios,Arica And Perinacota"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education"
+        },
+        {
+            "id": 43,
+            "children": [
+                {
+                    "id": 44,
+                    "children": [
+                        {
+                            "id": 45,
+                            "children": [
+                                {
+                                    "id": 46,
+                                    "children": [
+                                        {
+                                            "id": 47,
+                                            "children": [
+                                                {
+                                                    "id": 48,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.85,
+                                                        "Pop_Share": 1.73,
+                                                        "Box_Number": 48
+                                                    },
+                                                    "split_condition": "Birth_Area -> Tarapca,Valparaiso,Libertador,Maule,Biobio,Araucania,Los Lagos,Aisen"
+                                                },
+                                                {
+                                                    "id": 49,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.95,
+                                                        "Pop_Share": 1.42,
+                                                        "Box_Number": 49
+                                                    },
+                                                    "split_condition": "Birth_Area -> Antofagasta,Atacama,Coquimbo,Magallanes,Metropolitana De Santiago,Los Rios,Arica And Perinacota"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Sex -> Female"
+                                        },
+                                        {
+                                            "id": 50,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.046,
+                                                "Pop_Share": 1.99,
+                                                "Box_Number": 50
+                                            },
+                                            "split_condition": "Sex -> Male"
+                                        }
+                                    ],
+                                    "nodeName": "Sex",
+                                    "split_condition": "Mother_Edu -> 2 Years Of Education,4 Years Of Education,6 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education"
+                                },
+                                {
+                                    "id": 51,
+                                    "children": [
+                                        {
+                                            "id": 52,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.254,
+                                                "Pop_Share": 4.1,
+                                                "Box_Number": 52
+                                            },
+                                            "split_condition": "Birth_Area -> Tarapca,Antofagasta,Valparaiso,Libertador,Maule,Araucania,Los Lagos,Metropolitana De Santiago"
+                                        },
+                                        {
+                                            "id": 53,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.538,
+                                                "Pop_Share": 4.81,
+                                                "Box_Number": 53
+                                            },
+                                            "split_condition": "Birth_Area -> Atacama,Coquimbo,Biobio,Aisen,Magallanes,Los Rios,Arica And Perinacota"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education,12 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> 12 Years Of Education,14 Years Of Education"
+                        },
+                        {
+                            "id": 54,
+                            "info": {
+                                "Relative_Type_Mean": 2.26,
+                                "Pop_Share": 1.47,
+                                "Box_Number": 54
+                            },
+                            "split_condition": "Father_Edu -> 15 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,6 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,12 Years Of Education"
+                },
+                {
+                    "id": 55,
+                    "children": [
+                        {
+                            "id": 56,
+                            "info": {
+                                "Relative_Type_Mean": 1.996,
+                                "Pop_Share": 1.54,
+                                "Box_Number": 56
+                            },
+                            "split_condition": "Father_Edu -> 12 Years Of Education,14 Years Of Education"
+                        },
+                        {
+                            "id": 57,
+                            "info": {
+                                "Relative_Type_Mean": 3.073,
+                                "Pop_Share": 1.43,
+                                "Box_Number": 57
+                            },
+                            "split_condition": "Father_Edu -> 15 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> 14 Years Of Education,15 Years Of Education"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> 12 Years Of Education,14 Years Of Education,15 Years Of Education"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

@@ -1,0 +1,88 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 0.779,
+                                "Pop_Share": 4.92,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Father_Edu -> Unknown,Low"
+                        },
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 0.845,
+                                "Pop_Share": 36.69,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Father_Edu -> Medium"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Manager,Plant Operator,Elementary,Armed Forces"
+                },
+                {
+                    "id": 6,
+                    "info": {
+                        "Relative_Type_Mean": 0.954,
+                        "Pop_Share": 25.69,
+                        "Box_Number": 6
+                    },
+                    "split_condition": "Father_Occ -> Professional,Technician,Clerical,Service,Agriculture,Craft/Trades"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Father_Edu -> Unknown,Low,Medium"
+        },
+        {
+            "id": 7,
+            "children": [
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 1.07,
+                                "Pop_Share": 20.62,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Mother_Edu -> Unknown,Medium,High"
+                        },
+                        {
+                            "id": 10,
+                            "info": {
+                                "Relative_Type_Mean": 1.412,
+                                "Pop_Share": 3.48,
+                                "Box_Number": 10
+                            },
+                            "split_condition": "Mother_Edu -> Low"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> High"
+                },
+                {
+                    "id": 11,
+                    "info": {
+                        "Relative_Type_Mean": 1.379,
+                        "Pop_Share": 8.59,
+                        "Box_Number": 11
+                    },
+                    "split_condition": "Father_Edu -> "
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Father_Edu -> High"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

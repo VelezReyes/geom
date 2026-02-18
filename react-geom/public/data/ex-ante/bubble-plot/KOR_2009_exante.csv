@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2009,exante,5,0.923,13.82,"Seoul,Daegu,Daejeon,Incheon,Gyeonggi-Do,Gangwon-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do,Overseas","No Schooling,Elementary School,Middle School,High School",,"Regular/Standard Wage Worker,Employer (With Employees)",,"None,Protestant,Daesoon Faith,Other",
+KOR,2009,exante,6,1.159,7.23,"Busan,Gwangju,Ulsan,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,North Korea","No Schooling,Elementary School,Middle School,High School",,"Regular/Standard Wage Worker,Employer (With Employees)",,"None,Protestant,Daesoon Faith,Other",
+KOR,2009,exante,7,1.225,6.27,,"Community College,College/University,Graduate Degree",,"Regular/Standard Wage Worker,Employer (With Employees)",,"None,Protestant,Daesoon Faith,Other",
+KOR,2009,exante,9,0.718,5.66,,,,"Irregular/Nonstandard Wage Worker,No Job/Housewife",,"None,Protestant,Daesoon Faith,Other",
+KOR,2009,exante,11,1.003,19.99,,,,"Self-Employed(With No Employee),Family Worker",,"None,Protestant,Daesoon Faith,Other",Male
+KOR,2009,exante,12,0.892,20.69,,,,"Self-Employed(With No Employee),Family Worker",,"None,Protestant,Daesoon Faith,Other",Female
+KOR,2009,exante,15,1.031,18.66,,"No Schooling,Elementary School,Middle School,High School,Graduate Degree",,,,"Buddhist,Confucian",
+KOR,2009,exante,16,1.33,1.17,,"Community College,College/University",,,,"Buddhist,Confucian",
+KOR,2009,exante,17,1.153,6.5,,,,,,"Catholic,Won Buddhist,Chondo Faith",

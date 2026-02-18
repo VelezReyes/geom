@@ -1,0 +1,17 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,2006,exante,6,0.952,4.07,"Northeast,West","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander",
+USA,2006,exante,8,0.558,3.97,"North Central,South,Foreign Country",0-5 Grades,"0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander",
+USA,2006,exante,9,0.76,7.67,"North Central,South,Foreign Country","6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander",
+USA,2006,exante,10,1.108,2.93,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades",High,,"White,Asian, Pac. Islander",
+USA,2006,exante,13,1.086,10.99,"Northeast,West,Alaska, Hawaii,Foreign Country","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","High School,12 Grades + Non Academic Training,Some College",,,"White,Asian, Pac. Islander",
+USA,2006,exante,14,1.646,1.41,"Northeast,West,Alaska, Hawaii,Foreign Country","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","College Degree,Advanced College Degree",,,"White,Asian, Pac. Islander",
+USA,2006,exante,16,0.93,11.49,"North Central,South","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,"Low,Middle","White,Asian, Pac. Islander",
+USA,2006,exante,17,1.042,7.3,"North Central,South","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,High,"White,Asian, Pac. Islander",
+USA,2006,exante,21,0.656,14.31,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","High School,12 Grades + Non Academic Training,Some College",,"Low,Middle","Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,2006,exante,22,0.818,5.31,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","High School,12 Grades + Non Academic Training,Some College",,High,"Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,2006,exante,23,0.928,2.08,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","College Degree,Advanced College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,2006,exante,26,0.457,8.17,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades",,,Black,Female
+USA,2006,exante,27,0.544,3.64,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades",,,Black,Male
+USA,2006,exante,28,0.905,1.21,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College","0-5 Grades,6-8 Grades,9-11 Grades",,,"Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,2006,exante,30,1.507,13.63,,"College Degree,Advanced College Degree",,,,"White,Am. Indian, Aleut, Eskimo,Asian, Pac. Islander,Hispanic,Other",
+USA,2006,exante,31,0.706,1.83,,"College Degree,Advanced College Degree",,,,Black,

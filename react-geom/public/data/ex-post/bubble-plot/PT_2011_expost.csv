@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+PT,2011,expost,3,0.726,27.71,,,"Unknown,Low","Dead/Unknown/Not Working,Manager,Technician,Service,Agriculture,Craft/Trades,Elementary",,,
+PT,2011,expost,4,0.783,2.74,,,"Unknown,Low","Professional,Clerical,Plant Operator",,,
+PT,2011,expost,7,0.779,6.71,,"Unknown,Low","Medium,High","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,,
+PT,2011,expost,8,0.992,40.3,,"Medium,High","Medium,High","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,,
+PT,2011,expost,12,1.246,9.43,,"Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Dead/Unknown/Not Working,Manager,Technician",,
+PT,2011,expost,13,1.06,6.39,,"Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+PT,2011,expost,14,1.662,1.65,,"Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Professional,Clerical",,
+PT,2011,expost,15,1.748,5.06,,High,"Medium,High","Manager,Professional,Technician,Clerical,Service",,,

@@ -1,0 +1,30 @@
+.bubbles {
+  stroke-width: 1px;
+  stroke: black;
+}
+
+.bubbles.hovered:not(.inactive) {
+  fill: red !important;
+}
+
+.bubbles.inactive {
+  fill: #D3D3D3 !important;
+}
+
+.bubbles:hover {
+  stroke-width: 2px;
+  stroke: black;
+}
+
+text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-size: 13px;
+  color: #333333;
+}
+
+.type-description ul {
+  list-style: none;
+  padding: 0;
+}

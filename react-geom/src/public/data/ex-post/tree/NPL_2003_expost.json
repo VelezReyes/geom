@@ -1,0 +1,232 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.115,
+                                        "Pop_Share": 8.73,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Edu -> Class 1,Class 4,Class 5,Class 6,Class 7,Class 8,Master Level Or Higher,Literate (Levelless)"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.621,
+                                        "Pop_Share": 1.64,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Father_Edu -> Class 9,Class 10,Slc,Intermediate/Class 12,Bachelor Level"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Birth_Area -> Mountains,Rural Hills - Eastern,Rural Terai - Eastern,Rural Terai - Central,Rural Terai - Western"
+                        },
+                        {
+                            "id": 7,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.912,
+                                        "Pop_Share": 4.19,
+                                        "Box_Number": 8
+                                    },
+                                    "split_condition": "Birth_Area -> Urban - Hill"
+                                },
+                                {
+                                    "id": 9,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.538,
+                                        "Pop_Share": 11.02,
+                                        "Box_Number": 9
+                                    },
+                                    "split_condition": "Birth_Area -> Urban - Terai,Rural Hills - Central,Rural Hills - Western,Rural Hills - Mid And Far West,Rural Terai - Mid And Far West"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Birth_Area -> Urban - Hill,Urban - Terai,Rural Hills - Central,Rural Hills - Western,Rural Hills - Mid And Far West,Rural Terai - Mid And Far West"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Birth_Area -> Mountains,Urban - Hill,Urban - Terai,Rural Hills - Eastern,Rural Hills - Central,Rural Hills - Western,Rural Hills - Mid And Far West,Rural Terai - Eastern,Rural Terai - Central,Rural Terai - Western,Rural Terai - Mid And Far West"
+                },
+                {
+                    "id": 10,
+                    "info": {
+                        "Relative_Type_Mean": 3.288,
+                        "Pop_Share": 3.55,
+                        "Box_Number": 10
+                    },
+                    "split_condition": "Birth_Area -> Urban - Kathmandu"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> Class 1,Class 4,Class 5,Class 6,Class 7,Class 8,Class 9,Class 10,Slc,Intermediate/Class 12,Bachelor Level,Master Level Or Higher,Literate (Levelless)"
+        },
+        {
+            "id": 11,
+            "children": [
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "children": [
+                                        {
+                                            "id": 15,
+                                            "children": [
+                                                {
+                                                    "id": 16,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.735,
+                                                        "Pop_Share": 24.97,
+                                                        "Box_Number": 16
+                                                    },
+                                                    "split_condition": "Birth_Area -> Mountains,Urban - Terai,Rural Hills - Mid And Far West,Rural Terai - Eastern,Rural Terai - Mid And Far West"
+                                                },
+                                                {
+                                                    "id": 17,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.631,
+                                                        "Pop_Share": 9.27,
+                                                        "Box_Number": 17
+                                                    },
+                                                    "split_condition": "Birth_Area -> Rural Terai - Central,Rural Terai - Western"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Hindu,Kirant,Other Religion"
+                                        },
+                                        {
+                                            "id": 18,
+                                            "children": [
+                                                {
+                                                    "id": 19,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.477,
+                                                        "Pop_Share": 2.26,
+                                                        "Box_Number": 19
+                                                    },
+                                                    "split_condition": "Birth_Area -> Mountains,Rural Hills - Mid And Far West,Rural Terai - Central,Rural Terai - Western"
+                                                },
+                                                {
+                                                    "id": 20,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.679,
+                                                        "Pop_Share": 1.13,
+                                                        "Box_Number": 20
+                                                    },
+                                                    "split_condition": "Birth_Area -> Urban - Terai,Rural Terai - Eastern,Rural Terai - Mid And Far West"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Islam,Shikh"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Ethnicity -> Hindu,Islam,Kirant,Shikh,Other Religion"
+                                },
+                                {
+                                    "id": 21,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.878,
+                                        "Pop_Share": 2.53,
+                                        "Box_Number": 21
+                                    },
+                                    "split_condition": "Ethnicity -> Bouddha,Christian"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Mountains,Urban - Terai,Rural Hills - Mid And Far West,Rural Terai - Eastern,Rural Terai - Central,Rural Terai - Western,Rural Terai - Mid And Far West"
+                        },
+                        {
+                            "id": 22,
+                            "children": [
+                                {
+                                    "id": 23,
+                                    "children": [
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.02,
+                                                "Pop_Share": 16.4,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Birth_Area -> Urban - Hill,Rural Hills - Central,Rural Hills - Western"
+                                        },
+                                        {
+                                            "id": 25,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.747,
+                                                "Pop_Share": 3.96,
+                                                "Box_Number": 25
+                                            },
+                                            "split_condition": "Birth_Area -> Rural Hills - Eastern"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> Hindu,Islam,Christian"
+                                },
+                                {
+                                    "id": 26,
+                                    "children": [
+                                        {
+                                            "id": 27,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.581,
+                                                "Pop_Share": 5.59,
+                                                "Box_Number": 27
+                                            },
+                                            "split_condition": "Birth_Area -> Urban - Hill,Rural Hills - Eastern,Rural Hills - Central"
+                                        },
+                                        {
+                                            "id": 28,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.995,
+                                                "Pop_Share": 1.04,
+                                                "Box_Number": 28
+                                            },
+                                            "split_condition": "Birth_Area -> Rural Hills - Western"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> Bouddha,Kirant"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Urban - Hill,Rural Hills - Eastern,Rural Hills - Central,Rural Hills - Western"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Birth_Area -> Mountains,Urban - Hill,Urban - Terai,Rural Hills - Eastern,Rural Hills - Central,Rural Hills - Western,Rural Hills - Mid And Far West,Rural Terai - Eastern,Rural Terai - Central,Rural Terai - Western,Rural Terai - Mid And Far West"
+                },
+                {
+                    "id": 29,
+                    "info": {
+                        "Relative_Type_Mean": 1.956,
+                        "Pop_Share": 3.71,
+                        "Box_Number": 29
+                    },
+                    "split_condition": "Birth_Area -> Urban - Kathmandu"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> Class 2,Class 3,Illiterate"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

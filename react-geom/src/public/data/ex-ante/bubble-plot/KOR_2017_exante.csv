@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2017,exante,4,0.936,41.71,,"No Schooling,Elementary School,Middle School,High School",,"Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee)",,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,6,0.706,4.97,"Seoul,Busan,Daegu,Daejeon,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do","No Schooling,Elementary School,Middle School,High School",,"Irregular/Nonstandard Wage Worker,Family Worker,No Job/Housewife",,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,7,0.879,1.03,"Incheon,Chungcheongbuk-Do,Jeollanam-Do,Overseas","No Schooling,Elementary School,Middle School,High School",,"Irregular/Nonstandard Wage Worker,Family Worker,No Job/Housewife",,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,10,0.98,2.26,"Seoul,Daegu,Daejeon,Incheon,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do","Community College,Graduate Degree",,,,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,12,0.947,2.24,"Seoul,Daegu,Daejeon,Incheon,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do",College/University,,"Regular/Standard Wage Worker,Family Worker",,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,13,0.911,1.33,"Seoul,Daegu,Daejeon,Incheon,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do",College/University,,"Irregular/Nonstandard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),No Job/Housewife",,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,14,1.706,1.46,"Busan,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,North Korea,Overseas","Community College,College/University,Graduate Degree",,,,"None,Chondo Faith,Daesoon Faith,Other",
+KOR,2017,exante,17,1.026,37.04,,,"No Schooling,Elementary School,Middle School,High School,Community College,Graduate Degree",,,"Buddhist,Protestant,Daejong Faith",
+KOR,2017,exante,18,1.653,1.11,,,College/University,,,"Buddhist,Protestant,Daejong Faith",
+KOR,2017,exante,20,1.966,1.15,,No Schooling,,,,"Catholic,Confucian,Won Buddhist",
+KOR,2017,exante,21,1.043,5.71,,"Elementary School,Middle School,High School,Community College,College/University,Graduate Degree",,,,"Catholic,Confucian,Won Buddhist",

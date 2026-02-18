@@ -1,0 +1,7 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2001,exante,6,0.928,56.69,,"No Schooling,Elementary School,Middle School,High School","No Schooling,Elementary School,Middle School,High School","Regular/Standard Wage Worker,Self-Employed(With No Employee),Family Worker,No Job/Housewife",,"None,Won Buddhist,Chondo Faith,Daejong Faith,Daesoon Faith,Other",
+KOR,2001,exante,7,1.186,3.49,,"Community College,College/University,Graduate Degree","No Schooling,Elementary School,Middle School,High School","Regular/Standard Wage Worker,Self-Employed(With No Employee),Family Worker,No Job/Housewife",,"None,Won Buddhist,Chondo Faith,Daejong Faith,Daesoon Faith,Other",
+KOR,2001,exante,8,1.172,6.33,,,"No Schooling,Elementary School,Middle School,High School",Employer (With Employees),,"None,Won Buddhist,Chondo Faith,Daejong Faith,Daesoon Faith,Other",
+KOR,2001,exante,9,1.102,25.7,,,"No Schooling,Elementary School,Middle School,High School","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker,No Job/Housewife",,"Buddhist,Protestant,Catholic,Confucian",
+KOR,2001,exante,10,0.705,6.04,,,"No Schooling,Elementary School,Middle School,High School",Irregular/Nonstandard Wage Worker,,,
+KOR,2001,exante,11,1.682,1.76,,,"Community College,College/University,Graduate Degree",,,,

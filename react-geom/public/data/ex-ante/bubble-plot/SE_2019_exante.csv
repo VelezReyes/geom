@@ -1,0 +1,7 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SE,2019,exante,3,0.95,39.05,"Local,European Union",,,,"Dead/Unknown/Not Working,Service,Agriculture,Plant Operator,Elementary",,
+SE,2019,exante,5,0.585,6.99,Other,,"Unknown,Low",,"Dead/Unknown/Not Working,Service,Agriculture,Plant Operator,Elementary",,
+SE,2019,exante,6,0.764,3.08,Other,,"Medium,High",,"Dead/Unknown/Not Working,Service,Agriculture,Plant Operator,Elementary",,
+SE,2019,exante,8,2.021,4.8,,,,,"Manager,Craft/Trades,Armed Forces",,
+SE,2019,exante,10,0.933,7.88,,"Unknown,Low",,,"Professional,Technician,Clerical",,
+SE,2019,exante,11,1.075,38.2,,"Medium,High",,,"Professional,Technician,Clerical",,
