@@ -1,0 +1,6 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+RUS,2022,exante,2,0.828,32.58,,,,,,,
+RUS,2022,exante,5,1.073,22.09,,,,,,,
+RUS,2022,exante,6,1.394,8.62,,,,,,,
+RUS,2022,exante,8,0.946,25.7,,,,,,,
+RUS,2022,exante,9,1.182,11.0,,,,,,,

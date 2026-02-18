@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+GBR,2013,expost,3,0.982,7.64,,,,,,,
+GBR,2013,expost,5,0.921,13.79,,,,,,,
+GBR,2013,expost,6,0.831,19.27,,,,,,,
+GBR,2013,expost,9,1.128,0.81,,,,,,,
+GBR,2013,expost,11,1.216,10.85,,,,,,,
+GBR,2013,expost,12,1.13,11.09,,,,,,,
+GBR,2013,expost,14,0.852,0.83,,,,,,,
+GBR,2013,expost,16,1.064,20.02,,,,,,,
+GBR,2013,expost,17,0.965,15.71,,,,,,,

@@ -1,50 +1,58 @@
-"","var","cat","value","value2","class"
-"1","Sex",0,6016.13,2.55,"Male"
-"2","Sex",1,5782.56,-1.43,"Female"
-"3","Ethnicity",-99,5820.91,-0.78,""
-"4","Ethnicity",-95,6144.97,4.75,""
-"5","Ethnicity",1,6122.51,4.37,"Atheistic/agnostic/none"
-"6","Ethnicity",4,6095.98,3.91,"Orthodox Christian"
-"7","Ethnicity",5,5975.47,1.86,"Catholic"
-"8","Ethnicity",6,5892.79,0.45,""
-"9","Ethnicity",7,5399.53,-7.96,"Muslim"
-"10","Father_Occ",-99,5913.97,0.81,""
-"11","Father_Occ",-97,5842.08,-0.41,""
-"12","Father_Occ",1,5827.90,-0.66,"Agriculture, Forestry, and Fishing"
-"13","Father_Occ",2,5774.15,-1.57,"Mining"
-"14","Father_Occ",3,5667.89,-3.38,"Construction"
-"15","Father_Occ",4,5750.09,-1.98,"Manufacturing"
-"16","Father_Occ",5,5883.45,0.29,"Transportation and public utilities"
-"17","Father_Occ",6,6009.31,2.44,"Wholesale trade"
-"18","Father_Occ",7,6155.59,4.93,"Retail trade"
-"19","Father_Occ",8,6051.33,3.15,"Finance, insurance and real estate"
-"20","Father_Occ",9,6006.31,2.39,"Services"
-"21","Father_Occ",10,6444.31,9.85,"Public sector (eg education, administration, health care)"
-"22","Father_Occ",11,5816.48,-0.85,"Non-classifiable establishments"
-"23","Father_Occ",12,5608.56,-4.39,"Never worked"
-"24","Mother_Occ",-99,6238.89,6.35,""
-"25","Mother_Occ",-97,6093.33,3.87,""
-"26","Mother_Occ",1,5684.03,-3.11,"Agriculture, Forestry, and Fishing"
-"27","Mother_Occ",2,6120.54,4.33,"Mining"
-"28","Mother_Occ",3,6005.93,2.38,"Construction"
-"29","Mother_Occ",4,5961.86,1.63,"Manufacturing"
-"30","Mother_Occ",5,6029.60,2.78,"Transportation and public utilities"
-"31","Mother_Occ",6,6213.09,5.91,"Wholesale trade"
-"32","Mother_Occ",7,6015.87,2.55,"Retail trade"
-"33","Mother_Occ",8,6182.11,5.38,"Finance, insurance and real estate"
-"34","Mother_Occ",9,6156.63,4.95,"Services"
-"35","Mother_Occ",10,6299.64,7.39,"Public sector (eg education, administration, health care)"
-"36","Mother_Occ",11,5797.80,-1.17,"Non-classifiable establishments"
-"37","Mother_Occ",12,5735.60,-2.23,"Never worked"
-"38","Mother_Edu",-97,5870.96,0.08,""
-"39","Mother_Edu",1,5477.08,-6.64,"No degree / No education"
-"40","Mother_Edu",2,5978.81,1.92,"Primary education"
-"41","Mother_Edu",3,5767.50,-1.69,"Lower secondary education"
-"42","Mother_Edu",4,6449.86,9.95,"(Upper) secondary education"
-"43","Mother_Edu",5,6611.06,12.69,"Post-secondary non-tertiary education"
-"44","Mother_Edu",6,6317.70,7.69,"Tertiary education (not a university diploma)"
-"45","Mother_Edu",7,7143.12,21.76,"Bachelor's degree or more"
-"46","Mother_Edu",8,6485.01,10.55,"Master's degree or PhD"
-"47","Father_Edu",-97,5905.41,0.67,""
-"48","Father_Edu",1,5555.08,-5.31,"No degree / No education"
-"49","Father_Edu",2,5658.89,-3.94,"Primary education"
+,var,cat,value,value2,class
+1,Sex,0,6016.13089584617,2.55261222048922,Male
+2,Sex,1,5782.56132618845,-1.42887852801717,Female
+3,Ethnicity,-99,5820.91468947485,-0.775096610609452,
+4,Ethnicity,-95,6144.9737901468,4.74890342580541,
+5,Ethnicity,1,6122.51315426689,4.3660332852623,Atheistic/agnostic/none
+6,Ethnicity,4,6095.97655531483,3.91368316371496,Orthodox Christian
+7,Ethnicity,5,5975.46517052893,1.85941314764266,Catholic
+8,Ethnicity,6,5892.7916681438,0.450138020855476,"Other Christian, including protestant"
+9,Ethnicity,7,5399.52505837277,-7.95821948148715,Muslim
+10,Father_Occ,-99,5913.96581444928,0.811078308352393,
+11,Father_Occ,-97,5842.07907462229,-0.4143227144815,
+12,Father_Occ,1,5827.89992509138,-0.656024374341271,"Agriculture, Forestry, and Fishing"
+13,Father_Occ,2,5774.14909572049,-1.57227570870116,Mining
+14,Father_Occ,3,5667.89385051177,-3.38353167153367,Construction
+15,Father_Occ,4,5750.09070748327,-1.98238157279475,Manufacturing
+16,Father_Occ,5,5883.45113942897,0.29091681443407,Transportation and public utilities
+17,Father_Occ,6,6009.30707986534,2.43629158746748,Wholesale trade
+18,Father_Occ,7,6155.5866950742,4.92981390504778,Retail trade
+19,Father_Occ,8,6051.33307551366,3.15267820031173,"Finance, insurance and real estate"
+20,Father_Occ,9,6006.30538450136,2.38512386754998,Services
+21,Father_Occ,10,6444.30918885441,9.85145647841975,"Public sector (eg education, administration, health care)"
+22,Father_Occ,11,5816.48203247411,-0.850656893850243,Non-classifiable establishments
+23,Father_Occ,12,5608.56122438879,-4.3949318395411,Never worked
+24,Mother_Occ,-99,6238.88567371968,6.34975107119075,
+25,Mother_Occ,-97,6093.33116114165,3.86858905131783,
+26,Mother_Occ,1,5684.03015170031,-3.10846786938079,"Agriculture, Forestry, and Fishing"
+27,Mother_Occ,2,6120.535762723,4.33232612833383,Mining
+28,Mother_Occ,3,6005.9250318447,2.37864027216605,Construction
+29,Mother_Occ,4,5961.86024612818,1.62749988636003,Manufacturing
+30,Mother_Occ,5,6029.6023618467,2.78225051339064,Transportation and public utilities
+31,Mother_Occ,6,6213.09215757458,5.91006774234924,Wholesale trade
+32,Mother_Occ,7,6015.87153548251,2.54819109281424,Retail trade
+33,Mother_Occ,8,6182.11265265529,5.381982630876,"Finance, insurance and real estate"
+34,Mother_Occ,9,6156.62897618927,4.94758091392259,Services
+35,Mother_Occ,10,6299.6351019334,7.38530243502814,"Public sector (eg education, administration, health care)"
+36,Mother_Occ,11,5797.7993394237,-1.16912718793181,Non-classifiable establishments
+37,Mother_Occ,12,5735.60468117886,-2.22931433804388,Never worked
+38,Mother_Edu,-97,5870.9577482913,0.0779510530764043,
+39,Mother_Edu,1,5477.08408177577,-6.6361271618638,No degree / No education
+40,Mother_Edu,2,5978.81055352049,1.91643946083342,Primary education
+41,Mother_Edu,3,5767.49589519666,-1.68568798399187,Lower secondary education
+42,Mother_Edu,4,6449.85745614492,9.94603375969737,(Upper) secondary education
+43,Mother_Edu,5,6611.05843152869,12.6939096627151,Post-secondary non-tertiary education
+44,Mother_Edu,6,6317.69805660259,7.6932084992105,Tertiary education (not a university diploma)
+45,Mother_Edu,7,7143.12278133833,21.7636240500879,Bachelor's degree or more
+46,Mother_Edu,8,6485.00509127371,10.5451699583992,Master's degree or PhD
+47,Father_Edu,-97,5905.40925695585,0.665220889729483,
+48,Father_Edu,1,5555.08036814252,-5.30658113820087,No degree / No education
+49,Father_Edu,2,5658.88851613636,-3.53703906359452,Primary education
+50,Father_Edu,3,5781.41629508968,-1.44839704120868,Lower secondary education
+51,Father_Edu,4,6418.54730266396,9.41231232243371,(Upper) secondary education
+52,Father_Edu,5,6775.35352871521,15.4945288119976,Post-secondary non-tertiary education
+53,Father_Edu,6,6004.38379506312,2.35236792857221,Tertiary education (not a university diploma)
+54,Father_Edu,7,7275.91731553217,24.0272759895071,Bachelor's degree or more
+55,Father_Edu,8,6726.19492758062,14.6565578557909,Master's degree or PhD
+56,Birth_Area,0,5723.3381471462,-2.43841303116068,Rural
+57,Birth_Area,1,5949.59921531871,1.41849500269045,Urban

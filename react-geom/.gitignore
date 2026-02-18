@@ -27,3 +27,6 @@ yarn-error.log*
 # misc
 .DS_Store
 package-lock.json
+/raw_data
+/geom_v2
+

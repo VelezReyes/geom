@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,2018,expost,5,0.945,28.37,,,,,,,
+USA,2018,expost,6,0.795,14.38,,,,,,,
+USA,2018,expost,7,1.127,10.76,,,,,,,
+USA,2018,expost,10,0.535,5.0,,,,,,,
+USA,2018,expost,11,0.726,1.12,,,,,,,
+USA,2018,expost,14,0.634,2.41,,,,,,,
+USA,2018,expost,15,0.736,2.41,,,,,,,
+USA,2018,expost,16,0.635,1.28,,,,,,,
+USA,2018,expost,19,1.154,9.67,,,,,,,
+USA,2018,expost,20,1.336,20.45,,,,,,,
+USA,2018,expost,21,0.835,4.15,,,,,,,
