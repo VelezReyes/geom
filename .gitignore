@@ -22,6 +22,8 @@ react-geom/build
 .env.production.local
 Notes.md
 package-lock.json
+/raw_data
+/geom_v2
 
 npm-debug.log*
 yarn-debug.log*

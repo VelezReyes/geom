@@ -70,5 +70,13 @@ module.exports = {
   "UK": "United Kingdom",
   "USA": "United States",
   "UZB": "Uzbekistan",
-  "ZAF": "South Africa"
+  "ZAF": "South Africa",
+  "ALB": "Albania",
+  "BIH": "Bosnia and Herzegovina",
+  "GBR": "United Kingdom",
+  "MKD": "North Macedonia",
+  "MNE": "Montenegro",
+  "RUS": "Russia",
+  "SRB": "Serbia",
+  "TUR": "Turkey"
 };
