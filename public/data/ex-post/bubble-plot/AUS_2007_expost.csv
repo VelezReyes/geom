@@ -1,0 +1,5 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+AUS,2007,expost,3,1.142,39.06,,,,"Managers,Professionals,Clerical And Administrative Workers,Sales Workers","Managers,Professionals,Clerical And Administrative Workers,Sales Workers",,
+AUS,2007,expost,4,0.982,13.01,,,,"Managers,Professionals,Clerical And Administrative Workers,Sales Workers","Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,
+AUS,2007,expost,6,0.874,7.63,,"None,Primary School,Other",,"Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,,
+AUS,2007,expost,7,0.896,40.29,,"Secondary School,Year 11 Or Equivalent,Year 12 Or Equivalent,University,Techers College/College Of Advance,Institute Of Technology,Technical College/Tafe,Employer",,"Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,,

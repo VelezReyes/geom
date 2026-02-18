@@ -1,0 +1,152 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.696,
+                                                        "Pop_Share": 2.03,
+                                                        "Box_Number": 7
+                                                    },
+                                                    "split_condition": "Mother_Edu -> Unknown"
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.827,
+                                                        "Pop_Share": 3.62,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Mother_Edu -> Low"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Father_Edu -> Unknown"
+                                        },
+                                        {
+                                            "id": 9,
+                                            "children": [
+                                                {
+                                                    "id": 10,
+                                                    "children": [
+                                                        {
+                                                            "id": 11,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.929,
+                                                                "Pop_Share": 27.53,
+                                                                "Box_Number": 11
+                                                            },
+                                                            "split_condition": "Father_Edu -> Low,Medium"
+                                                        },
+                                                        {
+                                                            "id": 12,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.135,
+                                                                "Pop_Share": 1.09,
+                                                                "Box_Number": 12
+                                                            },
+                                                            "split_condition": "Father_Edu -> High"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Edu",
+                                                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Armed Forces"
+                                                },
+                                                {
+                                                    "id": 13,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.828,
+                                                        "Pop_Share": 15.41,
+                                                        "Box_Number": 13
+                                                    },
+                                                    "split_condition": "Father_Occ -> Plant Operator,Elementary"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Father_Edu -> Low,Medium,High"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces"
+                                },
+                                {
+                                    "id": 14,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.025,
+                                        "Pop_Share": 8.42,
+                                        "Box_Number": 14
+                                    },
+                                    "split_condition": "Mother_Occ -> Professional,Technician,Clerical"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Birth_Area -> Local,European Union"
+                        },
+                        {
+                            "id": 15,
+                            "info": {
+                                "Relative_Type_Mean": 0.665,
+                                "Pop_Share": 6,
+                                "Box_Number": 15
+                            },
+                            "split_condition": "Birth_Area -> Other"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Edu -> Unknown,Low"
+                },
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "info": {
+                                "Relative_Type_Mean": 0.998,
+                                "Pop_Share": 7.7,
+                                "Box_Number": 17
+                            },
+                            "split_condition": "Father_Edu -> Unknown,Low"
+                        },
+                        {
+                            "id": 18,
+                            "info": {
+                                "Relative_Type_Mean": 1.14,
+                                "Pop_Share": 13.68,
+                                "Box_Number": 18
+                            },
+                            "split_condition": "Father_Edu -> Medium,High"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> Medium,High"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces"
+        },
+        {
+            "id": 19,
+            "info": {
+                "Relative_Type_Mean": 1.386,
+                "Pop_Share": 14.51,
+                "Box_Number": 19
+            },
+            "split_condition": "Father_Occ -> Manager,Professional"
+        }
+    ],
+    "nodeName": "Father_Occ"
+}

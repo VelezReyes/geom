@@ -1,0 +1,4 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+FI,2011,expost,2,0.853,7.58,,,"Unknown,Low",,,,
+FI,2011,expost,4,0.973,57.06,,,"Medium,High",,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FI,2011,expost,5,1.071,35.36,,,"Medium,High",,"Manager,Professional,Technician,Clerical",,

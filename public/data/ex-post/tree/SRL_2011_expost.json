@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 1.674,
+                        "Pop_Share": 4.95,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Mother_Edu -> No School,Primary Complete,Secondary Complete"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 1.364,
+                        "Pop_Share": 17.22,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Mother_Edu -> Primary Incomplete,Secondary Incomplete,Post-Secondary Professional,Vocational,First Degree Or More"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Occ -> Accomodation And Food Service Activities,Administrative And Support Service Activities,Education,Financial Activities,Manufacturing,Mining, Quarring"
+        },
+        {
+            "id": 5,
+            "children": [
+                {
+                    "id": 6,
+                    "info": {
+                        "Relative_Type_Mean": 1.55,
+                        "Pop_Share": 3.1,
+                        "Box_Number": 6
+                    },
+                    "split_condition": "Mother_Edu -> No School,Primary Incomplete,Primary Complete,First Degree Or More"
+                },
+                {
+                    "id": 7,
+                    "children": [
+                        {
+                            "id": 8,
+                            "children": [
+                                {
+                                    "id": 9,
+                                    "children": [
+                                        {
+                                            "id": 10,
+                                            "children": [
+                                                {
+                                                    "id": 11,
+                                                    "children": [
+                                                        {
+                                                            "id": 12,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.96,
+                                                                "Pop_Share": 3.52,
+                                                                "Box_Number": 12
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Accomodation And Food Service Activities,Mining, Quarring"
+                                                        },
+                                                        {
+                                                            "id": 13,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.789,
+                                                                "Pop_Share": 47.32,
+                                                                "Box_Number": 13
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Agriculture, Foresting, Fishing,Education,Electricity And Water Supply,Financial Activities"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Father_Occ -> Agriculture, Foresting, Fishing"
+                                                },
+                                                {
+                                                    "id": 14,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.898,
+                                                        "Pop_Share": 4.17,
+                                                        "Box_Number": 14
+                                                    },
+                                                    "split_condition": "Father_Occ -> Construction,Electricity And Water Supply"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Ethnicity -> Ahmadis Muslim,Bahai,Sda,Traditional"
+                                        },
+                                        {
+                                            "id": 15,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.772,
+                                                "Pop_Share": 11.5,
+                                                "Box_Number": 15
+                                            },
+                                            "split_condition": "Ethnicity -> Anglican,Methodist,Other Christian,Other Muslim,Pentacostal"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Ethnicity -> Ahmadis Muslim,Anglican,Bahai,Methodist,Other Christian,Other Muslim,Pentacostal,Sda,Traditional"
+                                },
+                                {
+                                    "id": 16,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.995,
+                                        "Pop_Share": 3.93,
+                                        "Box_Number": 16
+                                    },
+                                    "split_condition": "Ethnicity -> Catholic,No Religion"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Father_Edu -> No School,Primary Incomplete,Secondary Incomplete,Secondary Complete,Vocational,First Degree Or More"
+                        },
+                        {
+                            "id": 17,
+                            "info": {
+                                "Relative_Type_Mean": 0.957,
+                                "Pop_Share": 4.29,
+                                "Box_Number": 17
+                            },
+                            "split_condition": "Father_Edu -> Primary Complete,Post-Secondary Professional"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Edu -> Secondary Incomplete,Post-Secondary Professional,Vocational"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Occ -> Agriculture, Foresting, Fishing,Construction,Electricity And Water Supply"
+        }
+    ],
+    "nodeName": "Father_Occ"
+}

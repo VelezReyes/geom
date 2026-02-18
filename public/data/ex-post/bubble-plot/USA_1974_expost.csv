@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,1974,expost,4,0.871,13.94,"Northeast,North Central,West,Foreign Country",,"0-5 Grades,6-8 Grades,9-11 Grades,Some College",Low,,,
+USA,1974,expost,5,1.034,7.54,"Northeast,North Central,West,Foreign Country",,"High School,12 Grades + Non Academic Training,College Degree,Advanced College Degree",Low,,,
+USA,1974,expost,8,0.615,13.82,South,,"0-5 Grades,6-8 Grades,Advanced College Degree",Low,,,Female
+USA,1974,expost,9,0.752,3.43,South,,"0-5 Grades,6-8 Grades,Advanced College Degree",Low,,,Male
+USA,1974,expost,10,0.898,9.27,South,,"9-11 Grades,High School,12 Grades + Non Academic Training,Some College,College Degree",Low,,,
+USA,1974,expost,14,0.882,11.54,,,"0-5 Grades,6-8 Grades",Middle,,"White,Asian, Pac. Islander,Hispanic,Other",
+USA,1974,expost,15,1.101,17.74,,,"9-11 Grades,High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",Middle,,"White,Asian, Pac. Islander,Hispanic,Other",
+USA,1974,expost,16,0.832,7.04,,,,Middle,,"Black,Am. Indian, Aleut, Eskimo",
+USA,1974,expost,17,1.296,15.68,,,,High,,,

@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 0.928,
+                        "Pop_Share": 18.85,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Mother_Edu -> No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 1.643,
+                        "Pop_Share": 9.7,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Mother_Edu -> Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma),Bachelor's Degree Or More"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Birth_Area -> Urban"
+        },
+        {
+            "id": 5,
+            "children": [
+                {
+                    "id": 6,
+                    "children": [
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 0.825,
+                                "Pop_Share": 57.81,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Mother_Occ -> Managers,Professionals,Technicians And Professionals,Clerical Support,Elementary,Others,Did Not Work,Dead"
+                        },
+                        {
+                            "id": 8,
+                            "info": {
+                                "Relative_Type_Mean": 0.978,
+                                "Pop_Share": 4.5,
+                                "Box_Number": 8
+                            },
+                            "split_condition": "Mother_Occ -> Service And Sales,Farm, Forest, Fishery,Craft,Operators"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Mother_Edu -> No Degree/No Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More"
+                },
+                {
+                    "id": 9,
+                    "info": {
+                        "Relative_Type_Mean": 1.414,
+                        "Pop_Share": 9.15,
+                        "Box_Number": 9
+                    },
+                    "split_condition": "Mother_Edu -> Primary Education,Tertiary Education (Not A University Diploma)"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Birth_Area -> Rural"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

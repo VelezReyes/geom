@@ -1,0 +1,17 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,1986,exante,7,0.867,4.81,"Northeast,Foreign Country","0-5 Grades,6-8 Grades,9-11 Grades","0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,9,0.659,3.08,"North Central,South,West",0-5 Grades,"0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,10,0.789,14.79,"North Central,South,West","6-8 Grades,9-11 Grades","0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,11,0.945,2.71,,High School,"0-5 Grades,6-8 Grades,9-11 Grades","Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,13,0.933,10.53,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree","Low,Middle",,"White,Asian, Pac. Islander,Other",Female
+USA,1986,exante,14,1.059,9.15,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree","Low,Middle",,"White,Asian, Pac. Islander,Other",Male
+USA,1986,exante,15,1.241,7.39,,"0-5 Grades,6-8 Grades,9-11 Grades,High School",,High,,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,20,0.641,2.34,"Northeast,North Central,West,Foreign Country","0-5 Grades,6-8 Grades,9-11 Grades,High School","0-5 Grades,6-8 Grades,9-11 Grades,Advanced College Degree",,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1986,exante,21,0.474,11.77,South,"0-5 Grades,6-8 Grades,9-11 Grades,High School","0-5 Grades,6-8 Grades,9-11 Grades,Advanced College Degree",,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1986,exante,22,0.79,1.74,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","0-5 Grades,6-8 Grades,9-11 Grades,Advanced College Degree",,"Middle,High","Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1986,exante,23,0.636,5.1,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","0-5 Grades,6-8 Grades,9-11 Grades,Advanced College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Male
+USA,1986,exante,25,0.665,5.89,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","High School,12 Grades + Non Academic Training,Some College,College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1986,exante,26,0.874,3.14,,"0-5 Grades,6-8 Grades,9-11 Grades,High School","High School,12 Grades + Non Academic Training,Some College,College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Male
+USA,1986,exante,29,1.682,4.15,"Northeast,Foreign Country","12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,30,1.27,11.44,"North Central,South,West","12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"White,Asian, Pac. Islander,Other",
+USA,1986,exante,31,0.826,1.96,,"12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",

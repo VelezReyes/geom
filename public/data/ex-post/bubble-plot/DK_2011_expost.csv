@@ -1,0 +1,4 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+DK,2011,expost,3,0.95,48.3,Local,,Medium,,,,
+DK,2011,expost,4,1.078,44.96,Local,,High,,,,
+DK,2011,expost,5,0.831,6.73,"European Union,Other",,,,,,

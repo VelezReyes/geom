@@ -1,0 +1,344 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.018,
+                                        "Pop_Share": 7.13,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Ethnicity -> Bambara,Fula/Tukulur/Lorobo,Jola/Karoninka,Manjago,Other,Serrer"
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.174,
+                                                "Pop_Share": 5.72,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Father_Occ -> Accomodation, Food Service And Homely Activities,Agricolture, Forestry And Fishing,Professional Activities (Ic, Financial, Scientific, Technical, Social)"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.552,
+                                                "Pop_Share": 1.08,
+                                                "Box_Number": 8
+                                            },
+                                            "split_condition": "Father_Occ -> Administrative And Service Activities,Arts, Entertainment And Recreation,Construction, Mining And Energy Supply,Education,Manufacturing,Public Administration And Defense,Transportation And Storage,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Ethnicity -> Mandika/Jahanka,Wollof"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Banjul,Basse,Kanifing"
+                        },
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "children": [
+                                        {
+                                            "id": 11,
+                                            "children": [
+                                                {
+                                                    "id": 12,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.007,
+                                                        "Pop_Share": 9.1,
+                                                        "Box_Number": 12
+                                                    },
+                                                    "split_condition": "Ethnicity -> Bambara,Mandika/Jahanka,Other,Serrer"
+                                                },
+                                                {
+                                                    "id": 13,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.751,
+                                                        "Pop_Share": 3.94,
+                                                        "Box_Number": 13
+                                                    },
+                                                    "split_condition": "Ethnicity -> Fula/Tukulur/Lorobo"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Father_Occ -> Accomodation, Food Service And Homely Activities,Agricolture, Forestry And Fishing,Arts, Entertainment And Recreation,Construction, Mining And Energy Supply,Manufacturing,Professional Activities (Ic, Financial, Scientific, Technical, Social)"
+                                        },
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.231,
+                                                "Pop_Share": 1.17,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Father_Occ -> Administrative And Service Activities,Education,Public Administration And Defense,Transportation And Storage,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Ethnicity -> Bambara,Fula/Tukulur/Lorobo,Mandika/Jahanka,Other,Serrer"
+                                },
+                                {
+                                    "id": 15,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.714,
+                                        "Pop_Share": 6.74,
+                                        "Box_Number": 15
+                                    },
+                                    "split_condition": "Ethnicity -> Jola/Karoninka,Manjago,Wollof"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Kerewan"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Ethnicity -> Bambara,Fula/Tukulur/Lorobo,Jola/Karoninka,Mandika/Jahanka,Manjago,Other,Serrer,Wollof"
+                },
+                {
+                    "id": 16,
+                    "info": {
+                        "Relative_Type_Mean": 1.761,
+                        "Pop_Share": 6.78,
+                        "Box_Number": 16
+                    },
+                    "split_condition": "Ethnicity -> Creole/Aku Marabout,Sarahulleh"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Birth_Area -> Banjul,Basse,Kanifing,Kerewan"
+        },
+        {
+            "id": 17,
+            "children": [
+                {
+                    "id": 18,
+                    "children": [
+                        {
+                            "id": 19,
+                            "children": [
+                                {
+                                    "id": 20,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.323,
+                                        "Pop_Share": 1.01,
+                                        "Box_Number": 20
+                                    },
+                                    "split_condition": "Father_Occ -> Accomodation, Food Service And Homely Activities,Administrative And Service Activities,Construction, Mining And Energy Supply,Education,Manufacturing,Professional Activities (Ic, Financial, Scientific, Technical, Social),Public Administration And Defense,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                                },
+                                {
+                                    "id": 21,
+                                    "children": [
+                                        {
+                                            "id": 22,
+                                            "children": [
+                                                {
+                                                    "id": 23,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.803,
+                                                        "Pop_Share": 6.56,
+                                                        "Box_Number": 23
+                                                    },
+                                                    "split_condition": "Birth_Area -> Brikama"
+                                                },
+                                                {
+                                                    "id": 24,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.692,
+                                                        "Pop_Share": 4.93,
+                                                        "Box_Number": 24
+                                                    },
+                                                    "split_condition": "Birth_Area -> Kuntaur,Mansakonko"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Birth_Area -> Brikama,Kuntaur,Mansakonko"
+                                        },
+                                        {
+                                            "id": 25,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.604,
+                                                "Pop_Share": 4.84,
+                                                "Box_Number": 25
+                                            },
+                                            "split_condition": "Birth_Area -> Janjangbureh"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Father_Occ -> Agricolture, Forestry And Fishing,Transportation And Storage"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Ethnicity -> Bambara,Jola/Karoninka,Wollof"
+                        },
+                        {
+                            "id": 26,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.392,
+                                        "Pop_Share": 2.38,
+                                        "Box_Number": 27
+                                    },
+                                    "split_condition": "Birth_Area -> Brikama"
+                                },
+                                {
+                                    "id": 28,
+                                    "children": [
+                                        {
+                                            "id": 29,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.5,
+                                                "Pop_Share": 9.58,
+                                                "Box_Number": 29
+                                            },
+                                            "split_condition": "Birth_Area -> Janjangbureh,Mansakonko"
+                                        },
+                                        {
+                                            "id": 30,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.529,
+                                                "Pop_Share": 6.32,
+                                                "Box_Number": 30
+                                            },
+                                            "split_condition": "Birth_Area -> Kuntaur"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Birth_Area -> Janjangbureh,Kuntaur,Mansakonko"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Ethnicity -> Fula/Tukulur/Lorobo"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Ethnicity -> Bambara,Fula/Tukulur/Lorobo,Jola/Karoninka,Wollof"
+                },
+                {
+                    "id": 31,
+                    "children": [
+                        {
+                            "id": 32,
+                            "info": {
+                                "Relative_Type_Mean": 1.601,
+                                "Pop_Share": 1.1,
+                                "Box_Number": 32
+                            },
+                            "split_condition": "Father_Occ -> Accomodation, Food Service And Homely Activities,Arts, Entertainment And Recreation,Manufacturing,Professional Activities (Ic, Financial, Scientific, Technical, Social),Transportation And Storage"
+                        },
+                        {
+                            "id": 33,
+                            "children": [
+                                {
+                                    "id": 34,
+                                    "children": [
+                                        {
+                                            "id": 35,
+                                            "children": [
+                                                {
+                                                    "id": 36,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.05,
+                                                        "Pop_Share": 1.15,
+                                                        "Box_Number": 36
+                                                    },
+                                                    "split_condition": "Father_Occ -> Administrative And Service Activities,Education"
+                                                },
+                                                {
+                                                    "id": 37,
+                                                    "children": [
+                                                        {
+                                                            "id": 38,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.839,
+                                                                "Pop_Share": 4.02,
+                                                                "Box_Number": 38
+                                                            },
+                                                            "split_condition": "Birth_Area -> Brikama"
+                                                        },
+                                                        {
+                                                            "id": 39,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.622,
+                                                                "Pop_Share": 6.98,
+                                                                "Box_Number": 39
+                                                            },
+                                                            "split_condition": "Birth_Area -> Mansakonko"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Father_Occ -> Agricolture, Forestry And Fishing,Construction, Mining And Energy Supply,Public Administration And Defense,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Ethnicity -> Creole/Aku Marabout,Mandika/Jahanka"
+                                        },
+                                        {
+                                            "id": 40,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.024,
+                                                "Pop_Share": 1.53,
+                                                "Box_Number": 40
+                                            },
+                                            "split_condition": "Ethnicity -> Manjago,Other,Sarahulleh,Serrer"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Birth_Area -> Brikama,Mansakonko"
+                                },
+                                {
+                                    "id": 41,
+                                    "children": [
+                                        {
+                                            "id": 42,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.72,
+                                                "Pop_Share": 4.53,
+                                                "Box_Number": 42
+                                            },
+                                            "split_condition": "Birth_Area -> Janjangbureh"
+                                        },
+                                        {
+                                            "id": 43,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.59,
+                                                "Pop_Share": 3.42,
+                                                "Box_Number": 43
+                                            },
+                                            "split_condition": "Birth_Area -> Kuntaur"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Birth_Area -> Janjangbureh,Kuntaur"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Occ -> Administrative And Service Activities,Agricolture, Forestry And Fishing,Construction, Mining And Energy Supply,Education,Public Administration And Defense,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Ethnicity -> Creole/Aku Marabout,Mandika/Jahanka,Manjago,Other,Sarahulleh,Serrer"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Birth_Area -> Brikama,Janjangbureh,Kuntaur,Mansakonko"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

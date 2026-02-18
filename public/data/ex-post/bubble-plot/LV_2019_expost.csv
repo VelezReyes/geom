@@ -1,0 +1,8 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+LV,2019,expost,5,0.837,20.9,,"Unknown,Medium","Unknown,Low,Medium","Dead/Unknown/Not Working,Agriculture,Armed Forces",,,
+LV,2019,expost,6,0.73,4.44,,Low,"Unknown,Low,Medium","Dead/Unknown/Not Working,Agriculture,Armed Forces",,,
+LV,2019,expost,7,1.082,3.63,,"Unknown,Low,Medium",High,"Dead/Unknown/Not Working,Agriculture,Armed Forces",,,
+LV,2019,expost,9,0.864,19.7,,"Unknown,Low,Medium",,"Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Agriculture,Elementary",,
+LV,2019,expost,11,1.032,34.68,,"Unknown,Low,Medium",,"Manager,Technician,Service,Craft/Trades,Plant Operator,Elementary","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+LV,2019,expost,12,1.325,2.4,,"Unknown,Low,Medium",,"Professional,Clerical","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+LV,2019,expost,13,1.281,14.25,,High,,,,,

@@ -1,0 +1,216 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.265,
+                                        "Pop_Share": 5.09,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Birth_Area -> Urban"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.473,
+                                        "Pop_Share": 6.07,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Birth_Area -> Rural"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Edu -> Pre-School,Pre-Secondary"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 1.8,
+                                "Pop_Share": 2.13,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Father_Edu -> Primary,Secondary,Academy,University"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Ethnicity -> Tetum,Mangilih,Bahasa Indonesia,Portuguese,Inggris"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.977,
+                                        "Pop_Share": 9.81,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Ethnicity -> Bunak,Tokodete,Uaimua"
+                                },
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.062,
+                                        "Pop_Share": 1.49,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Ethnicity -> Fatalucu"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Urban"
+                        },
+                        {
+                            "id": 12,
+                            "children": [
+                                {
+                                    "id": 13,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.218,
+                                        "Pop_Share": 4.69,
+                                        "Box_Number": 13
+                                    },
+                                    "split_condition": "Ethnicity -> Bunak,Tokodete,Uaimua"
+                                },
+                                {
+                                    "id": 14,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.263,
+                                        "Pop_Share": 2.89,
+                                        "Box_Number": 14
+                                    },
+                                    "split_condition": "Ethnicity -> Fatalucu"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Rural"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Ethnicity -> Bunak,Fatalucu,Tokodete,Uaimua"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Ethnicity -> Tetum,Bunak,Fatalucu,Mangilih,Tokodete,Uaimua,Bahasa Indonesia,Portuguese,Inggris"
+        },
+        {
+            "id": 15,
+            "children": [
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "children": [
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.821,
+                                                "Pop_Share": 8.65,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Ethnicity -> Baequeno"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.772,
+                                                "Pop_Share": 6.75,
+                                                "Box_Number": 20
+                                            },
+                                            "split_condition": "Ethnicity -> Laklei,Tetum Terik,Does Not Speak Yet"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Ethnicity -> Baequeno,Laklei,Tetum Terik,Does Not Speak Yet"
+                                },
+                                {
+                                    "id": 21,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.881,
+                                        "Pop_Share": 20.51,
+                                        "Box_Number": 21
+                                    },
+                                    "split_condition": "Ethnicity -> Kaklun Bikeli,Mambae,Midiki,Naueti,Sa Ani"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Ethnicity -> Baequeno,Kaklun Bikeli,Laklei,Mambae,Midiki,Naueti,Sa Ani,Tetum Terik,Does Not Speak Yet"
+                        },
+                        {
+                            "id": 22,
+                            "info": {
+                                "Relative_Type_Mean": 0.906,
+                                "Pop_Share": 12.63,
+                                "Box_Number": 22
+                            },
+                            "split_condition": "Ethnicity -> Galolen,Kemak,Macalero,Macasae"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Urban"
+                },
+                {
+                    "id": 23,
+                    "children": [
+                        {
+                            "id": 24,
+                            "info": {
+                                "Relative_Type_Mean": 1.106,
+                                "Pop_Share": 9.4,
+                                "Box_Number": 24
+                            },
+                            "split_condition": "Ethnicity -> Baequeno,Galolen,Midiki,Tetum Terik"
+                        },
+                        {
+                            "id": 25,
+                            "children": [
+                                {
+                                    "id": 26,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.164,
+                                        "Pop_Share": 4.71,
+                                        "Box_Number": 26
+                                    },
+                                    "split_condition": "Ethnicity -> Kemak,Laklei,Macalero,Macasae,Naueti"
+                                },
+                                {
+                                    "id": 27,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.042,
+                                        "Pop_Share": 5.17,
+                                        "Box_Number": 27
+                                    },
+                                    "split_condition": "Ethnicity -> Mambae,Sa Ani,Does Not Speak Yet"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Ethnicity -> Kemak,Laklei,Macalero,Macasae,Mambae,Naueti,Sa Ani,Does Not Speak Yet"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Rural"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Ethnicity -> Baequeno,Galolen,Kaklun Bikeli,Kemak,Laklei,Macalero,Macasae,Mambae,Midiki,Naueti,Sa Ani,Tetum Terik,Does Not Speak Yet"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,1994,exante,5,0.821,21.45,,"0-5 Grades,6-8 Grades",,"Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1994,exante,6,1.003,24.46,,"9-11 Grades,High School,12 Grades + Non Academic Training,Some College",,"Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1994,exante,7,1.22,11.23,,"0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training,Some College",,High,,"White,Asian, Pac. Islander,Other",
+USA,1994,exante,8,1.449,11.35,,"College Degree,Advanced College Degree",,,,"White,Asian, Pac. Islander,Other",
+USA,1994,exante,12,0.518,11.73,,,"0-5 Grades,6-8 Grades,9-11 Grades",,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1994,exante,14,0.587,3.01,,,"0-5 Grades,6-8 Grades,9-11 Grades",Low,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Male
+USA,1994,exante,15,0.648,1.28,,,"0-5 Grades,6-8 Grades,9-11 Grades","Middle,High",Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Male
+USA,1994,exante,16,0.713,2.54,,,"0-5 Grades,6-8 Grades,9-11 Grades",,"Middle,High","Black,Am. Indian, Aleut, Eskimo,Hispanic",
+USA,1994,exante,18,0.641,8.96,,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,"Low,Middle","Black,Am. Indian, Aleut, Eskimo,Hispanic",
+USA,1994,exante,19,0.812,3.98,,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,High,"Black,Am. Indian, Aleut, Eskimo,Hispanic",

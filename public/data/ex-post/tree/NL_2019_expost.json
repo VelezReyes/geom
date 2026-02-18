@@ -1,0 +1,216 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.735,
+                                                "Pop_Share": 2.24,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Technician,Agriculture,Craft/Trades"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.854,
+                                                "Pop_Share": 1.12,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Mother_Occ -> Professional,Clerical,Service,Plant Operator,Elementary"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Father_Edu -> Unknown"
+                                },
+                                {
+                                    "id": 8,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.873,
+                                        "Pop_Share": 19.73,
+                                        "Box_Number": 8
+                                    },
+                                    "split_condition": "Father_Edu -> Low"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Craft/Trades,Plant Operator,Elementary"
+                        },
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 1.003,
+                                "Pop_Share": 15.6,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Father_Occ -> Manager,Professional,Technician,Clerical,Service,Agriculture,Armed Forces"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Birth_Area -> Local,European Union"
+                },
+                {
+                    "id": 10,
+                    "info": {
+                        "Relative_Type_Mean": 0.671,
+                        "Pop_Share": 1.61,
+                        "Box_Number": 10
+                    },
+                    "split_condition": "Birth_Area -> Other"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> Unknown,Low"
+        },
+        {
+            "id": 11,
+            "children": [
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.035,
+                                        "Pop_Share": 15.3,
+                                        "Box_Number": 14
+                                    },
+                                    "split_condition": "Birth_Area -> Local"
+                                },
+                                {
+                                    "id": 15,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.796,
+                                        "Pop_Share": 1.27,
+                                        "Box_Number": 15
+                                    },
+                                    "split_condition": "Birth_Area -> European Union,Other"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Plant Operator"
+                        },
+                        {
+                            "id": 16,
+                            "children": [
+                                {
+                                    "id": 17,
+                                    "children": [
+                                        {
+                                            "id": 18,
+                                            "children": [
+                                                {
+                                                    "id": 19,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.938,
+                                                        "Pop_Share": 5.08,
+                                                        "Box_Number": 19
+                                                    },
+                                                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Technician,Clerical,Craft/Trades,Plant Operator,Armed Forces"
+                                                },
+                                                {
+                                                    "id": 20,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.02,
+                                                        "Pop_Share": 1.86,
+                                                        "Box_Number": 20
+                                                    },
+                                                    "split_condition": "Father_Occ -> Service,Agriculture,Elementary"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Mother_Edu -> Unknown,Medium"
+                                        },
+                                        {
+                                            "id": 21,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.98,
+                                                "Pop_Share": 3.42,
+                                                "Box_Number": 21
+                                            },
+                                            "split_condition": "Mother_Edu -> Low,High"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces"
+                                },
+                                {
+                                    "id": 22,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.051,
+                                        "Pop_Share": 4.63,
+                                        "Box_Number": 22
+                                    },
+                                    "split_condition": "Father_Occ -> Manager,Professional"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Mother_Occ -> Service,Agriculture,Craft/Trades,Elementary"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary"
+                },
+                {
+                    "id": 23,
+                    "children": [
+                        {
+                            "id": 24,
+                            "children": [
+                                {
+                                    "id": 25,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.985,
+                                        "Pop_Share": 1.01,
+                                        "Box_Number": 25
+                                    },
+                                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Agriculture"
+                                },
+                                {
+                                    "id": 26,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.201,
+                                        "Pop_Share": 14.64,
+                                        "Box_Number": 26
+                                    },
+                                    "split_condition": "Father_Occ -> Manager,Professional,Armed Forces"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Manager,Professional,Agriculture,Armed Forces"
+                        },
+                        {
+                            "id": 27,
+                            "info": {
+                                "Relative_Type_Mean": 1.125,
+                                "Pop_Share": 12.49,
+                                "Box_Number": 27
+                            },
+                            "split_condition": "Father_Occ -> Technician,Clerical,Service,Craft/Trades,Plant Operator,Elementary"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Mother_Occ -> Manager,Professional,Technician,Clerical"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Father_Edu -> Medium,High"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

@@ -1,0 +1,17 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MWI,2020,exante,4,1.124,11.09,Northern Region,None,,,,,
+MWI,2020,exante,7,0.705,3.73,"Central Region,Southern Region",None,None,,,"None,Traditional,Other",
+MWI,2020,exante,9,0.8,32.39,"Central Region,Southern Region",None,None,,,"Christianity,Islam",Female
+MWI,2020,exante,10,0.846,28.16,"Central Region,Southern Region",None,None,,,"Christianity,Islam",Male
+MWI,2020,exante,11,1.174,1.78,"Central Region,Southern Region",None,"Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,A-Level,Diploma,Masters/Phd",,,,
+MWI,2020,exante,14,1.227,2.82,Northern Region,"Primary School Leaving Certificate,Junior Certificate Of Education","None,A-Level,Diploma",,,,
+MWI,2020,exante,16,1.088,4.23,"Central Region,Southern Region",Primary School Leaving Certificate,"None,A-Level,Diploma",,,,
+MWI,2020,exante,17,1.259,2.42,"Central Region,Southern Region",Junior Certificate Of Education,"None,A-Level,Diploma",,,,
+MWI,2020,exante,19,1.407,2.88,,"Primary School Leaving Certificate,Junior Certificate Of Education",Primary School Leaving Certificate,,,,
+MWI,2020,exante,20,1.732,1.32,,"Primary School Leaving Certificate,Junior Certificate Of Education","Junior Certificate Of Education,Malawi School Certificate Of Education,Degree,Masters/Phd",,,,
+MWI,2020,exante,24,1.351,2.9,,Malawi School Certificate Of Education,None,,,,
+MWI,2020,exante,26,1.689,1.33,,Malawi School Certificate Of Education,Primary School Leaving Certificate,,,,
+MWI,2020,exante,27,2.073,1.38,,Malawi School Certificate Of Education,"Junior Certificate Of Education,A-Level",,,,
+MWI,2020,exante,28,2.469,1.34,,"A-Level,Diploma,Degree,Masters/Phd","None,Primary School Leaving Certificate,Junior Certificate Of Education,A-Level",,,,
+MWI,2020,exante,30,2.552,1.23,,"Malawi School Certificate Of Education,A-Level","Malawi School Certificate Of Education,Diploma,Degree,Masters/Phd",,,,
+MWI,2020,exante,31,4.057,1.01,,"Diploma,Degree,Masters/Phd","Malawi School Certificate Of Education,Diploma,Degree,Masters/Phd",,,,

@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2015,expost,5,1.059,11.55,"Seoul,Daegu,Incheon,Gwangju,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeju-Do,Overseas",,"No Schooling,Graduate Degree","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,,
+KOR,2015,expost,6,1.062,2.28,"Seoul,Daegu,Incheon,Gwangju,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeju-Do,Overseas",,"Community College,College/University","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,,
+KOR,2015,expost,7,1.091,23.63,"Busan,Daejeon,Ulsan,Gyeonggi-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,North Korea",,"No Schooling,Community College,College/University,Graduate Degree","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,,
+KOR,2015,expost,11,0.92,22.4,"Seoul,Busan,Daegu,Daejeon,Gyeonggi-Do,Chungcheongnam-Do,Jeollabuk-Do,North Korea,Overseas","No Schooling,Elementary School,Middle School,High School","Elementary School,Middle School,High School","Regular/Standard Wage Worker,Self-Employed(With No Employee),Family Worker",,,
+KOR,2015,expost,12,0.949,18.5,"Incheon,Gwangju,Ulsan,Gangwon-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do","No Schooling,Elementary School,Middle School,High School","Elementary School,Middle School,High School","Regular/Standard Wage Worker,Self-Employed(With No Employee),Family Worker",,,
+KOR,2015,expost,14,1.125,4.9,,"Community College,College/University,Graduate Degree","Elementary School,Middle School,High School","Regular/Standard Wage Worker,Family Worker",,,
+KOR,2015,expost,15,0.798,1.28,,"Community College,College/University,Graduate Degree","Elementary School,Middle School,High School",Self-Employed(With No Employee),,,
+KOR,2015,expost,16,1.108,7.36,,,"Elementary School,Middle School,High School",Employer (With Employees),,,
+KOR,2015,expost,17,0.847,8.1,,,,"Irregular/Nonstandard Wage Worker,No Job/Housewife",,,
