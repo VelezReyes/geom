@@ -1,0 +1,7 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+CZ,2011,expost,4,0.8,3.63,,"Unknown,Low",,,"Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+CZ,2011,expost,5,0.888,50.62,,Medium,,,"Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+CZ,2011,expost,7,1.071,6.0,,"Unknown,Low,Medium",,,"Professional,Technician,Clerical",,Male
+CZ,2011,expost,8,1.044,8.36,,"Unknown,Low,Medium",,,"Professional,Technician,Clerical",,Female
+CZ,2011,expost,10,1.224,19.46,,High,"Unknown,Low,High",,,,
+CZ,2011,expost,11,1.036,11.93,,High,Medium,,,,

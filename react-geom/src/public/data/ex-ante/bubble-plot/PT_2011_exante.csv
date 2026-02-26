@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+PT,2011,exante,4,0.686,16.91,,"Unknown,Low","Unknown,Low",,,,
+PT,2011,exante,5,0.781,13.49,,Medium,"Unknown,Low",,,,
+PT,2011,exante,8,0.779,6.71,,"Unknown,Low","Medium,High","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,,
+PT,2011,exante,9,0.991,39.41,,Medium,"Medium,High","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,,
+PT,2011,exante,12,1.246,9.43,,"Unknown,Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Dead/Unknown/Not Working,Manager,Technician",,
+PT,2011,exante,13,1.06,6.39,,"Unknown,Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+PT,2011,exante,14,1.662,1.65,,"Unknown,Low,Medium","Medium,High","Manager,Professional,Technician,Clerical,Service","Professional,Clerical",,
+PT,2011,exante,17,1.487,2.6,Local,High,,,,,
+PT,2011,exante,18,2.014,2.27,Local,,,,,,
+PT,2011,exante,19,1.226,1.14,"European Union,Other",High,,,,,

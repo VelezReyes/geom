@@ -1,0 +1,376 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.217,
+                                                "Pop_Share": 10.15,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Mother_Occ ->  Sales,Administrative,Clerical,Production,Professional,Service"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.016,
+                                                "Pop_Share": 4.55,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Mother_Occ -> Agri,Fish,Hunt,Homeworker"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Birth_Area -> Africa Other Than Ecowas,Ashanti,Brongahafo,Central,Eastern,Volta,Western"
+                                },
+                                {
+                                    "id": 8,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.527,
+                                        "Pop_Share": 2.55,
+                                        "Box_Number": 8
+                                    },
+                                    "split_condition": "Birth_Area -> Greater Accra,Outside Africa"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Occ ->  Sales,Administrative,Clerical,Homeworker,Production,Professional,Service"
+                        },
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "children": [
+                                        {
+                                            "id": 11,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.066,
+                                                "Pop_Share": 6.71,
+                                                "Box_Number": 11
+                                            },
+                                            "split_condition": "Birth_Area -> Africa Other Than Ecowas,Ashanti,Greater Accra"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "children": [
+                                                {
+                                                    "id": 13,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.042,
+                                                        "Pop_Share": 5.63,
+                                                        "Box_Number": 13
+                                                    },
+                                                    "split_condition": "Mother_Occ ->  Sales,Administrative,Homeworker,Production,Professional"
+                                                },
+                                                {
+                                                    "id": 14,
+                                                    "children": [
+                                                        {
+                                                            "id": 15,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.946,
+                                                                "Pop_Share": 13.53,
+                                                                "Box_Number": 15
+                                                            },
+                                                            "split_condition": "Ethnicity -> Akan"
+                                                        },
+                                                        {
+                                                            "id": 16,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.824,
+                                                                "Pop_Share": 7.84,
+                                                                "Box_Number": 16
+                                                            },
+                                                            "split_condition": "Ethnicity -> Ewe,Ga-Dangme,Guan,Mande"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Ethnicity",
+                                                    "split_condition": "Mother_Occ -> Agri,Fish,Hunt,Clerical,Service"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Occ",
+                                            "split_condition": "Birth_Area -> Brongahafo,Central,Eastern,Volta,Western"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> Akan,Ewe,Ga-Dangme,Guan,Mande"
+                                },
+                                {
+                                    "id": 17,
+                                    "children": [
+                                        {
+                                            "id": 18,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.669,
+                                                "Pop_Share": 3.7,
+                                                "Box_Number": 18
+                                            },
+                                            "split_condition": "Birth_Area -> Africa Other Than Ecowas,Ashanti,Brongahafo,Volta"
+                                        },
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.831,
+                                                "Pop_Share": 1.16,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Birth_Area -> Central,Eastern,Greater Accra,Western"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> All Other Tribes,Grusi,Gurma,Mole-Dagbanii"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Father_Occ -> Agri,Fish,Hunt"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Father_Edu -> No School,Primary School,Middle School"
+                },
+                {
+                    "id": 20,
+                    "children": [
+                        {
+                            "id": 21,
+                            "children": [
+                                {
+                                    "id": 22,
+                                    "children": [
+                                        {
+                                            "id": 23,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.44,
+                                                "Pop_Share": 2.37,
+                                                "Box_Number": 23
+                                            },
+                                            "split_condition": "Birth_Area -> Africa Other Than Ecowas,Brongahafo,Central,Eastern,Outside Africa,Volta,Western"
+                                        },
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.75,
+                                                "Pop_Share": 1.64,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Birth_Area -> Ashanti,Greater Accra"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Occ ->  Sales,Administrative,Clerical,Homeworker,Production,Professional,Service"
+                                },
+                                {
+                                    "id": 25,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.112,
+                                        "Pop_Share": 1.37,
+                                        "Box_Number": 25
+                                    },
+                                    "split_condition": "Mother_Occ -> Agri,Fish,Hunt"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Mother_Edu -> No School,Primary School,Middle School"
+                        },
+                        {
+                            "id": 26,
+                            "info": {
+                                "Relative_Type_Mean": 2.302,
+                                "Pop_Share": 1.33,
+                                "Box_Number": 26
+                            },
+                            "split_condition": "Mother_Edu -> Secondary School,Theacher, Nursing Trean,First Degree,Post Graduate"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> Secondary School,Theacher, Nursing Trean,First Degree,Post Graduate"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Birth_Area -> Africa Other Than Ecowas,Ashanti,Brongahafo,Central,Eastern,Greater Accra,Outside Africa,Volta,Western"
+        },
+        {
+            "id": 27,
+            "children": [
+                {
+                    "id": 28,
+                    "children": [
+                        {
+                            "id": 29,
+                            "children": [
+                                {
+                                    "id": 30,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.941,
+                                        "Pop_Share": 1.97,
+                                        "Box_Number": 30
+                                    },
+                                    "split_condition": "Father_Occ ->  Sales,Administrative,Clerical,Homeworker,Production,Professional,Service"
+                                },
+                                {
+                                    "id": 31,
+                                    "children": [
+                                        {
+                                            "id": 32,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.718,
+                                                "Pop_Share": 2.63,
+                                                "Box_Number": 32
+                                            },
+                                            "split_condition": "Sex -> Female"
+                                        },
+                                        {
+                                            "id": 33,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.878,
+                                                "Pop_Share": 1.9,
+                                                "Box_Number": 33
+                                            },
+                                            "split_condition": "Sex -> Male"
+                                        }
+                                    ],
+                                    "nodeName": "Sex",
+                                    "split_condition": "Father_Occ -> Agri,Fish,Hunt"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Father_Edu -> No School,Primary School"
+                        },
+                        {
+                            "id": 34,
+                            "info": {
+                                "Relative_Type_Mean": 1.235,
+                                "Pop_Share": 1.37,
+                                "Box_Number": 34
+                            },
+                            "split_condition": "Father_Edu -> Middle School,Secondary School,Theacher, Nursing Trean,First Degree,Post Graduate"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Occ ->  Sales,Administrative,Clerical,Homeworker,Production,Professional,Service"
+                },
+                {
+                    "id": 35,
+                    "children": [
+                        {
+                            "id": 36,
+                            "children": [
+                                {
+                                    "id": 37,
+                                    "children": [
+                                        {
+                                            "id": 38,
+                                            "children": [
+                                                {
+                                                    "id": 39,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.564,
+                                                        "Pop_Share": 7.05,
+                                                        "Box_Number": 39
+                                                    },
+                                                    "split_condition": "Ethnicity -> Akan,Ewe,Ga-Dangme,Mande,Mole-Dagbanii"
+                                                },
+                                                {
+                                                    "id": 40,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.474,
+                                                        "Pop_Share": 2.24,
+                                                        "Box_Number": 40
+                                                    },
+                                                    "split_condition": "Ethnicity -> Gurma"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Sex -> Female"
+                                        },
+                                        {
+                                            "id": 41,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.635,
+                                                "Pop_Share": 6.49,
+                                                "Box_Number": 41
+                                            },
+                                            "split_condition": "Sex -> Male"
+                                        }
+                                    ],
+                                    "nodeName": "Sex",
+                                    "split_condition": "Ethnicity -> Akan,Ewe,Ga-Dangme,Gurma,Mande,Mole-Dagbanii"
+                                },
+                                {
+                                    "id": 42,
+                                    "children": [
+                                        {
+                                            "id": 43,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.504,
+                                                "Pop_Share": 1.96,
+                                                "Box_Number": 43
+                                            },
+                                            "split_condition": "Birth_Area -> Northern,Other Ecowas"
+                                        },
+                                        {
+                                            "id": 44,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.499,
+                                                "Pop_Share": 1.43,
+                                                "Box_Number": 44
+                                            },
+                                            "split_condition": "Birth_Area -> Upper East"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> All Other Tribes,Grusi,Guan"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Northern,Other Ecowas,Upper East"
+                        },
+                        {
+                            "id": 45,
+                            "children": [
+                                {
+                                    "id": 46,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.488,
+                                        "Pop_Share": 7.07,
+                                        "Box_Number": 46
+                                    },
+                                    "split_condition": "Ethnicity -> Akan,All Other Tribes,Gurma,Mande,Mole-Dagbanii"
+                                },
+                                {
+                                    "id": 47,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.384,
+                                        "Pop_Share": 3.35,
+                                        "Box_Number": 47
+                                    },
+                                    "split_condition": "Ethnicity -> Grusi,Guan"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Upper West"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Occ -> Agri,Fish,Hunt"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Birth_Area -> Northern,Other Ecowas,Upper East,Upper West"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2017,expost,5,0.992,20.24,,,No Schooling,"Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,8,0.992,20.2,"Seoul,Busan,Daejeon,Incheon,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeonsangnam-Do,Jeju-Do",,"Elementary School,Middle School,High School,Community College","Regular/Standard Wage Worker,Employer (With Employees)",,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,9,1.111,4.89,"Daegu,Chungcheongnam-Do,Jeollabuk-Do,Gyeongsangbuk-Do,North Korea,Overseas",,"Elementary School,Middle School,High School,Community College","Regular/Standard Wage Worker,Employer (With Employees)",,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,10,0.888,20.42,,,"Elementary School,Middle School,High School,Community College","Self-Employed(With No Employee),Family Worker",,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,11,0.721,6.88,,,"No Schooling,Elementary School,Middle School,High School,Community College","Irregular/Nonstandard Wage Worker,No Job/Housewife",,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,12,1.399,3.24,,,"College/University,Graduate Degree",,,"None,Protestant,Daesoon Faith,Other",
+KOR,2017,expost,15,1.02,16.45,"Seoul,Busan,Daegu,Daejeon,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do,North Korea,Overseas",,,,,"Buddhist,Won Buddhist,Chondo Faith,Daejong Faith",
+KOR,2017,expost,16,1.524,1.01,"Incheon,Gwangju,Ulsan",,,,,"Buddhist,Won Buddhist,Chondo Faith,Daejong Faith",
+KOR,2017,expost,17,1.186,6.68,,,,,,"Catholic,Confucian",

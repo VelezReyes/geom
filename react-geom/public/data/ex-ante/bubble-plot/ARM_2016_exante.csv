@@ -1,0 +1,5 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+ARM,2016,exante,4,1.322,7.86,Urban,"No Degree/No Education,Tertiary Education (Not A University Diploma),Bachelor's Degree Or More,Master's Degree Or Phd","No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More",,,,
+ARM,2016,exante,5,0.918,37.02,Urban,"Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education","No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More",,,,
+ARM,2016,exante,6,0.733,48.08,Rural,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More",,,,
+ARM,2016,exante,7,2.176,7.04,,,"Tertiary Education (Not A University Diploma),Master's Degree Or Phd",,,,

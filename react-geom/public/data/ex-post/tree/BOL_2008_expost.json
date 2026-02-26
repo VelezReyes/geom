@@ -1,0 +1,296 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.826,
+                                        "Pop_Share": 1.19,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Occ -> Managers,Professionals,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "children": [
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.549,
+                                                        "Pop_Share": 4.03,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Ethnicity -> Quechua"
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.758,
+                                                        "Pop_Share": 1.57,
+                                                        "Box_Number": 9
+                                                    },
+                                                    "split_condition": "Ethnicity -> Aymara,Guarany,Mojeno"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Ethnicity -> Quechua,Aymara,Guarany,Mojeno"
+                                        },
+                                        {
+                                            "id": 10,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.617,
+                                                "Pop_Share": 1.45,
+                                                "Box_Number": 10
+                                            },
+                                            "split_condition": "Ethnicity -> Chiquitano,Other,Non Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Father_Occ -> Agricultural, Forestry And Fishery Workers"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Father_Edu -> Never Attended,Tertiary"
+                        },
+                        {
+                            "id": 11,
+                            "children": [
+                                {
+                                    "id": 12,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.752,
+                                        "Pop_Share": 3.07,
+                                        "Box_Number": 12
+                                    },
+                                    "split_condition": "Mother_Edu -> Never Attended,Secondary"
+                                },
+                                {
+                                    "id": 13,
+                                    "children": [
+                                        {
+                                            "id": 14,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.885,
+                                                "Pop_Share": 1.19,
+                                                "Box_Number": 14
+                                            },
+                                            "split_condition": "Father_Occ -> Professionals,Technicians And Associate Professionals,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                                        },
+                                        {
+                                            "id": 15,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.743,
+                                                "Pop_Share": 2,
+                                                "Box_Number": 15
+                                            },
+                                            "split_condition": "Father_Occ -> Agricultural, Forestry And Fishery Workers"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Mother_Edu -> Primary Or Adult Basic Education,Tertiary"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> Primary Or Adult Basic Education,Secondary"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Birth_Area -> Rural"
+                },
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "children": [
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.033,
+                                                "Pop_Share": 7.12,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Ethnicity -> Quechua,Chiquitano,Mojeno"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "children": [
+                                                {
+                                                    "id": 21,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.259,
+                                                        "Pop_Share": 16.23,
+                                                        "Box_Number": 21
+                                                    },
+                                                    "split_condition": "Mother_Edu -> Never Attended,Primary Or Adult Basic Education,Tertiary"
+                                                },
+                                                {
+                                                    "id": 22,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.604,
+                                                        "Pop_Share": 5.65,
+                                                        "Box_Number": 22
+                                                    },
+                                                    "split_condition": "Mother_Edu -> Secondary"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Ethnicity -> Guarany,Non Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Ethnicity -> Quechua,Guarany,Chiquitano,Mojeno,Non Indigenous"
+                                },
+                                {
+                                    "id": 23,
+                                    "children": [
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.844,
+                                                "Pop_Share": 6.46,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Father_Occ -> Armed Forces,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                                        },
+                                        {
+                                            "id": 25,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.944,
+                                                "Pop_Share": 1.74,
+                                                "Box_Number": 25
+                                            },
+                                            "split_condition": "Father_Occ -> Professionals,Technicians And Associate Professionals,Agricultural, Forestry And Fishery Workers"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Ethnicity -> Aymara,Other"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Father_Edu -> Never Attended,Primary Or Adult Basic Education,Secondary"
+                        },
+                        {
+                            "id": 26,
+                            "children": [
+                                {
+                                    "id": 27,
+                                    "children": [
+                                        {
+                                            "id": 28,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.971,
+                                                "Pop_Share": 1.93,
+                                                "Box_Number": 28
+                                            },
+                                            "split_condition": "Ethnicity -> Quechua,Aymara,Chiquitano"
+                                        },
+                                        {
+                                            "id": 29,
+                                            "info": {
+                                                "Relative_Type_Mean": 2.711,
+                                                "Pop_Share": 6.5,
+                                                "Box_Number": 29
+                                            },
+                                            "split_condition": "Ethnicity -> Guarany,Mojeno,Non Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Elementary Occupations,Unemployed"
+                                },
+                                {
+                                    "id": 30,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.305,
+                                        "Pop_Share": 2.91,
+                                        "Box_Number": 30
+                                    },
+                                    "split_condition": "Mother_Occ -> Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Father_Edu -> Tertiary"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Birth_Area -> Urban"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Mother_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed"
+        },
+        {
+            "id": 31,
+            "children": [
+                {
+                    "id": 32,
+                    "children": [
+                        {
+                            "id": 33,
+                            "children": [
+                                {
+                                    "id": 34,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.321,
+                                        "Pop_Share": 11.27,
+                                        "Box_Number": 34
+                                    },
+                                    "split_condition": "Ethnicity -> Quechua,Guarany"
+                                },
+                                {
+                                    "id": 35,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.457,
+                                        "Pop_Share": 12.49,
+                                        "Box_Number": 35
+                                    },
+                                    "split_condition": "Ethnicity -> Aymara,Chiquitano,Mojeno,Other,Non Indigenous"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Mother_Edu -> Never Attended,Tertiary"
+                        },
+                        {
+                            "id": 36,
+                            "info": {
+                                "Relative_Type_Mean": 0.551,
+                                "Pop_Share": 7.48,
+                                "Box_Number": 36
+                            },
+                            "split_condition": "Mother_Edu -> Primary Or Adult Basic Education,Secondary"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Birth_Area -> Rural"
+                },
+                {
+                    "id": 37,
+                    "info": {
+                        "Relative_Type_Mean": 0.779,
+                        "Pop_Share": 5.72,
+                        "Box_Number": 37
+                    },
+                    "split_condition": "Birth_Area -> Urban"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Mother_Occ -> Agricultural, Forestry And Fishery Workers"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

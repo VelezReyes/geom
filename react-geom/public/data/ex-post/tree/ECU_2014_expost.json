@@ -1,0 +1,584 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.542,
+                                                        "Pop_Share": 2.78,
+                                                        "Box_Number": 7
+                                                    },
+                                                    "split_condition": "Ethnicity -> Afro-descendant,Other,White"
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "children": [
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.628,
+                                                                "Pop_Share": 12.57,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Birth_Area -> North,Center,South"
+                                                        },
+                                                        {
+                                                            "id": 10,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.586,
+                                                                "Pop_Share": 2.65,
+                                                                "Box_Number": 10
+                                                            },
+                                                            "split_condition": "Birth_Area -> Litoral"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Ethnicity -> Mix-race"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Mother_Occ -> Unemployed,Labourer,Domestic Service"
+                                        },
+                                        {
+                                            "id": 11,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.672,
+                                                "Pop_Share": 2.11,
+                                                "Box_Number": 11
+                                            },
+                                            "split_condition": "Mother_Occ -> Employer,Self-Employed,Employee,Other"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,10 Years Of Education,11 Years Of Education"
+                                },
+                                {
+                                    "id": 12,
+                                    "children": [
+                                        {
+                                            "id": 13,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.855,
+                                                "Pop_Share": 4.72,
+                                                "Box_Number": 13
+                                            },
+                                            "split_condition": "Father_Occ -> Unemployed,Self-Employed"
+                                        },
+                                        {
+                                            "id": 14,
+                                            "children": [
+                                                {
+                                                    "id": 15,
+                                                    "children": [
+                                                        {
+                                                            "id": 16,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.612,
+                                                                "Pop_Share": 1.2,
+                                                                "Box_Number": 16
+                                                            },
+                                                            "split_condition": "Ethnicity -> Afro-descendant,Other,White"
+                                                        },
+                                                        {
+                                                            "id": 17,
+                                                            "children": [
+                                                                {
+                                                                    "id": 18,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.703,
+                                                                        "Pop_Share": 1.6,
+                                                                        "Box_Number": 18
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> North,Center"
+                                                                },
+                                                                {
+                                                                    "id": 19,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.725,
+                                                                        "Pop_Share": 7.79,
+                                                                        "Box_Number": 19
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Litoral,South"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Birth_Area",
+                                                            "split_condition": "Ethnicity -> Mix-race"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Ethnicity",
+                                                    "split_condition": "Mother_Occ -> Unemployed,Labourer,Domestic Service"
+                                                },
+                                                {
+                                                    "id": 20,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.782,
+                                                        "Pop_Share": 1.4,
+                                                        "Box_Number": 20
+                                                    },
+                                                    "split_condition": "Mother_Occ -> Employer,Self-Employed,Employee,Other"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Occ",
+                                            "split_condition": "Father_Occ -> Labourer"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Father_Edu -> 3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Occ -> Unemployed,Self-Employed,Labourer"
+                        },
+                        {
+                            "id": 21,
+                            "children": [
+                                {
+                                    "id": 22,
+                                    "children": [
+                                        {
+                                            "id": 23,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.834,
+                                                "Pop_Share": 2.28,
+                                                "Box_Number": 23
+                                            },
+                                            "split_condition": "Mother_Occ -> Unemployed,Labourer,Domestic Service"
+                                        },
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.98,
+                                                "Pop_Share": 1.06,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Mother_Occ -> Employer,Self-Employed,Employee,Other"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education"
+                                },
+                                {
+                                    "id": 25,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.01,
+                                        "Pop_Share": 2.64,
+                                        "Box_Number": 25
+                                    },
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education,4 Years Of Education,5 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Occ -> Employer,Employee,Domestic Service,Other"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Ethnicity -> Afro-descendant,Mix-race,Other,White"
+                },
+                {
+                    "id": 26,
+                    "children": [
+                        {
+                            "id": 27,
+                            "children": [
+                                {
+                                    "id": 28,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.669,
+                                        "Pop_Share": 1.97,
+                                        "Box_Number": 28
+                                    },
+                                    "split_condition": "Mother_Occ -> Unemployed,Employer,Self-Employed,Employee,Domestic Service"
+                                },
+                                {
+                                    "id": 29,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.668,
+                                        "Pop_Share": 1.19,
+                                        "Box_Number": 29
+                                    },
+                                    "split_condition": "Mother_Occ -> Labourer,Other"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Father_Occ -> Unemployed,Employer,Self-Employed,Employee,Domestic Service,Other"
+                        },
+                        {
+                            "id": 30,
+                            "children": [
+                                {
+                                    "id": 31,
+                                    "children": [
+                                        {
+                                            "id": 32,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.474,
+                                                "Pop_Share": 2.87,
+                                                "Box_Number": 32
+                                            },
+                                            "split_condition": "Father_Edu -> 4 Years Of Education,8 Years Of Education,10 Years Of Education,12 Years Of Education,15 Years Of Education"
+                                        },
+                                        {
+                                            "id": 33,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.717,
+                                                "Pop_Share": 1.29,
+                                                "Box_Number": 33
+                                            },
+                                            "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education,11 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Occ -> Unemployed,Employer,Self-Employed,Employee,Other"
+                                },
+                                {
+                                    "id": 34,
+                                    "children": [
+                                        {
+                                            "id": 35,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.461,
+                                                "Pop_Share": 1.67,
+                                                "Box_Number": 35
+                                            },
+                                            "split_condition": "Birth_Area -> North,Center"
+                                        },
+                                        {
+                                            "id": 36,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.424,
+                                                "Pop_Share": 3.69,
+                                                "Box_Number": 36
+                                            },
+                                            "split_condition": "Birth_Area -> Litoral,South"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Occ -> Labourer,Domestic Service"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Father_Occ -> Labourer"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Ethnicity -> Indigenous"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education"
+        },
+        {
+            "id": 37,
+            "children": [
+                {
+                    "id": 38,
+                    "children": [
+                        {
+                            "id": 39,
+                            "children": [
+                                {
+                                    "id": 40,
+                                    "children": [
+                                        {
+                                            "id": 41,
+                                            "children": [
+                                                {
+                                                    "id": 42,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.673,
+                                                        "Pop_Share": 1.09,
+                                                        "Box_Number": 42
+                                                    },
+                                                    "split_condition": "Ethnicity -> Afro-descendant,Other"
+                                                },
+                                                {
+                                                    "id": 43,
+                                                    "children": [
+                                                        {
+                                                            "id": 44,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.855,
+                                                                "Pop_Share": 1.12,
+                                                                "Box_Number": 44
+                                                            },
+                                                            "split_condition": "Birth_Area -> North,Center"
+                                                        },
+                                                        {
+                                                            "id": 45,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.883,
+                                                                "Pop_Share": 7.72,
+                                                                "Box_Number": 45
+                                                            },
+                                                            "split_condition": "Birth_Area -> Litoral,South"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Ethnicity -> Mix-race,White"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Mother_Occ -> Unemployed,Labourer"
+                                        },
+                                        {
+                                            "id": 46,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.007,
+                                                "Pop_Share": 2.8,
+                                                "Box_Number": 46
+                                            },
+                                            "split_condition": "Mother_Occ -> Employer,Self-Employed,Employee,Domestic Service,Other"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Father_Occ -> Unemployed,Labourer,Domestic Service"
+                                },
+                                {
+                                    "id": 47,
+                                    "children": [
+                                        {
+                                            "id": 48,
+                                            "children": [
+                                                {
+                                                    "id": 49,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.26,
+                                                        "Pop_Share": 1.54,
+                                                        "Box_Number": 49
+                                                    },
+                                                    "split_condition": "Father_Occ -> Employer,Other"
+                                                },
+                                                {
+                                                    "id": 50,
+                                                    "children": [
+                                                        {
+                                                            "id": 51,
+                                                            "children": [
+                                                                {
+                                                                    "id": 52,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.877,
+                                                                        "Pop_Share": 1.29,
+                                                                        "Box_Number": 52
+                                                                    },
+                                                                    "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education"
+                                                                },
+                                                                {
+                                                                    "id": 53,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 1.139,
+                                                                        "Pop_Share": 11.38,
+                                                                        "Box_Number": 53
+                                                                    },
+                                                                    "split_condition": "Father_Edu -> 4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Father_Edu",
+                                                            "split_condition": "Mother_Occ -> Unemployed,Self-Employed,Labourer,Domestic Service"
+                                                        },
+                                                        {
+                                                            "id": 54,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.027,
+                                                                "Pop_Share": 1.67,
+                                                                "Box_Number": 54
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Other"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Father_Occ -> Self-Employed,Employee"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Mother_Occ -> Unemployed,Self-Employed,Labourer,Domestic Service,Other"
+                                        },
+                                        {
+                                            "id": 55,
+                                            "children": [
+                                                {
+                                                    "id": 56,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.366,
+                                                        "Pop_Share": 1.01,
+                                                        "Box_Number": 56
+                                                    },
+                                                    "split_condition": "Father_Occ -> Employer,Self-Employed,Other"
+                                                },
+                                                {
+                                                    "id": 57,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.326,
+                                                        "Pop_Share": 1.45,
+                                                        "Box_Number": 57
+                                                    },
+                                                    "split_condition": "Father_Occ -> Employee"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Mother_Occ -> Employer,Employee"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Father_Occ -> Employer,Self-Employed,Employee,Other"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Ethnicity -> Afro-descendant,Mix-race,Other,White"
+                        },
+                        {
+                            "id": 58,
+                            "info": {
+                                "Relative_Type_Mean": 0.756,
+                                "Pop_Share": 2.05,
+                                "Box_Number": 58
+                            },
+                            "split_condition": "Ethnicity -> Indigenous"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education"
+                },
+                {
+                    "id": 59,
+                    "children": [
+                        {
+                            "id": 60,
+                            "children": [
+                                {
+                                    "id": 61,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.526,
+                                        "Pop_Share": 1.24,
+                                        "Box_Number": 61
+                                    },
+                                    "split_condition": "Ethnicity -> Afro-descendant,Indigenous,Other,White"
+                                },
+                                {
+                                    "id": 62,
+                                    "children": [
+                                        {
+                                            "id": 63,
+                                            "children": [
+                                                {
+                                                    "id": 64,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.128,
+                                                        "Pop_Share": 1.16,
+                                                        "Box_Number": 64
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,13 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 65,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.592,
+                                                        "Pop_Share": 1.44,
+                                                        "Box_Number": 65
+                                                    },
+                                                    "split_condition": "Mother_Edu -> 10 Years Of Education,11 Years Of Education,12 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Father_Occ -> Unemployed,Self-Employed,Labourer,Domestic Service"
+                                        },
+                                        {
+                                            "id": 66,
+                                            "children": [
+                                                {
+                                                    "id": 67,
+                                                    "children": [
+                                                        {
+                                                            "id": 68,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.419,
+                                                                "Pop_Share": 1.13,
+                                                                "Box_Number": 68
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Unemployed,Employer,Labourer"
+                                                        },
+                                                        {
+                                                            "id": 69,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.424,
+                                                                "Pop_Share": 1.11,
+                                                                "Box_Number": 69
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Self-Employed,Employee,Domestic Service,Other"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Mother_Edu -> 6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 70,
+                                                    "children": [
+                                                        {
+                                                            "id": 71,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 2.18,
+                                                                "Pop_Share": 1.04,
+                                                                "Box_Number": 71
+                                                            },
+                                                            "split_condition": "Father_Edu -> 11 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                                                        },
+                                                        {
+                                                            "id": 72,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.585,
+                                                                "Pop_Share": 1.58,
+                                                                "Box_Number": 72
+                                                            },
+                                                            "split_condition": "Father_Edu -> 12 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Edu",
+                                                    "split_condition": "Mother_Edu -> 12 Years Of Education,13 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Mother_Edu",
+                                            "split_condition": "Father_Occ -> Employer,Employee,Other"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Ethnicity -> Mix-race"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Mother_Edu -> 6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education"
+                        },
+                        {
+                            "id": 73,
+                            "info": {
+                                "Relative_Type_Mean": 2.319,
+                                "Pop_Share": 2.73,
+                                "Box_Number": 73
+                            },
+                            "split_condition": "Mother_Edu -> 14 Years Of Education,15 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> 11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Mother_Edu -> 6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

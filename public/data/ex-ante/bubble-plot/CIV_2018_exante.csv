@@ -1,0 +1,13 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+CIV,2018,exante,4,1.181,1.04,,,No School,"Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Employer"," Middle Manager,Unskilled Worker,Other",,
+CIV,2018,exante,6,1.447,2.14,,,No School,"Senior Executive, Middle Manager,Employer","Skilled Worker,Manual Worker,Employer,Self Employed",,
+CIV,2018,exante,7,1.25,2.83,,,No School,"Skilled Worker,Unskilled Worker","Skilled Worker,Manual Worker,Employer,Self Employed",,
+CIV,2018,exante,9,1.669,1.83,,,Primary,"Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Employer",,,
+CIV,2018,exante,10,1.954,1.72,,,"Secondary I Cycle,Secondary Ii Cycle,Superior","Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Employer",,,
+CIV,2018,exante,16,1.007,1.71,,No School,"No School,Superior","Manual Worker,Other",,"Muslim,Christian,Other",
+CIV,2018,exante,18,0.936,39.09,,No School,"No School,Superior",Self Employed,"Senior Executive,Skilled Worker,Employer,Self Employed","Muslim,Christian,Other",
+CIV,2018,exante,19,0.865,25.92,,No School,"No School,Superior",Self Employed," Middle Manager,Unskilled Worker,Manual Worker,Other","Muslim,Christian,Other",
+CIV,2018,exante,20,1.006,4.21,,Primary,"No School,Superior","Manual Worker,Self Employed,Other",,"Muslim,Christian,Other",
+CIV,2018,exante,21,1.129,3.37,,"No School,Primary","Primary,Secondary I Cycle,Secondary Ii Cycle","Manual Worker,Self Employed,Other",,"Muslim,Christian,Other",
+CIV,2018,exante,22,1.402,2.07,,"Secondary I Cycle,Secondary Ii Cycle,Superior",,"Manual Worker,Self Employed,Other",,"Muslim,Christian,Other",
+CIV,2018,exante,23,0.711,14.04,,,,"Manual Worker,Self Employed,Other",,"Animist,Atheist",

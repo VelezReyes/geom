@@ -1,0 +1,16 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+TZN,2011,exante,6,0.629,12.67,"Dodoma,Ruvuma,Rukwa,Kigoma,Manyara","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary","No School,Some Primary",,,,
+TZN,2011,exante,9,0.753,13.27,"Lindi,Mtwara,Iringa,Mbeya,Singida,Shinyanga,Mwanza,Pemba(North, South)","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary",No School,,,,Female
+TZN,2011,exante,10,0.846,13.85,"Lindi,Mtwara,Iringa,Mbeya,Singida,Shinyanga,Mwanza,Pemba(North, South)","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary",No School,,,,Male
+TZN,2011,exante,12,0.88,3.41,"Lindi,Iringa,Mbeya,Singida,Shinyanga,Pemba(North, South)","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary",Some Primary,,,,
+TZN,2011,exante,13,1.246,1.26,"Mtwara,Mwanza","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary",Some Primary,,,,
+TZN,2011,exante,15,0.814,4.42,"Dodoma,Lindi,Ruvuma,Rukwa,Kigoma,Manyara,Pemba(North, South)","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary","Completed Primary,Some Secondary,Completed Secondary,More Than Secondary",,,,
+TZN,2011,exante,16,1.216,5.84,"Mtwara,Iringa,Mbeya,Singida,Shinyanga,Mwanza","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary","Completed Primary,Some Secondary,Completed Secondary,More Than Secondary",,,,
+TZN,2011,exante,20,0.842,6.64,"Arusha,Tanga,Morogoro,Tabora",No School,,,,,
+TZN,2011,exante,21,1.014,3.85,"Arusha,Tanga,Morogoro,Tabora",Some Primary,,,,,
+TZN,2011,exante,22,1.178,11.1,"Pwani,Kagera,Mara,Unguja(North, South, West)","No School,Some Primary",,,,,
+TZN,2011,exante,23,1.257,11.17,"Arusha,Tanga,Morogoro,Pwani,Tabora,Kagera,Mara,Unguja(North, South, West)","Completed Primary,Some Secondary,Completed Secondary",,,,,
+TZN,2011,exante,26,1.357,4.69,"Kilimanjaro,Dar Es Salaam","No School,Some Primary","No School,Some Primary",,,,
+TZN,2011,exante,27,1.684,1.75,"Kilimanjaro,Dar Es Salaam","Completed Primary,Some Secondary,Completed Secondary","No School,Some Primary",,,,
+TZN,2011,exante,28,1.921,4.53,"Kilimanjaro,Dar Es Salaam","No School,Some Primary,Completed Primary,Some Secondary,Completed Secondary","Completed Primary,Some Secondary,Completed Secondary,More Than Secondary",,,,
+TZN,2011,exante,29,2.546,1.55,,More Than Secondary,,,,,

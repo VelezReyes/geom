@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MT,2019,expost,4,0.863,37.1,,"Unknown,Low",,"Dead/Unknown/Not Working,Manager,Technician,Service,Agriculture,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Technician,Service,Agriculture,Plant Operator,Elementary",,
+MT,2019,expost,5,1.017,1.35,,"Unknown,Low",,"Professional,Clerical,Armed Forces","Dead/Unknown/Not Working,Technician,Service,Agriculture,Plant Operator,Elementary",,
+MT,2019,expost,6,1.33,1.23,,"Unknown,Low",,,"Manager,Professional,Clerical,Craft/Trades",,
+MT,2019,expost,10,0.95,21.28,,"Medium,High",,"Dead/Unknown/Not Working,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+MT,2019,expost,11,1.011,12.52,,"Medium,High",,"Clerical,Service,Agriculture","Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+MT,2019,expost,12,1.121,2.1,,"Medium,High",,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Manager,Professional,Technician",,
+MT,2019,expost,16,1.479,2.61,Local,"Medium,High","Unknown,High","Manager,Professional,Technician","Dead/Unknown/Not Working,Professional,Technician",,
+MT,2019,expost,17,1.503,1.23,Local,"Medium,High","Unknown,High","Manager,Professional,Technician","Manager,Clerical,Service,Agriculture,Elementary",,
+MT,2019,expost,18,1.189,18.29,Local,"Medium,High","Low,Medium","Manager,Professional,Technician",,,
+MT,2019,expost,19,1.073,2.29,Other,"Medium,High",,"Manager,Professional,Technician",,,

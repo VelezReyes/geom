@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+IS,2005,expost,3,0.931,38.61,,,,,"Dead/Unknown/Not Working,Agriculture",,
+IS,2005,expost,5,0.869,6.85,,,"Basic,Primary",,"Craft/Trades,Elementary",,
+IS,2005,expost,6,0.887,5.8,,,"Lower Secondary,Upper Secondary,Post Secondary",,"Craft/Trades,Elementary",,
+IS,2005,expost,8,1.03,25.61,,"Unknown,Basic,Primary,Upper Secondary,Tertiary",,,"Manager,Professional,Technician,Clerical,Service,Plant Operator",,
+IS,2005,expost,10,1.066,11.91,,"Lower Secondary,Post Secondary","Basic,Lower Secondary,Upper Secondary,Tertiary",,"Manager,Professional,Technician,Clerical,Service,Plant Operator",,
+IS,2005,expost,12,1.243,4.53,,"Lower Secondary,Post Secondary",Primary,,"Manager,Professional,Technician,Clerical,Service,Plant Operator",,
+IS,2005,expost,14,1.424,2.98,,"Lower Secondary,Post Secondary",Post Secondary,,"Manager,Technician,Clerical,Service",,
+IS,2005,expost,15,1.661,3.71,,"Lower Secondary,Post Secondary",Post Secondary,,Professional,,

@@ -1,0 +1,7 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+NER,2018,expost,2,4.085,2.06,,,,"Senior Executive, Middle Manager",,,
+NER,2018,expost,5,0.85,22.65,,No School,,"Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed,Other","Senior Executive,Other",,
+NER,2018,expost,7,1.544,1.1,,No School,,"Skilled Worker,Unskilled Worker,Manual Worker,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed",,
+NER,2018,expost,9,1.271,1.07,,No School,,"Employer,Self Employed"," Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer",,
+NER,2018,expost,10,0.973,70.76,,No School,,"Employer,Self Employed",Self Employed,,
+NER,2018,expost,11,1.677,2.35,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",,"Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed,Other",,,

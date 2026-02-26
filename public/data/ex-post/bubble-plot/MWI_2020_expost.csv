@@ -1,0 +1,22 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+MWI,2020,expost,5,1.11,10.55,Northern Region,None,None,,,,
+MWI,2020,expost,6,1.166,1.74,Northern Region,Primary School Leaving Certificate,None,,,,
+MWI,2020,expost,7,1.378,1.39,Northern Region,"None,Primary School Leaving Certificate","Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,Diploma,Degree",,,,
+MWI,2020,expost,12,0.687,2.58,Central Region,None,None,,,"None,Traditional,Other",
+MWI,2020,expost,14,0.783,13.96,Central Region,None,None,,,"Christianity,Islam",Female
+MWI,2020,expost,15,0.826,12.97,Central Region,None,None,,,"Christianity,Islam",Male
+MWI,2020,expost,17,0.75,1.04,Southern Region,None,None,,,"None,Traditional",
+MWI,2020,expost,19,0.848,26.91,Southern Region,None,None,,,"Christianity,Other",
+MWI,2020,expost,20,0.812,6.83,Southern Region,None,None,,,Islam,
+MWI,2020,expost,22,1.109,1.79,Central Region,Primary School Leaving Certificate,None,,,,
+MWI,2020,expost,23,1.067,2.43,Southern Region,Primary School Leaving Certificate,None,,,,
+MWI,2020,expost,25,1.174,1.78,"Central Region,Southern Region",None,"Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,A-Level,Diploma,Masters/Phd",,,,
+MWI,2020,expost,26,1.472,1.02,"Central Region,Southern Region",Primary School Leaving Certificate,"Primary School Leaving Certificate,Junior Certificate Of Education,Malawi School Certificate Of Education,A-Level,Diploma,Masters/Phd",,,,
+MWI,2020,expost,31,1.375,1.79,Northern Region,"Junior Certificate Of Education,Malawi School Certificate Of Education",None,,,,
+MWI,2020,expost,32,1.299,4.58,"Central Region,Southern Region","Junior Certificate Of Education,Malawi School Certificate Of Education",None,,,,
+MWI,2020,expost,34,1.508,2.18,,Junior Certificate Of Education,"Primary School Leaving Certificate,Junior Certificate Of Education,A-Level",,,,
+MWI,2020,expost,36,1.755,1.02,Northern Region,Malawi School Certificate Of Education,"Primary School Leaving Certificate,Junior Certificate Of Education,A-Level",,,,
+MWI,2020,expost,37,1.943,1.68,"Central Region,Southern Region",Malawi School Certificate Of Education,"Primary School Leaving Certificate,Junior Certificate Of Education,A-Level",,,,
+MWI,2020,expost,38,2.469,1.34,,"A-Level,Diploma,Degree,Masters/Phd","None,Primary School Leaving Certificate,Junior Certificate Of Education,A-Level",,,,
+MWI,2020,expost,40,2.49,1.36,,"Junior Certificate Of Education,Malawi School Certificate Of Education","Malawi School Certificate Of Education,Diploma,Degree,Masters/Phd",,,,
+MWI,2020,expost,41,3.988,1.06,,"A-Level,Diploma,Degree,Masters/Phd","Malawi School Certificate Of Education,Diploma,Degree,Masters/Phd",,,,

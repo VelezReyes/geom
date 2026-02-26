@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+AUS,2019,exante,4,1.122,15.85,,,,"Managers,Clerical And Administrative Workers,Sales Workers",,,1.0
+AUS,2019,exante,6,0.93,14.65,,"None,Primary School,Secondary School,Year 11 Or Equivalent,Year 12 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer",,"Managers,Clerical And Administrative Workers,Sales Workers",,,2.0
+AUS,2019,exante,7,1.215,3.07,,"University,Institute Of Technology,Other",,"Managers,Clerical And Administrative Workers,Sales Workers",,,2.0
+AUS,2019,exante,8,1.212,18.07,,,,Professionals,,,
+AUS,2019,exante,11,0.991,2.69,,,"None,Year 11 Or Equivalent,University","Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,,1.0
+AUS,2019,exante,12,0.944,19.63,,,"Primary School,Secondary School,Year 12 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer,Other","Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,,1.0
+AUS,2019,exante,14,0.879,13.25,,,,"Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers","Managers,Professionals,Clerical And Administrative Workers,Sales Workers",,2.0
+AUS,2019,exante,15,0.782,12.79,,,,"Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers","Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,2.0

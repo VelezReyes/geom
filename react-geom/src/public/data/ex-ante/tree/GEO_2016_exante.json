@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 0.838,
+                        "Pop_Share": 82.54,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Ethnicity -> Armenian,Georgian,Ossetian"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 1.122,
+                        "Pop_Share": 4.33,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Ethnicity -> Azeri,Other,Russian"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Mother_Edu -> No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma)"
+        },
+        {
+            "id": 5,
+            "info": {
+                "Relative_Type_Mean": 1.773,
+                "Pop_Share": 13.14,
+                "Box_Number": 5
+            },
+            "split_condition": "Mother_Edu -> Bachelor's Degree Or More,Master's Degree Or Phd"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

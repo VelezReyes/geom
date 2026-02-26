@@ -1,0 +1,184 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 1.181,
+                                "Pop_Share": 1.04,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Mother_Occ ->  Middle Manager,Unskilled Worker,Other"
+                        },
+                        {
+                            "id": 5,
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.447,
+                                        "Pop_Share": 2.14,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Father_Occ -> Senior Executive, Middle Manager,Employer"
+                                },
+                                {
+                                    "id": 7,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.25,
+                                        "Pop_Share": 2.83,
+                                        "Box_Number": 7
+                                    },
+                                    "split_condition": "Father_Occ -> Skilled Worker,Unskilled Worker"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Mother_Occ -> Skilled Worker,Manual Worker,Employer,Self Employed"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Mother_Edu -> No School"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 1.669,
+                                "Pop_Share": 1.83,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Mother_Edu -> Primary"
+                        },
+                        {
+                            "id": 10,
+                            "info": {
+                                "Relative_Type_Mean": 1.954,
+                                "Pop_Share": 1.72,
+                                "Box_Number": 10
+                            },
+                            "split_condition": "Mother_Edu -> Secondary I Cycle,Secondary Ii Cycle,Superior"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Mother_Edu -> Primary,Secondary I Cycle,Secondary Ii Cycle,Superior"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Occ -> Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Employer"
+        },
+        {
+            "id": 11,
+            "children": [
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "children": [
+                                        {
+                                            "id": 15,
+                                            "children": [
+                                                {
+                                                    "id": 16,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.007,
+                                                        "Pop_Share": 1.71,
+                                                        "Box_Number": 16
+                                                    },
+                                                    "split_condition": "Father_Occ -> Manual Worker,Other"
+                                                },
+                                                {
+                                                    "id": 17,
+                                                    "children": [
+                                                        {
+                                                            "id": 18,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.936,
+                                                                "Pop_Share": 39.09,
+                                                                "Box_Number": 18
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Senior Executive,Skilled Worker,Employer,Self Employed"
+                                                        },
+                                                        {
+                                                            "id": 19,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.865,
+                                                                "Pop_Share": 25.92,
+                                                                "Box_Number": 19
+                                                            },
+                                                            "split_condition": "Mother_Occ ->  Middle Manager,Unskilled Worker,Manual Worker,Other"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Father_Occ -> Self Employed"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Father_Edu -> No School"
+                                        },
+                                        {
+                                            "id": 20,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.006,
+                                                "Pop_Share": 4.21,
+                                                "Box_Number": 20
+                                            },
+                                            "split_condition": "Father_Edu -> Primary"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Edu -> No School,Superior"
+                                },
+                                {
+                                    "id": 21,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.129,
+                                        "Pop_Share": 3.37,
+                                        "Box_Number": 21
+                                    },
+                                    "split_condition": "Mother_Edu -> Primary,Secondary I Cycle,Secondary Ii Cycle"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> No School,Primary"
+                        },
+                        {
+                            "id": 22,
+                            "info": {
+                                "Relative_Type_Mean": 1.402,
+                                "Pop_Share": 2.07,
+                                "Box_Number": 22
+                            },
+                            "split_condition": "Father_Edu -> Secondary I Cycle,Secondary Ii Cycle,Superior"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Ethnicity -> Muslim,Christian,Other"
+                },
+                {
+                    "id": 23,
+                    "info": {
+                        "Relative_Type_Mean": 0.711,
+                        "Pop_Share": 14.04,
+                        "Box_Number": 23
+                    },
+                    "split_condition": "Ethnicity -> Animist,Atheist"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Father_Occ -> Manual Worker,Self Employed,Other"
+        }
+    ],
+    "nodeName": "Father_Occ"
+}

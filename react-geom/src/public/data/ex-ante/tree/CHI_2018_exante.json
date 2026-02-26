@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.077,
+                                        "Pop_Share": 7.51,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Edu -> Illiterate/Semi-Literate,Primary School,Junior High School,Master's Degree"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.302,
+                                        "Pop_Share": 1.82,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Father_Edu -> Senior High School/Secondary School/Technical School/Vocational Senior School,3-Year College,4-Year College/Bachelor's Degree"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Birth_Area -> Hebei,Shanxi,Jilin,Heilongjiang,Anhui,Jiangxi,Shandong,Henan,Guangdong,Sichuan,Yunnan,Shaanxi,Gansu"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 1.533,
+                                "Pop_Share": 4.89,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Birth_Area -> Liaoning,Fujian,Hubei,Hunan,Guangxi Zhuang Autonomous Region,Guizhou,Other"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Occ -> Armed Forces,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.602,
+                                        "Pop_Share": 24.46,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Birth_Area -> Hebei,Shanxi,Guangxi Zhuang Autonomous Region,Gansu"
+                                },
+                                {
+                                    "id": 11,
+                                    "children": [
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.803,
+                                                "Pop_Share": 32.11,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Ethnicity -> Han,Hui,Korean,Manchu,Other"
+                                        },
+                                        {
+                                            "id": 13,
+                                            "children": [
+                                                {
+                                                    "id": 14,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.371,
+                                                        "Pop_Share": 1.33,
+                                                        "Box_Number": 14
+                                                    },
+                                                    "split_condition": "Birth_Area -> Liaoning,Heilongjiang,Shandong,Sichuan"
+                                                },
+                                                {
+                                                    "id": 15,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.597,
+                                                        "Pop_Share": 1.32,
+                                                        "Box_Number": 15
+                                                    },
+                                                    "split_condition": "Birth_Area -> Henan,Yunnan"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Mongol,Tibetan,Miao,Yi,Zhuang"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Birth_Area -> Liaoning,Jilin,Heilongjiang,Fujian,Jiangxi,Shandong,Henan,Sichuan,Yunnan"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Birth_Area -> Hebei,Shanxi,Liaoning,Jilin,Heilongjiang,Fujian,Jiangxi,Shandong,Henan,Guangxi Zhuang Autonomous Region,Sichuan,Yunnan,Gansu"
+                        },
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.198,
+                                "Pop_Share": 16.73,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Birth_Area -> Anhui,Hubei,Hunan,Guangdong,Guizhou,Shaanxi,Other"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Occ -> Managers,Agricultural, Forestry And Fishery Workers"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Birth_Area -> Hebei,Shanxi,Liaoning,Jilin,Heilongjiang,Anhui,Fujian,Jiangxi,Shandong,Henan,Hubei,Hunan,Guangdong,Guangxi Zhuang Autonomous Region,Sichuan,Guizhou,Yunnan,Shaanxi,Gansu,Other"
+        },
+        {
+            "id": 17,
+            "info": {
+                "Relative_Type_Mean": 1.805,
+                "Pop_Share": 9.83,
+                "Box_Number": 17
+            },
+            "split_condition": "Birth_Area -> Shanghai,Jiangsu,Zhejiang"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

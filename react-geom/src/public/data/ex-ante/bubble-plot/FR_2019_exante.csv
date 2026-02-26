@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+FR,2019,exante,7,0.696,2.03,"Local,European Union",Unknown,Unknown,"Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FR,2019,exante,8,0.827,3.62,"Local,European Union",Unknown,Low,"Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FR,2019,exante,11,0.929,27.53,"Local,European Union","Low,Medium","Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Armed Forces","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FR,2019,exante,12,1.135,1.09,"Local,European Union",High,"Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Armed Forces","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FR,2019,exante,13,0.828,15.41,"Local,European Union","Low,Medium,High","Unknown,Low","Plant Operator,Elementary","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+FR,2019,exante,14,1.025,8.42,"Local,European Union",,"Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Professional,Technician,Clerical",,
+FR,2019,exante,15,0.665,6.0,Other,,"Unknown,Low","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
+FR,2019,exante,17,0.998,7.7,,"Unknown,Low","Medium,High","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
+FR,2019,exante,18,1.14,13.68,,"Medium,High","Medium,High","Dead/Unknown/Not Working,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
+FR,2019,exante,19,1.386,14.51,,,,"Manager,Professional",,,

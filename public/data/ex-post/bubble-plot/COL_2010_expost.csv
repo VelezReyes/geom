@@ -1,0 +1,22 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+COL,2010,expost,6,0.283,1.06,Rural,,3 Years Of Education,,,Indigenous,
+COL,2010,expost,8,0.466,12.19,Rural,,3 Years Of Education,,,"Gypsi (Rom),Palenquero,None Of The Above",
+COL,2010,expost,9,0.442,1.94,Rural,,3 Years Of Education,,,Afro-Descendant,
+COL,2010,expost,10,0.557,17.31,Rural,3 Years Of Education,3 Years Of Education,,,,
+COL,2010,expost,12,0.492,1.06,Rural,"5 Years Of Education,7 Years Of Education",,,,,
+COL,2010,expost,13,0.778,2.19,Rural,"5 Years Of Education,7 Years Of Education",3 Years Of Education,,,,
+COL,2010,expost,17,1.109,5.84,Urban,,,,,,
+COL,2010,expost,18,0.612,2.16,Urban,,3 Years Of Education,,,,
+COL,2010,expost,20,0.65,3.0,Urban,"3 Years Of Education,5 Years Of Education,7 Years Of Education",,,,,
+COL,2010,expost,21,0.856,14.42,Urban,"3 Years Of Education,5 Years Of Education,7 Years Of Education",3 Years Of Education,,,,
+COL,2010,expost,22,1.715,1.06,Urban,,3 Years Of Education,,,,
+COL,2010,expost,26,0.708,3.22,Rural,3 Years Of Education,"5 Years Of Education,7 Years Of Education",,,,
+COL,2010,expost,27,0.863,4.23,Rural,"5 Years Of Education,7 Years Of Education","5 Years Of Education,7 Years Of Education",,,,
+COL,2010,expost,29,0.981,5.2,Urban,3 Years Of Education,"5 Years Of Education,7 Years Of Education",,,,
+COL,2010,expost,31,1.229,8.14,Urban,"5 Years Of Education,7 Years Of Education","5 Years Of Education,7 Years Of Education",,,,Female
+COL,2010,expost,32,1.282,6.91,Urban,"5 Years Of Education,7 Years Of Education","5 Years Of Education,7 Years Of Education",,,,Male
+COL,2010,expost,35,2.674,1.35,,,,,,,
+COL,2010,expost,36,2.572,1.59,,,,,,,
+COL,2010,expost,39,1.053,1.65,,"3 Years Of Education,7 Years Of Education",,,,,
+COL,2010,expost,40,1.584,4.07,,5 Years Of Education,,,,,
+COL,2010,expost,41,1.804,1.42,,"3 Years Of Education,5 Years Of Education,7 Years Of Education",,,,,

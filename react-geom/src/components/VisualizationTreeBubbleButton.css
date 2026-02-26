@@ -1,0 +1,19 @@
+
+  #buttonTreeBubble {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  #buttonTreeBubble:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  #buttonTreeBubble:hover:not(:disabled) {
+    background-color: #e0e0e0;
+  }

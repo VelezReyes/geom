@@ -1,0 +1,5 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+KOR,2015,exante,2,1.05,66.01,,,"No Schooling,Elementary School,Community College,College/University,Graduate Degree",,,,
+KOR,2015,exante,5,0.94,14.56,,"No Schooling,Middle School,High School","Middle School,High School","Regular/Standard Wage Worker,Employer (With Employees),Family Worker",,,
+KOR,2015,exante,6,1.086,5.79,,"Elementary School,Community College,College/University,Graduate Degree","Middle School,High School","Regular/Standard Wage Worker,Employer (With Employees),Family Worker",,,
+KOR,2015,exante,7,0.783,13.65,,,"Middle School,High School","Irregular/Nonstandard Wage Worker,Self-Employed(With No Employee),No Job/Housewife",,,

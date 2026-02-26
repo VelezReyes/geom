@@ -1,0 +1,4 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+GEO,2016,exante,3,0.838,82.54,,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma)",,,"Armenian,Georgian,Ossetian",
+GEO,2016,exante,4,1.122,4.33,,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma)",,,"Azeri,Other,Russian",
+GEO,2016,exante,5,1.773,13.14,,,"Bachelor's Degree Or More,Master's Degree Or Phd",,,,

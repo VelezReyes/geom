@@ -1,0 +1,216 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.752,
+                                                "Pop_Share": 27.17,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Father_Edu -> Adult Education (A),University S1,University S2,University S3,Islamic Elementary School"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "children": [
+                                                {
+                                                    "id": 8,
+                                                    "children": [
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.845,
+                                                                "Pop_Share": 23.21,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Working/Trying To Get Work/Helping To Earn Income,Job Searching,Housekeeping,Don't Know'"
+                                                        },
+                                                        {
+                                                            "id": 10,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.969,
+                                                                "Pop_Share": 7.27,
+                                                                "Box_Number": 10
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Attending School,Retired,Stay At Home/Unemployed,Sick/Disabled"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Father_Edu -> Elementary,Sr High - Vocational"
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.18,
+                                                        "Pop_Share": 3.17,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Father_Edu -> Jr High - General,Jr High - Vocational,Sr High - General,Adult Education (B),Open University,Islamic School (Pesantren),College D1-D3,Madrasah Tsanawiyah"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Father_Edu -> Elementary,Jr High - General,Jr High - Vocational,Sr High - General,Sr High - Vocational,Adult Education (B),Open University,Islamic School (Pesantren),College D1-D3,Madrasah Tsanawiyah"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Father_Occ -> Working/Trying To Get Work/Helping To Earn Income,Attending School,Retired,Stay At Home/Unemployed,Sick/Disabled"
+                                },
+                                {
+                                    "id": 12,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.955,
+                                        "Pop_Share": 1.02,
+                                        "Box_Number": 12
+                                    },
+                                    "split_condition": "Father_Occ -> Job Searching,Housekeeping,Don't Know'"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Ethnicity -> Islam"
+                        },
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.934,
+                                        "Pop_Share": 2.8,
+                                        "Box_Number": 14
+                                    },
+                                    "split_condition": "Ethnicity -> Protestant"
+                                },
+                                {
+                                    "id": 15,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.081,
+                                        "Pop_Share": 5.89,
+                                        "Box_Number": 15
+                                    },
+                                    "split_condition": "Ethnicity -> Catholic,Hinduism,Buddhism"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Ethnicity -> Protestant,Catholic,Hinduism,Buddhism"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Village,Don't Know,Missing"
+                },
+                {
+                    "id": 16,
+                    "children": [
+                        {
+                            "id": 17,
+                            "children": [
+                                {
+                                    "id": 18,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.018,
+                                        "Pop_Share": 15.01,
+                                        "Box_Number": 18
+                                    },
+                                    "split_condition": "Father_Edu -> Elementary,Jr High - Vocational,Islamic School (Pesantren),University S2"
+                                },
+                                {
+                                    "id": 19,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.272,
+                                        "Pop_Share": 2.95,
+                                        "Box_Number": 19
+                                    },
+                                    "split_condition": "Father_Edu -> Jr High - General,Sr High - General,Sr High - Vocational,College D1-D3,University S1,Islamic Elementary School,Madrasah Tsanawiyah"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Ethnicity -> Islam"
+                        },
+                        {
+                            "id": 20,
+                            "info": {
+                                "Relative_Type_Mean": 1.663,
+                                "Pop_Share": 2.16,
+                                "Box_Number": 20
+                            },
+                            "split_condition": "Ethnicity -> Protestant,Catholic,Hinduism,Buddhism"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Birth_Area -> Small Town,Big City"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Mother_Edu -> Elementary,Adult Education (A),University S3,Islamic Elementary School"
+        },
+        {
+            "id": 21,
+            "children": [
+                {
+                    "id": 22,
+                    "children": [
+                        {
+                            "id": 23,
+                            "info": {
+                                "Relative_Type_Mean": 1.935,
+                                "Pop_Share": 3.36,
+                                "Box_Number": 23
+                            },
+                            "split_condition": "Mother_Occ -> Working/Trying To Get Work/Helping To Earn Income,Job Searching,Retired,Stay At Home/Unemployed"
+                        },
+                        {
+                            "id": 24,
+                            "info": {
+                                "Relative_Type_Mean": 1.607,
+                                "Pop_Share": 3.04,
+                                "Box_Number": 24
+                            },
+                            "split_condition": "Mother_Occ -> Attending School,Housekeeping,Sick/Disabled,Don't Know'"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Father_Occ -> Working/Trying To Get Work/Helping To Earn Income,Job Searching,Sick/Disabled,Don't Know'"
+                },
+                {
+                    "id": 25,
+                    "children": [
+                        {
+                            "id": 26,
+                            "info": {
+                                "Relative_Type_Mean": 1.725,
+                                "Pop_Share": 1.55,
+                                "Box_Number": 26
+                            },
+                            "split_condition": "Mother_Edu -> Jr High - General,Jr High - Vocational,Islamic School (Pesantren),Madrasah Tsanawiyah,Madrasah Aliyah"
+                        },
+                        {
+                            "id": 27,
+                            "info": {
+                                "Relative_Type_Mean": 2.763,
+                                "Pop_Share": 1.41,
+                                "Box_Number": 27
+                            },
+                            "split_condition": "Mother_Edu -> Sr High - General,Sr High - Vocational,Open University,College D1-D3,University S1"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Occ -> Housekeeping,Retired,Stay At Home/Unemployed"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Edu -> Jr High - General,Jr High - Vocational,Sr High - General,Sr High - Vocational,Open University,Islamic School (Pesantren),College D1-D3,University S1,University S2,Madrasah Tsanawiyah,Madrasah Aliyah"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

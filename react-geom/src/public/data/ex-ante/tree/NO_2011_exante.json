@@ -1,0 +1,24 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "info": {
+                "Relative_Type_Mean": 0.955,
+                "Pop_Share": 69.17,
+                "Box_Number": 2
+            },
+            "split_condition": "Father_Edu -> Low,Medium,High"
+        },
+        {
+            "id": 3,
+            "info": {
+                "Relative_Type_Mean": 1.102,
+                "Pop_Share": 30.83,
+                "Box_Number": 3
+            },
+            "split_condition": "Father_Edu -> "
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

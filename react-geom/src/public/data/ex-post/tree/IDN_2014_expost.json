@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.805,
+                                                "Pop_Share": 32.86,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Ethnicity -> Islam"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.096,
+                                                "Pop_Share": 2.36,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Ethnicity -> Protestant"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Occ -> Working/Trying To Get Work/Helping To Earn Income,Sick/Disabled,Other"
+                                },
+                                {
+                                    "id": 8,
+                                    "children": [
+                                        {
+                                            "id": 9,
+                                            "children": [
+                                                {
+                                                    "id": 10,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.919,
+                                                        "Pop_Share": 39.14,
+                                                        "Box_Number": 10
+                                                    },
+                                                    "split_condition": "Ethnicity -> Islam"
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.954,
+                                                        "Pop_Share": 1.23,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Ethnicity -> Protestant"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Birth_Area -> Village,Small Town,Don't Know"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.389,
+                                                "Pop_Share": 3.34,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Birth_Area -> Big City"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Mother_Occ -> Housekeeping,Retired,Stay At Home/Unemployed,Don't Know'"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Mother_Edu -> No School,Elementary,Jr High - General,Jr High - Vocational,Adult Education (A),Adult Education (B),Open University,Islamic School (Pesantren),Islamic Elementary School,Madrasah Tsanawiyah"
+                        },
+                        {
+                            "id": 13,
+                            "info": {
+                                "Relative_Type_Mean": 1.289,
+                                "Pop_Share": 8.65,
+                                "Box_Number": 13
+                            },
+                            "split_condition": "Mother_Edu -> Sr High - General,Sr High - Vocational,Adult Education (C),College D1-D3,University S1,Madrasah Aliyah"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Ethnicity -> Islam,Protestant"
+                },
+                {
+                    "id": 14,
+                    "children": [
+                        {
+                            "id": 15,
+                            "info": {
+                                "Relative_Type_Mean": 1.267,
+                                "Pop_Share": 4.94,
+                                "Box_Number": 15
+                            },
+                            "split_condition": "Birth_Area -> Village,Big City"
+                        },
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.628,
+                                "Pop_Share": 1.5,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Birth_Area -> Small Town,Don't Know"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Ethnicity -> Catholic,Hinduism,Buddhism,Konghucu"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Father_Edu -> No School,Elementary,Jr High - General,Jr High - Vocational,Sr High - General,Sr High - Vocational,Adult Education (A),Adult Education (B),Islamic School (Pesantren),Adult Education (C),Islamic Elementary School,Madrasah Tsanawiyah,Madrasah Aliyah"
+        },
+        {
+            "id": 17,
+            "info": {
+                "Relative_Type_Mean": 1.962,
+                "Pop_Share": 5.99,
+                "Box_Number": 17
+            },
+            "split_condition": "Father_Edu -> College D1-D3,University S1,University S2,University S3"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

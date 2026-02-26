@@ -1,0 +1,88 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 0.975,
+                                "Pop_Share": 18.61,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Mother_Edu -> None,Primary School,Secondary School,Institute Of Technology"
+                        },
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 1.05,
+                                "Pop_Share": 20.82,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Mother_Edu -> Year 11 Or Equivalent,Year 12 Or Equivalent,University,Techers College/College Of Advance,Technical College/Tafe,Employer"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Edu -> None,Primary School,Secondary School,Year 11 Or Equivalent,Year 12 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer,Other"
+                },
+                {
+                    "id": 6,
+                    "info": {
+                        "Relative_Type_Mean": 1.288,
+                        "Pop_Share": 14.26,
+                        "Box_Number": 6
+                    },
+                    "split_condition": "Father_Edu -> University,Institute Of Technology"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Mother_Occ -> Managers,Professionals,Clerical And Administrative Workers"
+        },
+        {
+            "id": 7,
+            "children": [
+                {
+                    "id": 8,
+                    "info": {
+                        "Relative_Type_Mean": 0.991,
+                        "Pop_Share": 17.07,
+                        "Box_Number": 8
+                    },
+                    "split_condition": "Father_Occ -> Managers,Professionals,Clerical And Administrative Workers,Sales Workers"
+                },
+                {
+                    "id": 9,
+                    "children": [
+                        {
+                            "id": 10,
+                            "info": {
+                                "Relative_Type_Mean": 0.886,
+                                "Pop_Share": 18.54,
+                                "Box_Number": 10
+                            },
+                            "split_condition": "Mother_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Sales Workers,Machinery Operators And Drivers"
+                        },
+                        {
+                            "id": 11,
+                            "info": {
+                                "Relative_Type_Mean": 0.801,
+                                "Pop_Share": 10.7,
+                                "Box_Number": 11
+                            },
+                            "split_condition": "Mother_Occ -> Labourers"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Father_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Sales Workers,Machinery Operators And Drivers,Labourers"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

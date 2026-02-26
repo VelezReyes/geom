@@ -1,0 +1,104 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.414,
+                                                "Pop_Share": 38.09,
+                                                "Box_Number": 6
+                                            },
+                                            "split_condition": "Father_Edu -> 1 Grade/Years Of Education,4 Grade/Years Of Education,6 Grade/Years Of Education,7 Grade/Years Of Education,9 Grade/Years Of Education,12 Grade/Years Of Education"
+                                        },
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.641,
+                                                "Pop_Share": 3.52,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Father_Edu -> 2 Grade/Years Of Education,3 Grade/Years Of Education,5 Grade/Years Of Education,8 Grade/Years Of Education,10 Grade/Years Of Education,11 Grade/Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Ethnicity -> African"
+                                },
+                                {
+                                    "id": 8,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.627,
+                                        "Pop_Share": 5.04,
+                                        "Box_Number": 8
+                                    },
+                                    "split_condition": "Ethnicity -> Coloured"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Sex -> Female"
+                        },
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.625,
+                                "Pop_Share": 26.52,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Sex -> Male"
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Mother_Edu -> 1 Grade/Years Of Education,2 Grade/Years Of Education,3 Grade/Years Of Education,5 Grade/Years Of Education,6 Grade/Years Of Education,11 Grade/Years Of Education"
+                },
+                {
+                    "id": 10,
+                    "children": [
+                        {
+                            "id": 11,
+                            "info": {
+                                "Relative_Type_Mean": 1.4,
+                                "Pop_Share": 3.15,
+                                "Box_Number": 11
+                            },
+                            "split_condition": "Mother_Occ -> Managers,Professionals,Technicians And Professionals,Clerical Support,Craft"
+                        },
+                        {
+                            "id": 12,
+                            "info": {
+                                "Relative_Type_Mean": 0.782,
+                                "Pop_Share": 16.75,
+                                "Box_Number": 12
+                            },
+                            "split_condition": "Mother_Occ -> Service And Sales,Operators,Elementary,Others"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Mother_Edu -> 4 Grade/Years Of Education,7 Grade/Years Of Education,8 Grade/Years Of Education,9 Grade/Years Of Education,10 Grade/Years Of Education,12 Grade/Years Of Education"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Ethnicity -> African,Coloured"
+        },
+        {
+            "id": 13,
+            "info": {
+                "Relative_Type_Mean": 3.27,
+                "Pop_Share": 6.92,
+                "Box_Number": 13
+            },
+            "split_condition": "Ethnicity -> Asian/Indian,White"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

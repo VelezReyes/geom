@@ -1,0 +1,168 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 2.248,
+                        "Pop_Share": 1.69,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Father_Occ -> Accomodation And Food Service Activities,Administrative And Support Service Activities,Financial Activities,Professional"
+                },
+                {
+                    "id": 4,
+                    "children": [
+                        {
+                            "id": 5,
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.183,
+                                                "Pop_Share": 6.82,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Sex -> Female"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.359,
+                                                "Pop_Share": 5.67,
+                                                "Box_Number": 8
+                                            },
+                                            "split_condition": "Sex -> Male"
+                                        }
+                                    ],
+                                    "nodeName": "Sex",
+                                    "split_condition": "Ethnicity -> Ahmadis Muslim,Bahai,Methodist,No Religion,Other Muslim,Sda"
+                                },
+                                {
+                                    "id": 9,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.7,
+                                        "Pop_Share": 2.62,
+                                        "Box_Number": 9
+                                    },
+                                    "split_condition": "Ethnicity -> Anglican,Catholic,Other Christian,Pentacostal"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Mother_Edu -> No School,Primary Incomplete,Vocational"
+                        },
+                        {
+                            "id": 10,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.516,
+                                        "Pop_Share": 3.32,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Father_Edu -> No School,Primary Incomplete,Primary Complete,Secondary Incomplete,Post-Secondary Professional"
+                                },
+                                {
+                                    "id": 12,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.91,
+                                        "Pop_Share": 2.15,
+                                        "Box_Number": 12
+                                    },
+                                    "split_condition": "Father_Edu -> Secondary Complete,Vocational,First Degree Or More"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Mother_Edu -> Primary Complete,Secondary Incomplete,Secondary Complete,Post-Secondary Professional,First Degree Or More"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Occ -> Agriculture, Foresting, Fishing,Construction,Education,Electricity And Water Supply,Manufacturing,Mining, Quarring,Public Administration And Defense,Social Activities,Transportation And Storage,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Occ -> Accomodation And Food Service Activities,Administrative And Support Service Activities,Education,Electricity And Water Supply,Financial Activities,Manufacturing,Mining, Quarring,Professional,Public Administration And Defense,Social Activities,Transportation And Storage,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+        },
+        {
+            "id": 13,
+            "children": [
+                {
+                    "id": 14,
+                    "children": [
+                        {
+                            "id": 15,
+                            "children": [
+                                {
+                                    "id": 16,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.808,
+                                        "Pop_Share": 38.31,
+                                        "Box_Number": 16
+                                    },
+                                    "split_condition": "Sex -> Female"
+                                },
+                                {
+                                    "id": 17,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.865,
+                                        "Pop_Share": 27.16,
+                                        "Box_Number": 17
+                                    },
+                                    "split_condition": "Sex -> Male"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Father_Occ -> Accomodation And Food Service Activities,Agriculture, Foresting, Fishing,Manufacturing,Professional,Public Administration And Defense,Social Activities"
+                        },
+                        {
+                            "id": 18,
+                            "info": {
+                                "Relative_Type_Mean": 1.103,
+                                "Pop_Share": 3.09,
+                                "Box_Number": 18
+                            },
+                            "split_condition": "Father_Occ -> Administrative And Support Service Activities,Construction,Education,Electricity And Water Supply,Financial Activities,Mining, Quarring,Transportation And Storage,Wholesale And Retail Trader, Repair Of Motor Vehicles And Motorcycles"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Ethnicity -> Ahmadis Muslim,Catholic,Methodist,No Religion,Other Muslim,Traditional"
+                },
+                {
+                    "id": 19,
+                    "children": [
+                        {
+                            "id": 20,
+                            "info": {
+                                "Relative_Type_Mean": 1.029,
+                                "Pop_Share": 8.18,
+                                "Box_Number": 20
+                            },
+                            "split_condition": "Father_Edu -> No School,Secondary Incomplete"
+                        },
+                        {
+                            "id": 21,
+                            "info": {
+                                "Relative_Type_Mean": 1.491,
+                                "Pop_Share": 1,
+                                "Box_Number": 21
+                            },
+                            "split_condition": "Father_Edu -> Primary Incomplete,Primary Complete,Secondary Complete,Post-Secondary Professional,Vocational,First Degree Or More"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Ethnicity -> Anglican,Bahai,Other Christian,Pentacostal,Sda"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Mother_Occ -> Agriculture, Foresting, Fishing,Construction"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 1.225,
+                        "Pop_Share": 31.78,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Birth_Area -> Urban"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 0.783,
+                        "Pop_Share": 62.34,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Birth_Area -> Rural"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Ethnicity -> Karakalpak,Kazakh,Tajik,Uzbek"
+        },
+        {
+            "id": 5,
+            "info": {
+                "Relative_Type_Mean": 1.63,
+                "Pop_Share": 5.88,
+                "Box_Number": 5
+            },
+            "split_condition": "Ethnicity -> Other,Russian"
+        }
+    ],
+    "nodeName": "Ethnicity"
+}

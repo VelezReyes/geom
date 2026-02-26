@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 0.892,
+                                "Pop_Share": 13.6,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Mother_Edu -> Unknown,Low"
+                        },
+                        {
+                            "id": 5,
+                            "children": [
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.026,
+                                        "Pop_Share": 31.75,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Birth_Area -> Local"
+                                },
+                                {
+                                    "id": 7,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.824,
+                                        "Pop_Share": 2.87,
+                                        "Box_Number": 7
+                                    },
+                                    "split_condition": "Birth_Area -> European Union"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> Medium,High"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Birth_Area -> Local,European Union"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.608,
+                                "Pop_Share": 5.04,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Plant Operator"
+                        },
+                        {
+                            "id": 10,
+                            "info": {
+                                "Relative_Type_Mean": 0.869,
+                                "Pop_Share": 2.14,
+                                "Box_Number": 10
+                            },
+                            "split_condition": "Mother_Occ -> Clerical,Service,Elementary"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Birth_Area -> Other"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Clerical,Service,Plant Operator,Elementary"
+        },
+        {
+            "id": 11,
+            "children": [
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "info": {
+                                "Relative_Type_Mean": 1.08,
+                                "Pop_Share": 7.3,
+                                "Box_Number": 13
+                            },
+                            "split_condition": "Sex -> Male"
+                        },
+                        {
+                            "id": 14,
+                            "info": {
+                                "Relative_Type_Mean": 0.905,
+                                "Pop_Share": 7.46,
+                                "Box_Number": 14
+                            },
+                            "split_condition": "Sex -> Female"
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Father_Occ -> Dead/Unknown/Not Working,Clerical,Craft/Trades,Plant Operator,Elementary,Armed Forces"
+                },
+                {
+                    "id": 15,
+                    "children": [
+                        {
+                            "id": 16,
+                            "info": {
+                                "Relative_Type_Mean": 1.279,
+                                "Pop_Share": 26.62,
+                                "Box_Number": 16
+                            },
+                            "split_condition": "Birth_Area -> Local"
+                        },
+                        {
+                            "id": 17,
+                            "info": {
+                                "Relative_Type_Mean": 0.824,
+                                "Pop_Share": 3.21,
+                                "Box_Number": 17
+                            },
+                            "split_condition": "Birth_Area -> European Union,Other"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Father_Occ -> Manager,Professional,Technician,Service,Agriculture"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Occ -> Manager,Professional,Technician,Agriculture,Craft/Trades"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

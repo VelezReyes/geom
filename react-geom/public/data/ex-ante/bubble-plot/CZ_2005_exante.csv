@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+CZ,2005,exante,7,0.685,3.43,,"Unknown,Medium,High",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",Dead/Unknown/Not Working,,
+CZ,2005,exante,8,0.841,3.23,,,,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",Dead/Unknown/Not Working,,
+CZ,2005,exante,9,0.833,15.51,,"Unknown,Medium,High",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",Elementary,,
+CZ,2005,exante,10,0.918,33.12,,"Unknown,Medium,High",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary","Service,Agriculture,Craft/Trades,Plant Operator,Armed Forces",,
+CZ,2005,exante,11,1.02,12.08,,"Unknown,Medium,High",,"Manager,Professional,Technician,Clerical,Service,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
+CZ,2005,exante,13,1.185,11.38,,"Unknown,Medium,High",,,"Manager,Professional,Technician,Clerical",,Male
+CZ,2005,exante,14,1.073,12.47,,"Unknown,Medium,High",,,"Manager,Professional,Technician,Clerical",,Female
+CZ,2005,exante,17,1.847,1.47,,,,"Manager,Professional,Craft/Trades",,,
+CZ,2005,exante,18,1.337,1.07,,,,"Technician,Clerical,Agriculture,Plant Operator,Armed Forces",,,
+CZ,2005,exante,19,1.268,6.24,,,,,,,

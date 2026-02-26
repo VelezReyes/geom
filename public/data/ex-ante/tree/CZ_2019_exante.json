@@ -1,0 +1,88 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 0.905,
+                                "Pop_Share": 21.42,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Sex -> Male"
+                        },
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 0.848,
+                                "Pop_Share": 22.64,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Sex -> Female"
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary"
+                },
+                {
+                    "id": 6,
+                    "info": {
+                        "Relative_Type_Mean": 1.002,
+                        "Pop_Share": 14.8,
+                        "Box_Number": 6
+                    },
+                    "split_condition": "Mother_Occ -> Manager,Professional,Technician,Clerical"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Father_Edu -> Unknown,Low"
+        },
+        {
+            "id": 7,
+            "children": [
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.988,
+                                "Pop_Share": 13.43,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Mother_Occ -> Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary"
+                        },
+                        {
+                            "id": 10,
+                            "info": {
+                                "Relative_Type_Mean": 1.141,
+                                "Pop_Share": 15.55,
+                                "Box_Number": 10
+                            },
+                            "split_condition": "Mother_Occ -> Manager,Professional,Technician,Clerical"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Father_Edu -> Medium"
+                },
+                {
+                    "id": 11,
+                    "info": {
+                        "Relative_Type_Mean": 1.267,
+                        "Pop_Share": 12.16,
+                        "Box_Number": 11
+                    },
+                    "split_condition": "Father_Edu -> High"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Father_Edu -> Medium,High"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

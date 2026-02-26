@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,1980,exante,4,0.873,35.63,,"0-5 Grades,6-8 Grades,9-11 Grades",,"Low,Middle",,"White,Asian, Pac. Islander,Other",
+USA,1980,exante,5,1.167,4.0,,"0-5 Grades,6-8 Grades,9-11 Grades",,High,,"White,Asian, Pac. Islander,Other",
+USA,1980,exante,7,0.58,13.69,,"0-5 Grades,6-8 Grades,9-11 Grades","0-5 Grades,6-8 Grades,Advanced College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",
+USA,1980,exante,9,0.652,7.81,,"0-5 Grades,6-8 Grades,9-11 Grades","9-11 Grades,High School,12 Grades + Non Academic Training,Some College,College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Female
+USA,1980,exante,10,0.785,3.18,,"0-5 Grades,6-8 Grades,9-11 Grades","9-11 Grades,High School,12 Grades + Non Academic Training,Some College,College Degree",,,"Black,Am. Indian, Aleut, Eskimo,Hispanic",Male
+USA,1980,exante,12,1.22,29.45,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"White,Asian, Pac. Islander,Hispanic,Other",
+USA,1980,exante,14,0.742,4.15,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"Black,Am. Indian, Aleut, Eskimo",Female
+USA,1980,exante,15,0.907,2.08,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,,"Black,Am. Indian, Aleut, Eskimo",Male

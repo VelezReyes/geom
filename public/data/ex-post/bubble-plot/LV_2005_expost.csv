@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+LV,2005,expost,4,0.781,26.82,,"Unknown,Low,Medium,High","Unknown,Low,Medium",,,,
+LV,2005,expost,5,0.927,32.27,,"Unknown,Low,Medium,High",High,,,,
+LV,2005,expost,6,1.432,2.06,,,"Unknown,Low,Medium,High",,,,
+LV,2005,expost,9,0.979,12.39,,"Unknown,Low,Medium,High",,,,,
+LV,2005,expost,11,1.182,6.92,,,,"Manager,Professional,Service,Agriculture,Plant Operator,Elementary,Armed Forces",,,
+LV,2005,expost,12,1.137,5.1,,,,"Technician,Clerical,Craft/Trades",,,
+LV,2005,expost,14,1.151,2.19,,,,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+LV,2005,expost,15,1.369,12.24,,,,,"Manager,Professional,Technician,Clerical",,

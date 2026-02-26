@@ -1,0 +1,5 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+NL,2011,expost,3,0.762,1.5,,"Unknown,Low,Medium","Unknown,Low",,,,
+NL,2011,expost,4,0.944,42.61,,"Unknown,Low,Medium","Medium,High",,,,
+NL,2011,expost,6,1.013,20.23,,High,"Unknown,Low,Medium",,,,
+NL,2011,expost,7,1.068,35.67,,High,High,,,,

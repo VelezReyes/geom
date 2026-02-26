@@ -1,0 +1,13 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+HU,2005,exante,5,0.808,34.64,,"Unknown,Low,Medium,High","Unknown,Medium,High","Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+HU,2005,exante,6,0.597,1.04,,"Unknown,Low,Medium,High",Low,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+HU,2005,exante,7,0.929,15.89,,,,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+HU,2005,exante,10,1.033,15.89,,Unknown,,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Manager,Professional,Clerical,Service",,
+HU,2005,exante,11,1.153,4.18,,Unknown,,"Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Technician,Armed Forces",,
+HU,2005,exante,13,0.97,7.36,,"Low,Medium,High",,"Clerical,Craft/Trades,Plant Operator","Manager,Professional,Technician,Clerical,Service,Armed Forces",,
+HU,2005,exante,14,0.816,2.79,,"Low,Medium,High",,"Service,Agriculture,Elementary,Armed Forces","Manager,Professional,Technician,Clerical,Service,Armed Forces",,
+HU,2005,exante,16,0.998,3.95,,,,"Manager,Professional,Technician","Dead/Unknown/Not Working,Service,Agriculture,Plant Operator,Elementary",,
+HU,2005,exante,19,1.254,6.6,,"Medium,High","Low,High","Manager,Professional,Technician","Manager,Professional,Technician,Clerical,Craft/Trades,Armed Forces",,
+HU,2005,exante,20,2.133,1.38,,,"Low,High","Manager,Professional,Technician","Manager,Professional,Technician,Clerical,Craft/Trades,Armed Forces",,
+HU,2005,exante,22,1.548,3.65,,,Medium,"Manager,Professional,Technician","Manager,Professional,Technician,Clerical,Craft/Trades,Armed Forces",,
+HU,2005,exante,23,1.558,2.64,,,,"Manager,Professional,Technician","Manager,Professional,Technician,Clerical,Craft/Trades,Armed Forces",,

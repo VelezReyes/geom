@@ -1,0 +1,344 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.517,
+                                        "Pop_Share": 2.41,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Edu -> Illiterate/Semi-Literate,4-Year College/Bachelor's Degree"
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.367,
+                                                "Pop_Share": 2.94,
+                                                "Box_Number": 7
+                                            },
+                                            "split_condition": "Father_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Services And Sales Workers"
+                                        },
+                                        {
+                                            "id": 8,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.083,
+                                                "Pop_Share": 4.35,
+                                                "Box_Number": 8
+                                            },
+                                            "split_condition": "Father_Occ -> Clerks,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Father_Edu -> Primary School,Junior High School,Senior High School/Secondary School/Technical School/Vocational Senior School,3-Year College,Master's Degree,Doctoral Degree"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                        },
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.686,
+                                        "Pop_Share": 1.06,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Birth_Area -> Hebei,Shanxi,Jilin,Guangxi Zhuang Autonomous Region,Sichuan,Guizhou,Gansu"
+                                },
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.064,
+                                        "Pop_Share": 2.88,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Birth_Area -> Liaoning,Heilongjiang,Anhui,Fujian,Jiangxi,Shandong,Henan,Hunan,Guangdong,Yunnan,Shaanxi"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Occ -> Agricultural, Forestry And Fishery Workers,Unemployed"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Mother_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed"
+                },
+                {
+                    "id": 12,
+                    "children": [
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "children": [
+                                        {
+                                            "id": 15,
+                                            "children": [
+                                                {
+                                                    "id": 16,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.819,
+                                                        "Pop_Share": 3.91,
+                                                        "Box_Number": 16
+                                                    },
+                                                    "split_condition": "Father_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations"
+                                                },
+                                                {
+                                                    "id": 17,
+                                                    "children": [
+                                                        {
+                                                            "id": 18,
+                                                            "children": [
+                                                                {
+                                                                    "id": 19,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.583,
+                                                                        "Pop_Share": 11.46,
+                                                                        "Box_Number": 19
+                                                                    },
+                                                                    "split_condition": "Father_Edu -> Illiterate/Semi-Literate,3-Year College,Doctoral Degree"
+                                                                },
+                                                                {
+                                                                    "id": 20,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 0.534,
+                                                                        "Pop_Share": 8.78,
+                                                                        "Box_Number": 20
+                                                                    },
+                                                                    "split_condition": "Father_Edu -> Primary School,Junior High School,Senior High School/Secondary School/Technical School/Vocational Senior School,4-Year College/Bachelor's Degree,Master's Degree"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Father_Edu",
+                                                            "split_condition": "Ethnicity -> Han,Miao,Other"
+                                                        },
+                                                        {
+                                                            "id": 21,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.593,
+                                                                "Pop_Share": 1.05,
+                                                                "Box_Number": 21
+                                                            },
+                                                            "split_condition": "Ethnicity -> Hui,Tibetan,Zhuang,Manchu"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Ethnicity",
+                                                    "split_condition": "Father_Occ -> Services And Sales Workers,Agricultural, Forestry And Fishery Workers,Unemployed"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Birth_Area -> Hebei,Shanxi,Jilin,Guangxi Zhuang Autonomous Region,Gansu"
+                                        },
+                                        {
+                                            "id": 22,
+                                            "children": [
+                                                {
+                                                    "id": 23,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.939,
+                                                        "Pop_Share": 17.56,
+                                                        "Box_Number": 23
+                                                    },
+                                                    "split_condition": "Father_Edu -> Illiterate/Semi-Literate,3-Year College"
+                                                },
+                                                {
+                                                    "id": 24,
+                                                    "children": [
+                                                        {
+                                                            "id": 25,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.432,
+                                                                "Pop_Share": 2.72,
+                                                                "Box_Number": 25
+                                                            },
+                                                            "split_condition": "Father_Occ -> Armed Forces,Managers,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Elementary Occupations"
+                                                        },
+                                                        {
+                                                            "id": 26,
+                                                            "children": [
+                                                                {
+                                                                    "id": 27,
+                                                                    "children": [
+                                                                        {
+                                                                            "id": 28,
+                                                                            "info": {
+                                                                                "Relative_Type_Mean": 0.674,
+                                                                                "Pop_Share": 7.18,
+                                                                                "Box_Number": 28
+                                                                            },
+                                                                            "split_condition": "Birth_Area -> Liaoning,Heilongjiang,Henan"
+                                                                        },
+                                                                        {
+                                                                            "id": 29,
+                                                                            "info": {
+                                                                                "Relative_Type_Mean": 0.723,
+                                                                                "Pop_Share": 2.03,
+                                                                                "Box_Number": 29
+                                                                            },
+                                                                            "split_condition": "Birth_Area -> Guizhou,Yunnan"
+                                                                        }
+                                                                    ],
+                                                                    "nodeName": "Birth_Area",
+                                                                    "split_condition": "Birth_Area -> Liaoning,Heilongjiang,Henan,Guizhou,Yunnan"
+                                                                },
+                                                                {
+                                                                    "id": 30,
+                                                                    "info": {
+                                                                        "Relative_Type_Mean": 1.01,
+                                                                        "Pop_Share": 4,
+                                                                        "Box_Number": 30
+                                                                    },
+                                                                    "split_condition": "Birth_Area -> Shandong,Sichuan,Shaanxi"
+                                                                }
+                                                            ],
+                                                            "nodeName": "Birth_Area",
+                                                            "split_condition": "Father_Occ -> Agricultural, Forestry And Fishery Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Unemployed"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Father_Occ",
+                                                    "split_condition": "Father_Edu -> Primary School,Junior High School,Senior High School/Secondary School/Technical School/Vocational Senior School,4-Year College/Bachelor's Degree"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Birth_Area -> Liaoning,Heilongjiang,Shandong,Henan,Sichuan,Guizhou,Yunnan,Shaanxi"
+                                        }
+                                    ],
+                                    "nodeName": "Birth_Area",
+                                    "split_condition": "Ethnicity -> Han,Hui,Tibetan,Miao,Zhuang,Bouyei,Korean,Manchu,Other"
+                                },
+                                {
+                                    "id": 31,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.474,
+                                        "Pop_Share": 2.03,
+                                        "Box_Number": 31
+                                    },
+                                    "split_condition": "Ethnicity -> Mongol,Yi"
+                                }
+                            ],
+                            "nodeName": "Ethnicity",
+                            "split_condition": "Birth_Area -> Hebei,Shanxi,Liaoning,Jilin,Heilongjiang,Shandong,Henan,Guangxi Zhuang Autonomous Region,Sichuan,Guizhou,Yunnan,Shaanxi,Gansu"
+                        },
+                        {
+                            "id": 32,
+                            "info": {
+                                "Relative_Type_Mean": 0.965,
+                                "Pop_Share": 12.33,
+                                "Box_Number": 32
+                            },
+                            "split_condition": "Birth_Area -> Anhui,Fujian,Jiangxi,Hunan,Guangdong"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Occ -> Agricultural, Forestry And Fishery Workers"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Birth_Area -> Hebei,Shanxi,Liaoning,Jilin,Heilongjiang,Anhui,Fujian,Jiangxi,Shandong,Henan,Hunan,Guangdong,Guangxi Zhuang Autonomous Region,Sichuan,Guizhou,Yunnan,Shaanxi,Gansu"
+        },
+        {
+            "id": 33,
+            "children": [
+                {
+                    "id": 34,
+                    "children": [
+                        {
+                            "id": 35,
+                            "children": [
+                                {
+                                    "id": 36,
+                                    "info": {
+                                        "Relative_Type_Mean": 2.534,
+                                        "Pop_Share": 3.04,
+                                        "Box_Number": 36
+                                    },
+                                    "split_condition": "Father_Occ -> Armed Forces,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed"
+                                },
+                                {
+                                    "id": 37,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.632,
+                                        "Pop_Share": 2.39,
+                                        "Box_Number": 37
+                                    },
+                                    "split_condition": "Father_Occ -> Managers,Agricultural, Forestry And Fishery Workers"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Birth_Area -> Shanghai"
+                        },
+                        {
+                            "id": 38,
+                            "info": {
+                                "Relative_Type_Mean": 1.822,
+                                "Pop_Share": 2.1,
+                                "Box_Number": 38
+                            },
+                            "split_condition": "Birth_Area -> Zhejiang"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Birth_Area -> Shanghai,Zhejiang"
+                },
+                {
+                    "id": 39,
+                    "children": [
+                        {
+                            "id": 40,
+                            "children": [
+                                {
+                                    "id": 41,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.345,
+                                        "Pop_Share": 2.87,
+                                        "Box_Number": 41
+                                    },
+                                    "split_condition": "Birth_Area -> Jiangsu,Hubei"
+                                },
+                                {
+                                    "id": 42,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.918,
+                                        "Pop_Share": 1.04,
+                                        "Box_Number": 42
+                                    },
+                                    "split_condition": "Birth_Area -> Other"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Occ -> Managers,Agricultural, Forestry And Fishery Workers"
+                        },
+                        {
+                            "id": 43,
+                            "info": {
+                                "Relative_Type_Mean": 1.813,
+                                "Pop_Share": 1.87,
+                                "Box_Number": 43
+                            },
+                            "split_condition": "Mother_Occ -> Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Birth_Area -> Jiangsu,Hubei,Other"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Birth_Area -> Shanghai,Jiangsu,Zhejiang,Hubei,Other"
+        }
+    ],
+    "nodeName": "Birth_Area"
+}

@@ -1,0 +1,13 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SK,2019,expost,5,0.672,5.36,,,"Unknown,Low","Dead/Unknown/Not Working,Agriculture,Elementary",Dead/Unknown/Not Working,,
+SK,2019,expost,6,0.839,6.59,,,"Unknown,Low","Dead/Unknown/Not Working,Agriculture,Elementary","Agriculture,Elementary",,
+SK,2019,expost,7,0.948,1.11,,,"Medium,High","Dead/Unknown/Not Working,Agriculture,Elementary","Dead/Unknown/Not Working,Agriculture,Elementary",,
+SK,2019,expost,9,0.892,14.68,,,"Unknown,Low","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator","Dead/Unknown/Not Working,Agriculture,Elementary",,
+SK,2019,expost,10,1.059,2.99,,,"Medium,High","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator","Dead/Unknown/Not Working,Agriculture,Elementary",,
+SK,2019,expost,15,0.928,2.34,,Unknown,Low,,"Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+SK,2019,expost,16,0.978,18.98,,Low,Low,,"Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+SK,2019,expost,17,1.036,10.74,,"Unknown,Low","Medium,High",,"Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+SK,2019,expost,19,1.015,10.14,,Medium,,"Dead/Unknown/Not Working,Professional,Agriculture,Craft/Trades,Elementary","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+SK,2019,expost,20,1.129,17.14,,Medium,,"Manager,Technician,Clerical,Service,Plant Operator","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Plant Operator",,
+SK,2019,expost,22,1.239,7.88,,High,,,"Manager,Professional,Technician,Service,Plant Operator",,
+SK,2019,expost,23,1.172,2.06,,High,,,"Clerical,Craft/Trades",,

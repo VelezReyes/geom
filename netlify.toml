@@ -1,0 +1,7 @@
+[build]
+  base    = "react-geom"    
+  command = "CI=false npm run build"
+  publish = "build"
+
+[build.environment]
+  HUSKY_SKIP_INSTALL = "1"

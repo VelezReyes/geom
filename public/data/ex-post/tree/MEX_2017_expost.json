@@ -1,0 +1,312 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.892,
+                                        "Pop_Share": 8.99,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Sex -> Man"
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "children": [
+                                                {
+                                                    "id": 8,
+                                                    "children": [
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.684,
+                                                                "Pop_Share": 8.84,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Officials, Directors And Managers,Professionals And Technicians,Workers In Personal And Custodial Services,Workers In Basic And Support Activities,Was Not Working"
+                                                        },
+                                                        {
+                                                            "id": 10,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.835,
+                                                                "Pop_Share": 1.19,
+                                                                "Box_Number": 10
+                                                            },
+                                                            "split_condition": "Mother_Occ -> Auxiliary Workers In Administrative Activities,Traders And Employees In Sales,Agricultural And Fishing Workers,Craft, Construction And Other Trades Workers"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Occ",
+                                                    "split_condition": "Father_Edu -> "
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.691,
+                                                        "Pop_Share": 1.05,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,7 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Mother_Edu -> 2 Years Of Education"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.787,
+                                                "Pop_Share": 4.66,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Mother_Edu -> 1 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Sex -> Woman"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,7 Years Of Education,20 Years Of Education"
+                        },
+                        {
+                            "id": 13,
+                            "children": [
+                                {
+                                    "id": 14,
+                                    "children": [
+                                        {
+                                            "id": 15,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.431,
+                                                "Pop_Share": 5.65,
+                                                "Box_Number": 15
+                                            },
+                                            "split_condition": "Father_Occ -> Officials, Directors And Managers,Professionals And Technicians,Auxiliary Workers In Administrative Activities,Traders And Employees In Sales,Workers In Personal And Custodial Services"
+                                        },
+                                        {
+                                            "id": 16,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.185,
+                                                "Pop_Share": 7.82,
+                                                "Box_Number": 16
+                                            },
+                                            "split_condition": "Father_Occ -> Craft, Construction And Other Trades Workers,Industrial Machinery Operators, Chauffeurs And Transport Drivers,Workers In Basic And Support Activities"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Sex -> Man"
+                                },
+                                {
+                                    "id": 17,
+                                    "children": [
+                                        {
+                                            "id": 18,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.19,
+                                                "Pop_Share": 7.32,
+                                                "Box_Number": 18
+                                            },
+                                            "split_condition": "Father_Occ -> Officials, Directors And Managers,Professionals And Technicians,Auxiliary Workers In Administrative Activities,Traders And Employees In Sales"
+                                        },
+                                        {
+                                            "id": 19,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.841,
+                                                "Pop_Share": 13.11,
+                                                "Box_Number": 19
+                                            },
+                                            "split_condition": "Father_Occ -> Workers In Personal And Custodial Services,Craft, Construction And Other Trades Workers,Industrial Machinery Operators, Chauffeurs And Transport Drivers,Workers In Basic And Support Activities"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Occ",
+                                    "split_condition": "Sex -> Woman"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Father_Edu -> 3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education,16 Years Of Education,17 Years Of Education,18 Years Of Education,21 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Father_Occ -> Officials, Directors And Managers,Professionals And Technicians,Auxiliary Workers In Administrative Activities,Traders And Employees In Sales,Workers In Personal And Custodial Services,Craft, Construction And Other Trades Workers,Industrial Machinery Operators, Chauffeurs And Transport Drivers,Workers In Basic And Support Activities"
+                },
+                {
+                    "id": 20,
+                    "children": [
+                        {
+                            "id": 21,
+                            "children": [
+                                {
+                                    "id": 22,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.716,
+                                        "Pop_Share": 7.44,
+                                        "Box_Number": 22
+                                    },
+                                    "split_condition": "Birth_Area -> North,North-West,Center-West,South"
+                                },
+                                {
+                                    "id": 23,
+                                    "children": [
+                                        {
+                                            "id": 24,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.577,
+                                                "Pop_Share": 1.57,
+                                                "Box_Number": 24
+                                            },
+                                            "split_condition": "Mother_Occ -> Traders And Employees In Sales,Agricultural And Fishing Workers,Craft, Construction And Other Trades Workers,Industrial Machinery Operators, Chauffeurs And Transport Drivers"
+                                        },
+                                        {
+                                            "id": 25,
+                                            "children": [
+                                                {
+                                                    "id": 26,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.484,
+                                                        "Pop_Share": 8.55,
+                                                        "Box_Number": 26
+                                                    },
+                                                    "split_condition": "Father_Edu -> 8 Years Of Education,12 Years Of Education,14 Years Of Education"
+                                                },
+                                                {
+                                                    "id": 27,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.696,
+                                                        "Pop_Share": 1.57,
+                                                        "Box_Number": 27
+                                                    },
+                                                    "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,9 Years Of Education,15 Years Of Education,16 Years Of Education"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Edu",
+                                            "split_condition": "Mother_Occ -> Workers In Personal And Custodial Services,Workers In Basic And Support Activities,Was Not Working"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Occ",
+                                    "split_condition": "Birth_Area -> Mexico City"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Mother_Edu -> 7 Years Of Education"
+                        },
+                        {
+                            "id": 28,
+                            "children": [
+                                {
+                                    "id": 29,
+                                    "children": [
+                                        {
+                                            "id": 30,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.694,
+                                                "Pop_Share": 3.36,
+                                                "Box_Number": 30
+                                            },
+                                            "split_condition": "Father_Edu -> 10 Years Of Education,15 Years Of Education,22 Years Of Education"
+                                        },
+                                        {
+                                            "id": 31,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.966,
+                                                "Pop_Share": 1.19,
+                                                "Box_Number": 31
+                                            },
+                                            "split_condition": "Father_Edu -> 2 Years Of Education,8 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Father_Edu -> 2 Years Of Education,8 Years Of Education,10 Years Of Education,15 Years Of Education,22 Years Of Education"
+                                },
+                                {
+                                    "id": 32,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.943,
+                                        "Pop_Share": 7.53,
+                                        "Box_Number": 32
+                                    },
+                                    "split_condition": "Father_Edu -> 1 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,9 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,16 Years Of Education,17 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,8 Years Of Education,9 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Occ -> Agricultural And Fishing Workers,Was Not Working"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Mother_Edu -> 1 Years Of Education,2 Years Of Education,3 Years Of Education,4 Years Of Education,5 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education"
+        },
+        {
+            "id": 33,
+            "children": [
+                {
+                    "id": 34,
+                    "info": {
+                        "Relative_Type_Mean": 1.951,
+                        "Pop_Share": 4.75,
+                        "Box_Number": 34
+                    },
+                    "split_condition": "Sex -> Man"
+                },
+                {
+                    "id": 35,
+                    "children": [
+                        {
+                            "id": 36,
+                            "info": {
+                                "Relative_Type_Mean": 1.293,
+                                "Pop_Share": 1.84,
+                                "Box_Number": 36
+                            },
+                            "split_condition": "Father_Edu -> 1 Years Of Education,2 Years Of Education,4 Years Of Education,6 Years Of Education,7 Years Of Education,8 Years Of Education,9 Years Of Education,10 Years Of Education,21 Years Of Education"
+                        },
+                        {
+                            "id": 37,
+                            "children": [
+                                {
+                                    "id": 38,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.786,
+                                        "Pop_Share": 2.02,
+                                        "Box_Number": 38
+                                    },
+                                    "split_condition": "Mother_Edu -> 10 Years Of Education,11 Years Of Education,12 Years Of Education,22 Years Of Education"
+                                },
+                                {
+                                    "id": 39,
+                                    "info": {
+                                        "Relative_Type_Mean": 2.014,
+                                        "Pop_Share": 1.54,
+                                        "Box_Number": 39
+                                    },
+                                    "split_condition": "Mother_Edu -> 13 Years Of Education,14 Years Of Education,15 Years Of Education,16 Years Of Education,17 Years Of Education,18 Years Of Education,19 Years Of Education,21 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Father_Edu -> 3 Years Of Education,5 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education,16 Years Of Education,17 Years Of Education,18 Years Of Education,19 Years Of Education,20 Years Of Education"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Sex -> Woman"
+                }
+            ],
+            "nodeName": "Sex",
+            "split_condition": "Mother_Edu -> 10 Years Of Education,11 Years Of Education,12 Years Of Education,13 Years Of Education,14 Years Of Education,15 Years Of Education,16 Years Of Education,17 Years Of Education,18 Years Of Education,19 Years Of Education,20 Years Of Education,21 Years Of Education,22 Years Of Education"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

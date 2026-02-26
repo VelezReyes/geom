@@ -1,0 +1,11 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SEN,2018,expost,4,1.511,2.3,,"No School,Primary",,"Senior Executive,Skilled Worker",,,
+SEN,2018,expost,5,1.213,4.31,,"No School,Primary",," Middle Manager,Unskilled Worker,Employer",,,
+SEN,2018,expost,10,0.908,65.19,,No School,No School,"Manual Worker,Self Employed,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Employer,Self Employed","Muslim,Atheist",
+SEN,2018,expost,11,1.373,1.22,,No School,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","Manual Worker,Self Employed,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Employer,Self Employed","Muslim,Atheist",
+SEN,2018,expost,12,0.912,2.85,,No School,,"Manual Worker,Self Employed,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Employer,Self Employed","Christian,Animist,Other",
+SEN,2018,expost,13,1.192,3.7,,Primary,,"Manual Worker,Self Employed,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Employer,Self Employed",,
+SEN,2018,expost,14,0.794,15.58,,"No School,Primary",,"Manual Worker,Self Employed,Other","Manual Worker,Other",,
+SEN,2018,expost,17,1.36,1.79,,Secondary I Cycle,"No School,Primary",,,,
+SEN,2018,expost,18,1.805,1.68,,"Secondary Ii Cycle,Superior","No School,Primary",,,,
+SEN,2018,expost,19,2.495,1.39,,"Secondary I Cycle,Secondary Ii Cycle,Superior","Secondary I Cycle,Secondary Ii Cycle,Superior",,,,

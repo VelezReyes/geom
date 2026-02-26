@@ -1,0 +1,40 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 0.946,
+                        "Pop_Share": 49.33,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Birth_Area -> Local,European Union"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 0.719,
+                        "Pop_Share": 2.88,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Birth_Area -> Other"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Mother_Edu -> Medium"
+        },
+        {
+            "id": 5,
+            "info": {
+                "Relative_Type_Mean": 1.069,
+                "Pop_Share": 47.79,
+                "Box_Number": 5
+            },
+            "split_condition": "Mother_Edu -> High"
+        }
+    ],
+    "nodeName": "Mother_Edu"
+}

@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "info": {
+                "Relative_Type_Mean": 1.123,
+                "Pop_Share": 35.44,
+                "Box_Number": 2
+            },
+            "split_condition": "Father_Edu -> No Schooling,Community College,College/University,Graduate Degree"
+        },
+        {
+            "id": 3,
+            "children": [
+                {
+                    "id": 4,
+                    "children": [
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 1.026,
+                                "Pop_Share": 17.53,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Mother_Edu -> No Schooling,Community College,College/University"
+                        },
+                        {
+                            "id": 6,
+                            "children": [
+                                {
+                                    "id": 7,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.903,
+                                        "Pop_Share": 34.89,
+                                        "Box_Number": 7
+                                    },
+                                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Self-Employed(With No Employee)"
+                                },
+                                {
+                                    "id": 8,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.06,
+                                        "Pop_Share": 5.5,
+                                        "Box_Number": 8
+                                    },
+                                    "split_condition": "Father_Occ -> Employer (With Employees)"
+                                }
+                            ],
+                            "nodeName": "Father_Occ",
+                            "split_condition": "Mother_Edu -> Elementary School,Middle School,High School,Graduate Degree"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee)"
+                },
+                {
+                    "id": 9,
+                    "info": {
+                        "Relative_Type_Mean": 0.727,
+                        "Pop_Share": 6.63,
+                        "Box_Number": 9
+                    },
+                    "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,Family Worker,No Job/Housewife"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Father_Edu -> Elementary School,Middle School,High School"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

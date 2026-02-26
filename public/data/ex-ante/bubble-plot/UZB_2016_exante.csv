@@ -1,0 +1,3 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+UZB,2016,exante,2,1.246,35.12,Urban,,,,,,
+UZB,2016,exante,3,0.811,64.88,Rural,,,,,,

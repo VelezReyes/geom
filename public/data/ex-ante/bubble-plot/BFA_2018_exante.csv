@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+BFA,2018,exante,6,0.969,21.25,,No School,,"Senior Executive,Manual Worker,Self Employed,Other","Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed","Muslim,Christian,Other",Female
+BFA,2018,exante,7,1.027,11.0,,No School,,"Senior Executive,Manual Worker,Self Employed,Other","Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed","Muslim,Christian,Other",Male
+BFA,2018,exante,10,0.875,23.88,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,Muslim,Female
+BFA,2018,exante,11,0.898,12.63,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,Muslim,Male
+BFA,2018,exante,13,0.951,10.53,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,"Christian,Other",Female
+BFA,2018,exante,14,1.03,4.94,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,"Christian,Other",Male
+BFA,2018,exante,15,0.695,9.32,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",,"Animist,Atheist",
+BFA,2018,exante,16,1.869,1.53,,No School,," Middle Manager,Skilled Worker,Unskilled Worker,Employer",,,
+BFA,2018,exante,19,2.46,1.07,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",No School,"Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer",,,
+BFA,2018,exante,20,1.33,2.38,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",No School,"Self Employed,Other",,,
+BFA,2018,exante,21,3.682,1.47,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",,,,

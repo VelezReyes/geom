@@ -1,0 +1,136 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "info": {
+                                "Relative_Type_Mean": 0.992,
+                                "Pop_Share": 26.84,
+                                "Box_Number": 4
+                            },
+                            "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker,No Job/Housewife"
+                        },
+                        {
+                            "id": 5,
+                            "info": {
+                                "Relative_Type_Mean": 0.728,
+                                "Pop_Share": 1.92,
+                                "Box_Number": 5
+                            },
+                            "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Birth_Area -> Seoul,Incheon,Ulsan,Chungcheongbuk-Do,Gyeonsangnam-Do,Jeju-Do"
+                },
+                {
+                    "id": 6,
+                    "children": [
+                        {
+                            "id": 7,
+                            "children": [
+                                {
+                                    "id": 8,
+                                    "children": [
+                                        {
+                                            "id": 9,
+                                            "children": [
+                                                {
+                                                    "id": 10,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.068,
+                                                        "Pop_Share": 11.01,
+                                                        "Box_Number": 10
+                                                    },
+                                                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees)"
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.935,
+                                                        "Pop_Share": 37.64,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Father_Occ -> Self-Employed(With No Employee),Family Worker"
+                                                }
+                                            ],
+                                            "nodeName": "Father_Occ",
+                                            "split_condition": "Ethnicity -> None,Buddhist,Protestant,Confucian,Won Buddhist,Daesoon Faith,Other"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.486,
+                                                "Pop_Share": 1.34,
+                                                "Box_Number": 12
+                                            },
+                                            "split_condition": "Ethnicity -> Catholic"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Birth_Area -> Busan,Daegu,Gwangju,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do"
+                                },
+                                {
+                                    "id": 13,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.041,
+                                        "Pop_Share": 10.5,
+                                        "Box_Number": 13
+                                    },
+                                    "split_condition": "Birth_Area -> Daejeon,Gyeonggi-Do,North Korea,Overseas"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker"
+                        },
+                        {
+                            "id": 14,
+                            "info": {
+                                "Relative_Type_Mean": 0.677,
+                                "Pop_Share": 3.63,
+                                "Box_Number": 14
+                            },
+                            "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,No Job/Housewife"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Birth_Area -> Busan,Daegu,Daejeon,Gwangju,Gyeonggi-Do,Gangwon-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,North Korea,Overseas"
+                }
+            ],
+            "nodeName": "Birth_Area",
+            "split_condition": "Father_Edu -> No Schooling,Elementary School,Middle School,High School"
+        },
+        {
+            "id": 15,
+            "children": [
+                {
+                    "id": 16,
+                    "info": {
+                        "Relative_Type_Mean": 1.199,
+                        "Pop_Share": 4.48,
+                        "Box_Number": 16
+                    },
+                    "split_condition": "Mother_Edu -> No Schooling,Middle School,High School,Graduate Degree"
+                },
+                {
+                    "id": 17,
+                    "info": {
+                        "Relative_Type_Mean": 1.574,
+                        "Pop_Share": 2.65,
+                        "Box_Number": 17
+                    },
+                    "split_condition": "Mother_Edu -> Elementary School,Community College,College/University"
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> Community College,College/University,Graduate Degree"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

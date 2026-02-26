@@ -1,0 +1,6 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+SRL,2011,exante,3,1.98,3.04,,,"No School,Secondary Complete,First Degree Or More",,"Accomodation And Food Service Activities,Administrative And Support Service Activities,Education,Manufacturing,Mining, Quarring",,
+SRL,2011,exante,4,1.303,25.03,,,"Primary Incomplete,Primary Complete,Secondary Incomplete,Post-Secondary Professional,Vocational",,"Accomodation And Food Service Activities,Administrative And Support Service Activities,Education,Manufacturing,Mining, Quarring",,
+SRL,2011,exante,6,1.161,4.29,,,"No School,Primary Incomplete,Primary Complete,Secondary Complete,Post-Secondary Professional",,"Agriculture, Foresting, Fishing,Construction,Electricity And Water Supply,Financial Activities",,
+SRL,2011,exante,8,1.234,3.16,,,"Secondary Incomplete,Vocational","Administrative And Support Service Activities,Education,Financial Activities,Manufacturing,Mining, Quarring","Agriculture, Foresting, Fishing,Construction,Electricity And Water Supply,Financial Activities",,
+SRL,2011,exante,9,0.787,64.48,,,"Secondary Incomplete,Vocational","Agriculture, Foresting, Fishing,Construction,Electricity And Water Supply","Agriculture, Foresting, Fishing,Construction,Electricity And Water Supply,Financial Activities",,

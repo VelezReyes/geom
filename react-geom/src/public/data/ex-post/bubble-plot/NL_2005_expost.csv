@@ -1,0 +1,14 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+NL,2005,expost,8,0.959,4.15,,Unknown,"Unknown,Medium,High","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,Male
+NL,2005,expost,9,0.8,4.36,,Unknown,"Unknown,Medium,High","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,Female
+NL,2005,expost,10,0.876,36.88,,"Medium,High","Unknown,Medium,High","Dead/Unknown/Not Working,Manager,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+NL,2005,expost,11,1.068,7.35,,"Unknown,Medium,High","Unknown,Medium,High","Professional,Technician,Clerical","Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+NL,2005,expost,12,1.001,20.53,,Low,"Unknown,Medium,High",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary",,
+NL,2005,expost,16,0.961,1.37,,Unknown,"Medium,High",,"Manager,Professional,Technician,Clerical,Service",,Male
+NL,2005,expost,18,1.136,5.26,,"Low,Medium,High","Medium,High","Dead/Unknown/Not Working,Manager,Technician,Service,Agriculture,Craft/Trades","Manager,Professional,Technician,Clerical,Service",,Male
+NL,2005,expost,19,1.337,1.99,,"Low,Medium,High","Medium,High","Professional,Clerical,Plant Operator,Elementary,Armed Forces","Manager,Professional,Technician,Clerical,Service",,Male
+NL,2005,expost,20,0.927,1.22,,"Unknown,Low,Medium,High",,,"Manager,Professional,Technician,Clerical,Service",,Male
+NL,2005,expost,21,1.022,11.55,,"Unknown,Low,Medium,High","Unknown,Medium,High",,"Manager,Professional,Technician,Clerical,Service",,Female
+NL,2005,expost,22,1.587,1.52,,"Unknown,Low,Medium,High",Low,,,,
+NL,2005,expost,24,1.572,2.03,,,"Low,Medium,High",,,,
+NL,2005,expost,25,1.868,1.8,,,,,,,

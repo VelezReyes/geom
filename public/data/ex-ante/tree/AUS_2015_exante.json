@@ -1,0 +1,88 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "info": {
+                        "Relative_Type_Mean": 1.031,
+                        "Pop_Share": 30.24,
+                        "Box_Number": 3
+                    },
+                    "split_condition": "Father_Edu -> None,Primary School,Secondary School,Year 11 Or Equivalent,Year 12 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer"
+                },
+                {
+                    "id": 4,
+                    "info": {
+                        "Relative_Type_Mean": 1.265,
+                        "Pop_Share": 15.7,
+                        "Box_Number": 4
+                    },
+                    "split_condition": "Father_Edu -> University,Institute Of Technology,Other"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Father_Occ -> Managers,Professionals,Sales Workers"
+        },
+        {
+            "id": 5,
+            "children": [
+                {
+                    "id": 6,
+                    "info": {
+                        "Relative_Type_Mean": 0.976,
+                        "Pop_Share": 29.24,
+                        "Box_Number": 6
+                    },
+                    "split_condition": "Mother_Occ -> Managers,Professionals,Clerical And Administrative Workers,Sales Workers"
+                },
+                {
+                    "id": 7,
+                    "children": [
+                        {
+                            "id": 8,
+                            "info": {
+                                "Relative_Type_Mean": 0.877,
+                                "Pop_Share": 10.86,
+                                "Box_Number": 8
+                            },
+                            "split_condition": "Sex -> "
+                        },
+                        {
+                            "id": 9,
+                            "children": [
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.998,
+                                        "Pop_Share": 1,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Father_Edu -> None,Year 11 Or Equivalent,University,Institute Of Technology"
+                                },
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.787,
+                                        "Pop_Share": 12.96,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Father_Edu -> Primary School,Secondary School,Year 12 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer,Other"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Sex -> "
+                        }
+                    ],
+                    "nodeName": "Sex",
+                    "split_condition": "Mother_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Father_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Clerical And Administrative Workers,Machinery Operators And Drivers,Labourers"
+        }
+    ],
+    "nodeName": "Father_Occ"
+}

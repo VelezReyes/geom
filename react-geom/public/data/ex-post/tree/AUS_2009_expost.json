@@ -1,0 +1,72 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.041,
+                                        "Pop_Share": 2,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Father_Edu -> None,Techers College/College Of Advance"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.047,
+                                        "Pop_Share": 11.52,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Father_Edu -> Technical College/Tafe"
+                                }
+                            ],
+                            "nodeName": "Father_Edu",
+                            "split_condition": "Father_Edu -> None,Techers College/College Of Advance,Technical College/Tafe"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 0.966,
+                                "Pop_Share": 32.52,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Father_Edu -> Primary School,Secondary School,Year 11 Or Equivalent,Employer,Other"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Mother_Occ -> Managers,Professionals,Clerical And Administrative Workers,Sales Workers"
+                },
+                {
+                    "id": 8,
+                    "info": {
+                        "Relative_Type_Mean": 0.9,
+                        "Pop_Share": 31.99,
+                        "Box_Number": 8
+                    },
+                    "split_condition": "Mother_Occ -> Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers"
+                }
+            ],
+            "nodeName": "Mother_Occ",
+            "split_condition": "Father_Edu -> None,Primary School,Secondary School,Year 11 Or Equivalent,Techers College/College Of Advance,Technical College/Tafe,Employer,Other"
+        },
+        {
+            "id": 9,
+            "info": {
+                "Relative_Type_Mean": 1.173,
+                "Pop_Share": 21.97,
+                "Box_Number": 9
+            },
+            "split_condition": "Father_Edu -> Year 12 Or Equivalent,University,Institute Of Technology"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

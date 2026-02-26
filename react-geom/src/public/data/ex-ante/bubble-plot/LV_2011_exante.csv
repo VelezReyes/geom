@@ -1,0 +1,9 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+LV,2011,exante,5,0.827,35.88,,"Unknown,Low,Medium","Unknown,Low,Medium,High","Dead/Unknown/Not Working,Technician,Agriculture,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Elementary",,
+LV,2011,exante,6,0.931,8.12,,"Unknown,Low,Medium","Unknown,Low,Medium,High","Manager,Professional,Clerical,Service,Craft/Trades,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Elementary",,
+LV,2011,exante,9,0.944,8.71,,High,"Unknown,High","Dead/Unknown/Not Working,Clerical,Service,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Elementary",,
+LV,2011,exante,10,1.222,3.54,,High,"Unknown,High","Manager,Professional,Technician,Agriculture,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Elementary",,
+LV,2011,exante,11,0.934,5.05,,High,"Low,Medium",,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Elementary",,
+LV,2011,exante,12,1.075,26.21,,,"Unknown,Low,Medium,High",,"Manager,Professional,Technician,Clerical,Plant Operator,Armed Forces",,
+LV,2011,exante,14,1.215,7.42,,"Unknown,Medium,High",,,,,
+LV,2011,exante,15,1.474,5.08,,,,,,,

@@ -1,0 +1,24 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "info": {
+                "Relative_Type_Mean": 0.946,
+                "Pop_Share": 84.77,
+                "Box_Number": 2
+            },
+            "split_condition": "Mother_Occ -> Managers,Service And Sales,Dead"
+        },
+        {
+            "id": 3,
+            "info": {
+                "Relative_Type_Mean": 1.286,
+                "Pop_Share": 15.23,
+                "Box_Number": 3
+            },
+            "split_condition": "Mother_Occ -> Professionals,Technicians And Professionals,Clerical Support,Farm, Forest, Fishery,Craft,Operators,Elementary,Others,Did Not Work"
+        }
+    ],
+    "nodeName": "Mother_Occ"
+}

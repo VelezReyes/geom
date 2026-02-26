@@ -1,0 +1,10 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+CHI,2018,exante,5,1.077,7.51,"Hebei,Shanxi,Jilin,Heilongjiang,Anhui,Jiangxi,Shandong,Henan,Guangdong,Sichuan,Yunnan,Shaanxi,Gansu","Illiterate/Semi-Literate,Primary School,Junior High School,Master's Degree",,,"Armed Forces,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed",,
+CHI,2018,exante,6,1.302,1.82,"Hebei,Shanxi,Jilin,Heilongjiang,Anhui,Jiangxi,Shandong,Henan,Guangdong,Sichuan,Yunnan,Shaanxi,Gansu","Senior High School/Secondary School/Technical School/Vocational Senior School,3-Year College,4-Year College/Bachelor's Degree",,,"Armed Forces,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed",,
+CHI,2018,exante,7,1.533,4.89,"Liaoning,Fujian,Hubei,Hunan,Guangxi Zhuang Autonomous Region,Guizhou,Other",,,,"Armed Forces,Professionals,Technicians And Associate Professionals,Clerks,Services And Sales Workers,Craft And Trade Workers,Plant And Machine Opperators And Assemblers,Elementary Occupations,Unemployed",,
+CHI,2018,exante,10,0.602,24.46,"Hebei,Shanxi,Guangxi Zhuang Autonomous Region,Gansu",,,,"Managers,Agricultural, Forestry And Fishery Workers",,
+CHI,2018,exante,12,0.803,32.11,"Liaoning,Jilin,Heilongjiang,Fujian,Jiangxi,Shandong,Henan,Sichuan,Yunnan",,,,"Managers,Agricultural, Forestry And Fishery Workers","Han,Hui,Korean,Manchu,Other",
+CHI,2018,exante,14,0.371,1.33,"Liaoning,Heilongjiang,Shandong,Sichuan",,,,"Managers,Agricultural, Forestry And Fishery Workers","Mongol,Tibetan,Miao,Yi,Zhuang",
+CHI,2018,exante,15,0.597,1.32,"Henan,Yunnan",,,,"Managers,Agricultural, Forestry And Fishery Workers","Mongol,Tibetan,Miao,Yi,Zhuang",
+CHI,2018,exante,16,1.198,16.73,"Anhui,Hubei,Hunan,Guangdong,Guizhou,Shaanxi,Other",,,,"Managers,Agricultural, Forestry And Fishery Workers",,
+CHI,2018,exante,17,1.805,9.83,"Shanghai,Jiangsu,Zhejiang",,,,,,

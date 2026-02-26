@@ -1,0 +1,17 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+USA,1998,expost,5,0.453,3.49,,,,Low,,"White,Asian, Pac. Islander",
+USA,1998,expost,6,0.811,3.06,,,,"Middle,High",,"White,Asian, Pac. Islander",
+USA,1998,expost,8,0.855,13.73,,"0-5 Grades,6-8 Grades,9-11 Grades",,,,"White,Asian, Pac. Islander",Female
+USA,1998,expost,9,0.998,11.88,,"0-5 Grades,6-8 Grades,9-11 Grades",,,,"White,Asian, Pac. Islander",Male
+USA,1998,expost,13,0.663,1.28,"Northeast,West","0-5 Grades,6-8 Grades,9-11 Grades",,,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,1998,expost,14,0.469,3.09,Foreign Country,"0-5 Grades,6-8 Grades,9-11 Grades",,,Low,"Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,1998,expost,15,0.738,1.01,"Northeast,West,Foreign Country","0-5 Grades,6-8 Grades,9-11 Grades",,,"Middle,High","Black,Am. Indian, Aleut, Eskimo,Hispanic,Other",
+USA,1998,expost,18,0.468,8.78,"North Central,South","0-5 Grades,6-8 Grades,9-11 Grades","0-5 Grades,6-8 Grades,9-11 Grades",,,"Black,Hispanic",
+USA,1998,expost,19,0.631,2.53,"North Central,South","0-5 Grades,6-8 Grades,9-11 Grades","High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,,"Black,Hispanic",
+USA,1998,expost,20,0.667,1.06,"North Central,South","0-5 Grades,6-8 Grades,9-11 Grades",,,,"Am. Indian, Aleut, Eskimo,Other",
+USA,1998,expost,24,0.931,11.35,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,"Low,Middle",,"White,Asian, Pac. Islander,Hispanic,Other",Female
+USA,1998,expost,26,1.176,7.86,,"High School,12 Grades + Non Academic Training",,"Low,Middle",,"White,Asian, Pac. Islander,Hispanic,Other",Male
+USA,1998,expost,27,1.328,3.21,,"Some College,College Degree,Advanced College Degree",,"Low,Middle",,"White,Asian, Pac. Islander,Hispanic,Other",Male
+USA,1998,expost,28,1.338,19.13,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree",,High,,"White,Asian, Pac. Islander,Hispanic,Other",
+USA,1998,expost,30,1.095,2.18,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree","Some College,College Degree,Advanced College Degree",,,"Black,Am. Indian, Aleut, Eskimo",
+USA,1998,expost,31,0.677,6.37,,"High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree","0-5 Grades,6-8 Grades,9-11 Grades,High School,12 Grades + Non Academic Training",,,"Black,Am. Indian, Aleut, Eskimo",

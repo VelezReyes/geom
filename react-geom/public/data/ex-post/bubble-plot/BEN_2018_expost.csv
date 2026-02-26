@@ -1,0 +1,12 @@
+Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
+BEN,2018,expost,6,0.937,54.78,,No School,No School,"Senior Executive,Manual Worker,Self Employed","Senior Executive, Middle Manager,Unskilled Worker,Employer,Self Employed","Muslim,Christian,Other",
+BEN,2018,expost,7,1.146,1.16,,No School,No School," Middle Manager,Skilled Worker,Unskilled Worker,Employer,Other","Senior Executive, Middle Manager,Unskilled Worker,Employer,Self Employed","Muslim,Christian,Other",
+BEN,2018,expost,8,1.245,1.8,,No School,"Primary,Secondary I Cycle,Secondary Ii Cycle",,"Senior Executive, Middle Manager,Unskilled Worker,Employer,Self Employed","Muslim,Christian,Other",
+BEN,2018,expost,10,0.784,4.55,,No School,,,"Skilled Worker,Manual Worker,Other",Muslim,
+BEN,2018,expost,11,0.795,2.46,,No School,,,"Skilled Worker,Manual Worker,Other","Christian,Other",
+BEN,2018,expost,12,0.678,15.11,,No School,,,,"Animist,Atheist",
+BEN,2018,expost,17,1.523,3.33,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",No School,"Senior Executive, Middle Manager,Skilled Worker,Employer",,"Muslim,Christian,Other",
+BEN,2018,expost,18,1.948,1.22,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",Primary,"Senior Executive, Middle Manager,Skilled Worker,Employer",,"Muslim,Christian,Other",
+BEN,2018,expost,19,1.28,11.42,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","No School,Primary","Unskilled Worker,Manual Worker,Self Employed,Other",,"Muslim,Christian,Other",
+BEN,2018,expost,20,0.925,1.85,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","No School,Primary",,,"Animist,Atheist",
+BEN,2018,expost,21,2.276,2.33,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","Secondary I Cycle,Secondary Ii Cycle,Superior",,,,

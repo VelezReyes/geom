@@ -1,0 +1,168 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.775,
+                                        "Pop_Share": 16.93,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Sex -> Female"
+                                },
+                                {
+                                    "id": 6,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.916,
+                                        "Pop_Share": 11.54,
+                                        "Box_Number": 6
+                                    },
+                                    "split_condition": "Sex -> Male"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Father_Occ -> Low,Middle"
+                        },
+                        {
+                            "id": 7,
+                            "info": {
+                                "Relative_Type_Mean": 1.189,
+                                "Pop_Share": 3.47,
+                                "Box_Number": 7
+                            },
+                            "split_condition": "Father_Occ -> High"
+                        }
+                    ],
+                    "nodeName": "Father_Occ",
+                    "split_condition": "Ethnicity -> White,Asian, Pac. Islander,Other"
+                },
+                {
+                    "id": 8,
+                    "children": [
+                        {
+                            "id": 9,
+                            "info": {
+                                "Relative_Type_Mean": 0.703,
+                                "Pop_Share": 1.32,
+                                "Box_Number": 9
+                            },
+                            "split_condition": "Mother_Edu -> 12 Grades + Non Academic Training,Some College,College Degree"
+                        },
+                        {
+                            "id": 10,
+                            "children": [
+                                {
+                                    "id": 11,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.493,
+                                        "Pop_Share": 14.44,
+                                        "Box_Number": 11
+                                    },
+                                    "split_condition": "Sex -> Female"
+                                },
+                                {
+                                    "id": 12,
+                                    "info": {
+                                        "Relative_Type_Mean": 0.636,
+                                        "Pop_Share": 5.25,
+                                        "Box_Number": 12
+                                    },
+                                    "split_condition": "Sex -> Male"
+                                }
+                            ],
+                            "nodeName": "Sex",
+                            "split_condition": "Mother_Edu -> 0-5 Grades,6-8 Grades,9-11 Grades,High School,Advanced College Degree"
+                        }
+                    ],
+                    "nodeName": "Mother_Edu",
+                    "split_condition": "Ethnicity -> Black,Am. Indian, Aleut, Eskimo,Hispanic"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Father_Edu -> 0-5 Grades,6-8 Grades,9-11 Grades"
+        },
+        {
+            "id": 13,
+            "children": [
+                {
+                    "id": 14,
+                    "children": [
+                        {
+                            "id": 15,
+                            "children": [
+                                {
+                                    "id": 16,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.087,
+                                        "Pop_Share": 23.36,
+                                        "Box_Number": 16
+                                    },
+                                    "split_condition": "Mother_Occ -> Low,Middle"
+                                },
+                                {
+                                    "id": 17,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.32,
+                                        "Pop_Share": 10.15,
+                                        "Box_Number": 17
+                                    },
+                                    "split_condition": "Mother_Occ -> High"
+                                }
+                            ],
+                            "nodeName": "Mother_Occ",
+                            "split_condition": "Father_Edu -> High School,12 Grades + Non Academic Training,Some College,College Degree"
+                        },
+                        {
+                            "id": 18,
+                            "info": {
+                                "Relative_Type_Mean": 1.558,
+                                "Pop_Share": 4.02,
+                                "Box_Number": 18
+                            },
+                            "split_condition": "Father_Edu -> Advanced College Degree"
+                        }
+                    ],
+                    "nodeName": "Father_Edu",
+                    "split_condition": "Ethnicity -> White,Am. Indian, Aleut, Eskimo,Asian, Pac. Islander,Other"
+                },
+                {
+                    "id": 19,
+                    "children": [
+                        {
+                            "id": 20,
+                            "info": {
+                                "Relative_Type_Mean": 0.677,
+                                "Pop_Share": 6.79,
+                                "Box_Number": 20
+                            },
+                            "split_condition": "Mother_Occ -> Low,Middle"
+                        },
+                        {
+                            "id": 21,
+                            "info": {
+                                "Relative_Type_Mean": 0.996,
+                                "Pop_Share": 2.71,
+                                "Box_Number": 21
+                            },
+                            "split_condition": "Mother_Occ -> High"
+                        }
+                    ],
+                    "nodeName": "Mother_Occ",
+                    "split_condition": "Ethnicity -> Black,Hispanic"
+                }
+            ],
+            "nodeName": "Ethnicity",
+            "split_condition": "Father_Edu -> High School,12 Grades + Non Academic Training,Some College,College Degree,Advanced College Degree"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

@@ -1,0 +1,360 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.041,
+                                        "Pop_Share": 1.96,
+                                        "Box_Number": 5
+                                    },
+                                    "split_condition": "Birth_Area -> Guatemala"
+                                },
+                                {
+                                    "id": 6,
+                                    "children": [
+                                        {
+                                            "id": 7,
+                                            "children": [
+                                                {
+                                                    "id": 8,
+                                                    "children": [
+                                                        {
+                                                            "id": 9,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.631,
+                                                                "Pop_Share": 12.55,
+                                                                "Box_Number": 9
+                                                            },
+                                                            "split_condition": "Mother_Edu -> "
+                                                        },
+                                                        {
+                                                            "id": 10,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.717,
+                                                                "Pop_Share": 5.63,
+                                                                "Box_Number": 10
+                                                            },
+                                                            "split_condition": "Mother_Edu -> 3 Years Of Education,6 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Edu",
+                                                    "split_condition": "Birth_Area -> El Progreso,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Izabal,Zacapa,Jutiapa"
+                                                },
+                                                {
+                                                    "id": 11,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.791,
+                                                        "Pop_Share": 6.8,
+                                                        "Box_Number": 11
+                                                    },
+                                                    "split_condition": "Birth_Area -> Sacatepequez,Escuintla,Santa Rosa,Peten,Other Country"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> White,Mix-Race,Afro-Descendant"
+                                        },
+                                        {
+                                            "id": 12,
+                                            "children": [
+                                                {
+                                                    "id": 13,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.448,
+                                                        "Pop_Share": 2.93,
+                                                        "Box_Number": 13
+                                                    },
+                                                    "split_condition": "Birth_Area -> El Progreso,San Marcos,Peten,Izabal,Zacapa,Jutiapa,Other Country"
+                                                },
+                                                {
+                                                    "id": 14,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.632,
+                                                        "Pop_Share": 5.77,
+                                                        "Box_Number": 14
+                                                    },
+                                                    "split_condition": "Birth_Area -> Sacatepequez,Escuintla,Santa Rosa,Quetzaltenango,Suchitepequez,Retalhuleu"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Birth_Area -> El Progreso,Sacatepequez,Escuintla,Santa Rosa,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Peten,Izabal,Zacapa,Jutiapa,Other Country"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Birth_Area -> Guatemala,El Progreso,Sacatepequez,Escuintla,Santa Rosa,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Peten,Izabal,Zacapa,Jutiapa,Other Country"
+                        },
+                        {
+                            "id": 15,
+                            "children": [
+                                {
+                                    "id": 16,
+                                    "children": [
+                                        {
+                                            "id": 17,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.596,
+                                                "Pop_Share": 7.02,
+                                                "Box_Number": 17
+                                            },
+                                            "split_condition": "Ethnicity -> Mix-Race"
+                                        },
+                                        {
+                                            "id": 18,
+                                            "children": [
+                                                {
+                                                    "id": 19,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.431,
+                                                        "Pop_Share": 10.99,
+                                                        "Box_Number": 19
+                                                    },
+                                                    "split_condition": "Birth_Area -> Chimaltenengo,Solola,Totonicapan,Huehuetenango,Baja Verapaz"
+                                                },
+                                                {
+                                                    "id": 20,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.345,
+                                                        "Pop_Share": 7.01,
+                                                        "Box_Number": 20
+                                                    },
+                                                    "split_condition": "Birth_Area -> Quiche,Alta Verapaz,Chiquimula,Jalapa"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Ethnicity -> Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Edu -> "
+                                },
+                                {
+                                    "id": 21,
+                                    "children": [
+                                        {
+                                            "id": 22,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.909,
+                                                "Pop_Share": 2.15,
+                                                "Box_Number": 22
+                                            },
+                                            "split_condition": "Ethnicity -> Mix-Race"
+                                        },
+                                        {
+                                            "id": 23,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.583,
+                                                "Pop_Share": 3.11,
+                                                "Box_Number": 23
+                                            },
+                                            "split_condition": "Ethnicity -> Indigenous"
+                                        }
+                                    ],
+                                    "nodeName": "Ethnicity",
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education,6 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Birth_Area -> Chimaltenengo,Solola,Totonicapan,Huehuetenango,Quiche,Baja Verapaz,Alta Verapaz,Chiquimula,Jalapa"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Father_Edu -> "
+                },
+                {
+                    "id": 24,
+                    "children": [
+                        {
+                            "id": 25,
+                            "children": [
+                                {
+                                    "id": 26,
+                                    "children": [
+                                        {
+                                            "id": 27,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.331,
+                                                "Pop_Share": 1.82,
+                                                "Box_Number": 27
+                                            },
+                                            "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                        },
+                                        {
+                                            "id": 28,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.611,
+                                                "Pop_Share": 1.04,
+                                                "Box_Number": 28
+                                            },
+                                            "split_condition": "Mother_Edu -> 6 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Birth_Area -> Guatemala"
+                                },
+                                {
+                                    "id": 29,
+                                    "info": {
+                                        "Relative_Type_Mean": 2.635,
+                                        "Pop_Share": 1.56,
+                                        "Box_Number": 29
+                                    },
+                                    "split_condition": "Birth_Area -> Alta Verapaz,Chiquimula"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Birth_Area -> Guatemala,Alta Verapaz,Chiquimula"
+                        },
+                        {
+                            "id": 30,
+                            "children": [
+                                {
+                                    "id": 31,
+                                    "children": [
+                                        {
+                                            "id": 32,
+                                            "children": [
+                                                {
+                                                    "id": 33,
+                                                    "children": [
+                                                        {
+                                                            "id": 34,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.82,
+                                                                "Pop_Share": 4.42,
+                                                                "Box_Number": 34
+                                                            },
+                                                            "split_condition": "Mother_Edu -> "
+                                                        },
+                                                        {
+                                                            "id": 35,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.105,
+                                                                "Pop_Share": 8.74,
+                                                                "Box_Number": 35
+                                                            },
+                                                            "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Mother_Edu",
+                                                    "split_condition": "Ethnicity -> White,Mix-Race,Afro-Descendant"
+                                                },
+                                                {
+                                                    "id": 36,
+                                                    "children": [
+                                                        {
+                                                            "id": 37,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 1.051,
+                                                                "Pop_Share": 1.13,
+                                                                "Box_Number": 37
+                                                            },
+                                                            "split_condition": "Birth_Area -> El Progreso,Sacatepequez,Escuintla,Solola,Suchitepequez,Jalapa"
+                                                        },
+                                                        {
+                                                            "id": 38,
+                                                            "info": {
+                                                                "Relative_Type_Mean": 0.706,
+                                                                "Pop_Share": 2.85,
+                                                                "Box_Number": 38
+                                                            },
+                                                            "split_condition": "Birth_Area -> Chimaltenengo,Totonicapan,Quetzaltenango,Retalhuleu,San Marcos,Huehuetenango,Quiche,Baja Verapaz,Peten,Izabal,Jutiapa,Other Country"
+                                                        }
+                                                    ],
+                                                    "nodeName": "Birth_Area",
+                                                    "split_condition": "Ethnicity -> Indigenous"
+                                                }
+                                            ],
+                                            "nodeName": "Ethnicity",
+                                            "split_condition": "Father_Edu -> 3 Years Of Education"
+                                        },
+                                        {
+                                            "id": 39,
+                                            "info": {
+                                                "Relative_Type_Mean": 1.218,
+                                                "Pop_Share": 2.47,
+                                                "Box_Number": 39
+                                            },
+                                            "split_condition": "Father_Edu -> 6 Years Of Education"
+                                        }
+                                    ],
+                                    "nodeName": "Father_Edu",
+                                    "split_condition": "Mother_Edu -> 3 Years Of Education"
+                                },
+                                {
+                                    "id": 40,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.579,
+                                        "Pop_Share": 5.3,
+                                        "Box_Number": 40
+                                    },
+                                    "split_condition": "Mother_Edu -> 6 Years Of Education"
+                                }
+                            ],
+                            "nodeName": "Mother_Edu",
+                            "split_condition": "Birth_Area -> El Progreso,Sacatepequez,Chimaltenengo,Escuintla,Santa Rosa,Solola,Totonicapan,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Huehuetenango,Quiche,Baja Verapaz,Peten,Izabal,Zacapa,Jalapa,Jutiapa,Other Country"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+                }
+            ],
+            "nodeName": "Father_Edu",
+            "split_condition": "Father_Edu -> 3 Years Of Education,6 Years Of Education"
+        },
+        {
+            "id": 41,
+            "children": [
+                {
+                    "id": 42,
+                    "info": {
+                        "Relative_Type_Mean": 2.023,
+                        "Pop_Share": 1.56,
+                        "Box_Number": 42
+                    },
+                    "split_condition": "Mother_Edu -> 3 Years Of Education,6 Years Of Education"
+                },
+                {
+                    "id": 43,
+                    "children": [
+                        {
+                            "id": 44,
+                            "info": {
+                                "Relative_Type_Mean": 4.227,
+                                "Pop_Share": 1.62,
+                                "Box_Number": 44
+                            },
+                            "split_condition": "Birth_Area -> Guatemala,Huehuetenango,Izabal,Zacapa,Chiquimula,Jalapa,Other Country"
+                        },
+                        {
+                            "id": 45,
+                            "info": {
+                                "Relative_Type_Mean": 2.451,
+                                "Pop_Share": 1.57,
+                                "Box_Number": 45
+                            },
+                            "split_condition": "Birth_Area -> El Progreso,Sacatepequez,Chimaltenengo,Escuintla,Santa Rosa,Solola,Totonicapan,Quetzaltenango,Suchitepequez,Retalhuleu,San Marcos,Quiche,Baja Verapaz,Alta Verapaz,Peten,Jutiapa"
+                        }
+                    ],
+                    "nodeName": "Birth_Area",
+                    "split_condition": "Mother_Edu -> "
+                }
+            ],
+            "nodeName": "Mother_Edu",
+            "split_condition": "Father_Edu -> "
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

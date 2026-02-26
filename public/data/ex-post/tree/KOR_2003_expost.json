@@ -1,0 +1,120 @@
+{
+    "id": 1,
+    "children": [
+        {
+            "id": 2,
+            "children": [
+                {
+                    "id": 3,
+                    "children": [
+                        {
+                            "id": 4,
+                            "children": [
+                                {
+                                    "id": 5,
+                                    "children": [
+                                        {
+                                            "id": 6,
+                                            "children": [
+                                                {
+                                                    "id": 7,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 1.092,
+                                                        "Pop_Share": 11.01,
+                                                        "Box_Number": 7
+                                                    },
+                                                    "split_condition": "Birth_Area -> Seoul,Daegu,Incheon,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Jeju-Do,Overseas"
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "info": {
+                                                        "Relative_Type_Mean": 0.95,
+                                                        "Pop_Share": 30.14,
+                                                        "Box_Number": 8
+                                                    },
+                                                    "split_condition": "Birth_Area -> Busan,Daejeon,Gwangju,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do"
+                                                }
+                                            ],
+                                            "nodeName": "Birth_Area",
+                                            "split_condition": "Mother_Edu -> No Schooling,Community College,College/University"
+                                        },
+                                        {
+                                            "id": 9,
+                                            "info": {
+                                                "Relative_Type_Mean": 0.932,
+                                                "Pop_Share": 40.28,
+                                                "Box_Number": 9
+                                            },
+                                            "split_condition": "Mother_Edu -> Elementary School,Middle School,High School"
+                                        }
+                                    ],
+                                    "nodeName": "Mother_Edu",
+                                    "split_condition": "Birth_Area -> Seoul,Busan,Daegu,Daejeon,Incheon,Gwangju,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Gyeonsangnam-Do,Jeju-Do,Overseas"
+                                },
+                                {
+                                    "id": 10,
+                                    "info": {
+                                        "Relative_Type_Mean": 1.26,
+                                        "Pop_Share": 1.76,
+                                        "Box_Number": 10
+                                    },
+                                    "split_condition": "Birth_Area -> Ulsan,North Korea"
+                                }
+                            ],
+                            "nodeName": "Birth_Area",
+                            "split_condition": "Ethnicity -> None,Buddhist,Protestant,Won Buddhist,Daejong Faith,Daesoon Faith,Other"
+                        },
+                        {
+                            "id": 11,
+                            "info": {
+                                "Relative_Type_Mean": 1.535,
+                                "Pop_Share": 2.2,
+                                "Box_Number": 11
+                            },
+                            "split_condition": "Ethnicity -> Catholic,Confucian,Chondo Faith"
+                        }
+                    ],
+                    "nodeName": "Ethnicity",
+                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker,No Job/Housewife"
+                },
+                {
+                    "id": 12,
+                    "info": {
+                        "Relative_Type_Mean": 0.719,
+                        "Pop_Share": 6.19,
+                        "Box_Number": 12
+                    },
+                    "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Father_Edu -> No Schooling,Elementary School,Middle School,High School"
+        },
+        {
+            "id": 13,
+            "children": [
+                {
+                    "id": 14,
+                    "info": {
+                        "Relative_Type_Mean": 1.429,
+                        "Pop_Share": 6.95,
+                        "Box_Number": 14
+                    },
+                    "split_condition": "Father_Occ -> Regular/Standard Wage Worker,Employer (With Employees)"
+                },
+                {
+                    "id": 15,
+                    "info": {
+                        "Relative_Type_Mean": 0.931,
+                        "Pop_Share": 1.46,
+                        "Box_Number": 15
+                    },
+                    "split_condition": "Father_Occ -> Irregular/Nonstandard Wage Worker,Self-Employed(With No Employee),Family Worker,No Job/Housewife"
+                }
+            ],
+            "nodeName": "Father_Occ",
+            "split_condition": "Father_Edu -> Community College,College/University,Graduate Degree"
+        }
+    ],
+    "nodeName": "Father_Edu"
+}

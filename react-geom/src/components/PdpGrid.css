@@ -1,0 +1,47 @@
+.pdp-grid-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 40px;
+  /* outline: 1px solid blue; */
+}
+
+.pdp-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pdp-plot {
+  /* flex: 1 0 33%; */
+  width: 45%;
+  margin: 0 10px;
+  /* outline: 1px dashed orange; */
+}
+
+.pdp-nav-button {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pdp-nav-left {
+  left: 0;
+}
+
+.pdp-nav-right {
+  right: 0;
+}
