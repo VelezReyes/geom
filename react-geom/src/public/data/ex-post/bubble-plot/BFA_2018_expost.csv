@@ -1,9 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-BFA,2018,expost,6,0.975,23.34,,No School,,"Senior Executive,Manual Worker,Self Employed,Other","Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed",Muslim,
-BFA,2018,expost,7,1.03,8.91,,No School,,"Senior Executive,Manual Worker,Self Employed,Other","Senior Executive, Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed","Christian,Other",
-BFA,2018,expost,9,0.883,36.51,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,Muslim,
-BFA,2018,expost,10,0.975,15.47,,No School,,"Senior Executive,Manual Worker,Self Employed,Other",Other,"Christian,Other",
-BFA,2018,expost,11,1.899,1.47,,No School,," Middle Manager,Skilled Worker,Unskilled Worker,Employer",,"Muslim,Christian,Other",
-BFA,2018,expost,12,0.696,9.38,,No School,,,,"Animist,Atheist",
-BFA,2018,expost,14,1.7,3.45,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",No School,,,,
-BFA,2018,expost,15,3.682,1.47,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",,,,

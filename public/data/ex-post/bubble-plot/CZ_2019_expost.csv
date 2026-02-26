@@ -1,8 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-CZ,2019,expost,5,0.908,19.8,,"Unknown,Low",,"Dead/Unknown/Not Working,Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,Male
-CZ,2019,expost,6,0.867,1.63,,"Unknown,Low",,"Manager,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,Male
-CZ,2019,expost,7,0.848,22.64,,"Unknown,Low",,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,Female
-CZ,2019,expost,8,1.002,14.8,,"Unknown,Low",,,"Manager,Professional,Technician,Clerical",,
-CZ,2019,expost,11,0.988,13.43,,Medium,,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
-CZ,2019,expost,12,1.141,15.55,,Medium,,,"Manager,Professional,Technician,Clerical",,
-CZ,2019,expost,13,1.267,12.16,,High,,,,,

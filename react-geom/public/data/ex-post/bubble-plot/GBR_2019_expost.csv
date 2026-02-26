@@ -1,8 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-GBR,2019,expost,3,0.993,16.03,,,,,,,
-GBR,2019,expost,5,0.915,0.87,,,,,,,
-GBR,2019,expost,7,1.043,2.87,,,,,,,
-GBR,2019,expost,8,0.825,19.83,,,,,,,
-GBR,2019,expost,10,1.154,23.34,,,,,,,
-GBR,2019,expost,12,0.994,36.24,,,,,,,
-GBR,2019,expost,13,1.211,0.82,,,,,,,

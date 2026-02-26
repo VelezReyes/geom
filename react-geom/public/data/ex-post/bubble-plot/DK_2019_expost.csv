@@ -1,5 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-DK,2019,expost,2,0.902,35.41,,,"Unknown,Low",,,,
-DK,2019,expost,4,0.95,11.39,,"Unknown,Low","Medium,High",,,,
-DK,2019,expost,6,1.097,32.72,,"Medium,High","Medium,High",,"Dead/Unknown/Not Working,Manager,Professional,Technician,Agriculture",,
-DK,2019,expost,7,1.046,20.47,,"Medium,High","Medium,High",,"Clerical,Service,Craft/Trades,Plant Operator,Elementary",,

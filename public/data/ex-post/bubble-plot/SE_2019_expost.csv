@@ -1,8 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-SE,2019,expost,3,1.147,10.52,"Local,European Union",,,,"Dead/Unknown/Not Working,Agriculture,Craft/Trades",,
-SE,2019,expost,4,0.625,7.98,Other,,,,"Dead/Unknown/Not Working,Agriculture,Craft/Trades",,
-SE,2019,expost,6,1.475,3.53,,,,,"Manager,Armed Forces",,
-SE,2019,expost,8,0.899,16.72,,,Low,,"Professional,Technician,Clerical,Service,Plant Operator,Elementary",,
-SE,2019,expost,11,1.083,36.31,Local,,"Medium,High",,"Professional,Technician,Clerical",,
-SE,2019,expost,12,0.933,4.97,"European Union,Other",,"Medium,High",,"Professional,Technician,Clerical",,
-SE,2019,expost,13,1.0,19.97,,,"Medium,High",,"Service,Plant Operator,Elementary",,

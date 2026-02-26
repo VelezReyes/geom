@@ -1,6 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-KOR,2011,exante,3,1.091,39.9,,,"No Schooling,Community College,College/University,Graduate Degree","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,,
-KOR,2011,exante,6,0.987,25.03,"Seoul,Busan,Daegu,Daejeon,Incheon,Gwangju,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Overseas",,"Elementary School,Middle School,High School","Regular/Standard Wage Worker,Employer (With Employees),Family Worker",,,
-KOR,2011,exante,7,0.892,21.19,"Seoul,Busan,Daegu,Daejeon,Incheon,Gwangju,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Chungcheongnam-Do,Jeollabuk-Do,Jeollanam-Do,Gyeongsangbuk-Do,Overseas",,"Elementary School,Middle School,High School",Self-Employed(With No Employee),,,
-KOR,2011,exante,8,1.226,6.34,"Ulsan,Gyeonsangnam-Do,Jeju-Do,North Korea",,"Elementary School,Middle School,High School","Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),Family Worker",,,
-KOR,2011,exante,9,0.737,7.54,,,,"Irregular/Nonstandard Wage Worker,No Job/Housewife",,,

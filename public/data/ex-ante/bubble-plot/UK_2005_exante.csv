@@ -1,6 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-UK,2005,exante,2,1.235,21.77,,,,,"Manager,Professional",,
-UK,2005,exante,5,1.17,9.96,,,,"Manager,Professional,Technician,Clerical,Agriculture","Technician,Clerical,Agriculture",,
-UK,2005,exante,6,0.989,16.29,,,,"Manager,Professional,Technician,Clerical,Agriculture","Service,Craft/Trades,Plant Operator,Elementary",,
-UK,2005,exante,8,0.911,25.04,,,,"Service,Craft/Trades,Plant Operator,Elementary","Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,Male
-UK,2005,exante,9,0.836,26.94,,,,"Service,Craft/Trades,Plant Operator,Elementary","Technician,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,Female

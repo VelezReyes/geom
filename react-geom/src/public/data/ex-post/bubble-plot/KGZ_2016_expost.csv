@@ -1,6 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-KGZ,2016,expost,3,0.928,18.85,Urban,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education",,,,
-KGZ,2016,expost,4,1.643,9.7,Urban,,"Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma),Bachelor's Degree Or More",,,,
-KGZ,2016,expost,7,0.825,57.81,Rural,,"No Degree/No Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More",,"Managers,Professionals,Technicians And Professionals,Clerical Support,Elementary,Others,Did Not Work,Dead",,
-KGZ,2016,expost,8,0.978,4.5,Rural,,"No Degree/No Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Bachelor's Degree Or More",,"Service And Sales,Farm, Forest, Fishery,Craft,Operators",,
-KGZ,2016,expost,9,1.414,9.15,Rural,,"Primary Education,Tertiary Education (Not A University Diploma)",,,,

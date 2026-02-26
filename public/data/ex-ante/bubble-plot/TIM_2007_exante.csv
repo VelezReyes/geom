@@ -1,8 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-TIM,2007,exante,4,1.188,6.5,Urban,"Pre-School,Pre-Secondary",,,,"Tetum,Fatalucu,Mangilih,Bahasa Indonesia,Portuguese,Inggris",
-TIM,2007,exante,5,1.45,8.7,Rural,"Pre-School,Pre-Secondary",,,,"Tetum,Fatalucu,Mangilih,Bahasa Indonesia,Portuguese,Inggris",
-TIM,2007,exante,6,1.723,2.48,,"Primary,Secondary,Academy,University",,,,"Tetum,Fatalucu,Mangilih,Bahasa Indonesia,Portuguese,Inggris",
-TIM,2007,exante,10,0.853,31.82,Urban,,,,,"Baequeno,Kaklun Bikeli,Macalero,Mambae,Tetum Terik",
-TIM,2007,exante,11,0.719,2.93,Urban,,,,,"Laklei,Sa Ani,Does Not Speak Yet",
-TIM,2007,exante,12,0.941,23.8,Urban,,,,,"Bunak,Galolen,Kemak,Macasae,Midiki,Naueti,Tokodete,Uaimua",
-TIM,2007,exante,13,1.123,23.78,Rural,,,,,"Baequeno,Bunak,Galolen,Kaklun Bikeli,Kemak,Laklei,Macalero,Macasae,Mambae,Midiki,Naueti,Sa Ani,Tetum Terik,Tokodete,Uaimua,Does Not Speak Yet",

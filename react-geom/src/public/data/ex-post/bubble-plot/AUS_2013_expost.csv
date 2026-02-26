@@ -1,7 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-AUS,2013,expost,3,0.976,24.52,,"None,Primary School,Secondary School,Year 11 Or Equivalent,Techers College/College Of Advance,Employer",,,"Managers,Professionals,Clerical And Administrative Workers",,
-AUS,2013,expost,4,1.147,28.17,,"Year 12 Or Equivalent,University,Institute Of Technology,Technical College/Tafe,Other",,,"Managers,Professionals,Clerical And Administrative Workers",,
-AUS,2013,expost,6,1.02,12.47,,,,"Managers,Professionals","Technicians And Trades Workers,Community And Personal Service Workers,Sales Workers,Machinery Operators And Drivers,Labourers",,
-AUS,2013,expost,8,0.952,15.96,,,,"Technicians And Trades Workers,Community And Personal Service Workers,Clerical And Administrative Workers,Sales Workers,Machinery Operators And Drivers,Labourers","Technicians And Trades Workers,Community And Personal Service Workers,Sales Workers,Machinery Operators And Drivers,Labourers",,1.0
-AUS,2013,expost,10,0.881,7.86,,,,"Technicians And Trades Workers,Community And Personal Service Workers,Clerical And Administrative Workers,Sales Workers,Machinery Operators And Drivers,Labourers","Technicians And Trades Workers,Sales Workers,Machinery Operators And Drivers",,2.0
-AUS,2013,expost,11,0.821,11.03,,,,"Technicians And Trades Workers,Community And Personal Service Workers,Clerical And Administrative Workers,Sales Workers,Machinery Operators And Drivers,Labourers","Community And Personal Service Workers,Labourers",,2.0

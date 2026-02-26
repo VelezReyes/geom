@@ -1,4 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-AUS,2009,exante,2,1.167,25.32,,"None,Year 11 Or Equivalent,Year 12 Or Equivalent,University,Institute Of Technology",,,,,
-AUS,2009,exante,4,1.005,32.26,,"Primary School,Secondary School,Techers College/College Of Advance,Technical College/Tafe,Employer,Other",,"Managers,Professionals,Clerical And Administrative Workers,Sales Workers",,,
-AUS,2009,exante,5,0.898,42.41,,"Primary School,Secondary School,Techers College/College Of Advance,Technical College/Tafe,Employer,Other",,"Technicians And Trades Workers,Community And Personal Service Workers,Machinery Operators And Drivers,Labourers",,,

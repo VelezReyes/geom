@@ -1,9 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-CH,2011,expost,5,0.846,16.09,"Local,European Union","Low,Medium",,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
-CH,2011,expost,6,0.961,27.12,"Local,European Union",High,,"Dead/Unknown/Not Working,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,,
-CH,2011,expost,9,1.114,13.88,Local,"Low,Medium,High",,"Manager,Professional,Technician,Clerical,Service",,,Male
-CH,2011,expost,10,1.016,14.67,Local,"Low,Medium,High",,"Manager,Professional,Technician,Clerical,Service",,,Female
-CH,2011,expost,11,1.02,3.64,European Union,"Low,Medium,High",,"Manager,Professional,Technician,Clerical,Service",,,
-CH,2011,expost,13,0.723,5.37,Other,"Low,Medium,High",,,"Dead/Unknown/Not Working,Technician,Service,Agriculture,Plant Operator",,
-CH,2011,expost,14,0.921,1.11,Other,"Low,Medium,High",,,"Manager,Professional,Clerical,Craft/Trades,Elementary",,
-CH,2011,expost,15,1.246,18.12,,,,,,,

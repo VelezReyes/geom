@@ -1,6 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-KOR,2003,exante,5,1.017,47.14,"Seoul,Gwangju,Ulsan,Gyeonggi-Do,Gangwon-Do,Chungcheongbuk-Do,Jeollanam-Do,Gyeonsangnam-Do,Jeju-Do,North Korea,Overseas","No Schooling,Elementary School,Middle School,High School",,"Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),No Job/Housewife",,"None,Buddhist,Protestant,Won Buddhist,Daejong Faith,Daesoon Faith,Other",
-KOR,2003,exante,6,0.902,34.05,"Busan,Daegu,Daejeon,Incheon,Chungcheongnam-Do,Jeollabuk-Do,Gyeongsangbuk-Do","No Schooling,Elementary School,Middle School,High School",,"Regular/Standard Wage Worker,Employer (With Employees),Self-Employed(With No Employee),No Job/Housewife",,"None,Buddhist,Protestant,Won Buddhist,Daejong Faith,Daesoon Faith,Other",
-KOR,2003,exante,7,0.758,8.09,,"No Schooling,Elementary School,Middle School,High School",,"Irregular/Nonstandard Wage Worker,Family Worker",,"None,Buddhist,Protestant,Won Buddhist,Daejong Faith,Daesoon Faith,Other",
-KOR,2003,exante,8,1.503,2.3,,"No Schooling,Elementary School,Middle School,High School",,,,"Catholic,Confucian,Chondo Faith",
-KOR,2003,exante,9,1.344,8.41,,"Community College,College/University,Graduate Degree",,,,,

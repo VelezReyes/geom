@@ -1,6 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-EE,2011,exante,4,0.734,9.51,,Unknown,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
-EE,2011,exante,5,0.906,45.21,,"Medium,High",,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary",,
-EE,2011,exante,6,1.025,25.05,,,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Manager,Professional,Technician,Clerical,Armed Forces",,
-EE,2011,exante,8,1.115,9.78,,"Medium,High",,"Manager,Professional,Technician,Clerical",,,
-EE,2011,exante,9,1.306,10.45,,,,"Manager,Professional,Technician,Clerical",,,

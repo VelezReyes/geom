@@ -1,8 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-NER,2018,exante,3,3.412,1.04,,,"No School,Secondary Ii Cycle","Senior Executive, Middle Manager",,,
-NER,2018,exante,4,4.71,1.02,,,"Primary,Secondary I Cycle,Superior","Senior Executive, Middle Manager",,,
-NER,2018,exante,7,0.85,22.65,,No School,,"Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed,Other","Senior Executive,Other",,
-NER,2018,exante,9,1.544,1.1,,No School,,"Skilled Worker,Unskilled Worker,Manual Worker,Other"," Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed",,
-NER,2018,exante,11,0.971,70.82,,No School,No School,"Employer,Self Employed"," Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed",,
-NER,2018,exante,12,1.54,1.02,,No School,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior","Employer,Self Employed"," Middle Manager,Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed",,
-NER,2018,exante,13,1.677,2.35,,"Primary,Secondary I Cycle,Secondary Ii Cycle,Superior",,"Skilled Worker,Unskilled Worker,Manual Worker,Employer,Self Employed,Other",,,

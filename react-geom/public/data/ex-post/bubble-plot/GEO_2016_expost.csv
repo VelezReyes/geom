@@ -1,3 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-GEO,2016,expost,2,0.838,83.52,,"No Degree/No Education,Primary Education,Lower Secondary Education,(Upper) Secondary Education,Post-Secondary Non-Tertiary Education,Tertiary Education (Not A University Diploma)",,,,,
-GEO,2016,expost,3,1.671,16.48,,"Bachelor's Degree Or More,Master's Degree Or Phd",,,,,

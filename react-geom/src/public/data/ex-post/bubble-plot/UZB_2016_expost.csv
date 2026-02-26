@@ -1,4 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-UZB,2016,expost,3,1.225,31.78,Urban,,,,,"Karakalpak,Kazakh,Tajik,Uzbek",
-UZB,2016,expost,4,0.783,62.34,Rural,,,,,"Karakalpak,Kazakh,Tajik,Uzbek",
-UZB,2016,expost,5,1.63,5.88,,,,,,"Other,Russian",

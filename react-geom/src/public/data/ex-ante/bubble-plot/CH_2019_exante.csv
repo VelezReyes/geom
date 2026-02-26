@@ -1,9 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-CH,2019,exante,4,0.812,18.44,,"Unknown,Low","Unknown,Low,Medium",,,,
-CH,2019,exante,6,1.005,21.43,,Medium,"Unknown,Low,Medium",,,,Male
-CH,2019,exante,7,0.928,22.57,,Medium,"Unknown,Low,Medium",,,,Female
-CH,2019,exante,9,0.853,2.92,,High,"Unknown,Low",,,,
-CH,2019,exante,12,1.16,9.15,"Local,Other",High,Medium,,,,Male
-CH,2019,exante,13,1.053,8.06,"Local,Other",High,Medium,,,,Female
-CH,2019,exante,14,1.213,2.2,European Union,High,Medium,,,,
-CH,2019,exante,15,1.242,15.24,,,High,,,,

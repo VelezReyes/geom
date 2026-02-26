@@ -1,5 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-KAZ,2016,expost,4,0.927,34.7,,,"No Degree/No Education,Primary Education,Post-Secondary Non-Tertiary Education",,"Managers,Professionals,Farm, Forest, Fishery,Craft,Operators,Elementary,Others,Did Not Work,Dead",,
-KAZ,2016,expost,5,1.408,4.64,,,"No Degree/No Education,Primary Education,Post-Secondary Non-Tertiary Education",,"Technicians And Professionals,Clerical Support,Service And Sales",,
-KAZ,2016,expost,6,1.124,15.12,,,"Tertiary Education (Not A University Diploma),Bachelor's Degree Or More",,,,
-KAZ,2016,expost,7,0.974,45.54,,,"Lower Secondary Education,(Upper) Secondary Education,Master's Degree Or Phd",,,,

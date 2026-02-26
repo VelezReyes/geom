@@ -1,9 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-NO,2019,expost,3,0.905,15.83,"Local,European Union",,"Unknown,Low",,,,
-NO,2019,expost,5,0.582,2.84,Other,,"Unknown,Low","Dead/Unknown/Not Working,Agriculture,Plant Operator,Armed Forces",,,
-NO,2019,expost,6,0.694,1.77,Other,,"Unknown,Low","Manager,Professional,Technician,Clerical,Service,Craft/Trades,Elementary",,,
-NO,2019,expost,9,0.87,6.97,,"Unknown,High","Medium,High","Dead/Unknown/Not Working,Plant Operator,Armed Forces",,,
-NO,2019,expost,10,0.982,14.09,,"Low,Medium","Medium,High","Dead/Unknown/Not Working,Plant Operator,Armed Forces",,,
-NO,2019,expost,13,1.051,21.39,Local,,"Medium,High","Manager,Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Elementary","Dead/Unknown/Not Working,Clerical,Service,Craft/Trades,Plant Operator,Elementary",,
-NO,2019,expost,14,1.27,29.55,Local,,"Medium,High","Manager,Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Elementary","Manager,Professional,Technician,Agriculture",,
-NO,2019,expost,15,0.816,7.55,"European Union,Other",,"Medium,High","Manager,Professional,Technician,Clerical,Service,Agriculture,Craft/Trades,Elementary",,,

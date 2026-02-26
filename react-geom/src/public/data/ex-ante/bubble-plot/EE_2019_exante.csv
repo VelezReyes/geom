@@ -1,7 +1,0 @@
-Country_Code,Year,Type,Box_Number,Relative_Type_Mean,Pop_Share,Birth_Area,Father_Edu,Mother_Edu,Father_Occ,Mother_Occ,Ethnicity,Sex
-EE,2019,exante,4,0.841,23.53,,,"Unknown,Low","Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
-EE,2019,exante,5,0.911,24.99,,,"Medium,High","Dead/Unknown/Not Working,Clerical,Service,Agriculture,Craft/Trades,Plant Operator,Elementary","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
-EE,2019,exante,6,1.041,6.79,,,,"Manager,Professional,Technician,Armed Forces","Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces",,
-EE,2019,exante,8,1.035,28.22,,,,"Dead/Unknown/Not Working,Service,Agriculture,Craft/Trades,Plant Operator,Elementary,Armed Forces","Manager,Professional,Technician,Clerical",,
-EE,2019,exante,10,1.094,4.45,,,"Low,Medium","Manager,Professional,Technician,Clerical","Manager,Professional,Technician,Clerical",,
-EE,2019,exante,11,1.275,12.02,,,High,"Manager,Professional,Technician,Clerical","Manager,Professional,Technician,Clerical",,
