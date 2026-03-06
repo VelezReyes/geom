@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "info": {
+        "Relative_Type_Mean": 0.828,
+        "Pop_Share": 33.71,
+        "Box_Number": 2
+      },
+      "split_condition": "V8 -> 1"
+    },
+    {
+      "id": 3,
+      "children": [
+        {
+          "id": 4,
+          "info": {
+            "Relative_Type_Mean": 1.163,
+            "Pop_Share": 23.69,
+            "Box_Number": 4
+          },
+          "split_condition": "Ethnicity -> Atheistic/agnostic/none"
+        },
+        {
+          "id": 5,
+          "info": {
+            "Relative_Type_Mean": 1.016,
+            "Pop_Share": 42.6,
+            "Box_Number": 5
+          },
+          "split_condition": "Ethnicity -> Buddhist"
+        }
+      ],
+      "nodeName": "Ethnicity",
+      "split_condition": "V8 -> 2"
+    }
+  ],
+  "nodeName": "V8"
+}

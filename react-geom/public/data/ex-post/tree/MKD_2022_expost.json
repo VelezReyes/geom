@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "children": [
+            {
+              "id": 4,
+              "children": [
+                {
+                  "id": 5,
+                  "info": {
+                    "Relative_Type_Mean": 0.789,
+                    "Pop_Share": 12.08,
+                    "Box_Number": 5
+                  },
+                  "split_condition": "Father_Occ -> Agriculture, Forestry, and Fishing,Transportation and public utilities,Retail trade"
+                },
+                {
+                  "id": 6,
+                  "info": {
+                    "Relative_Type_Mean": 1.003,
+                    "Pop_Share": 18.75,
+                    "Box_Number": 6
+                  },
+                  "split_condition": "Father_Occ -> Construction,Manufacturing"
+                }
+              ],
+              "nodeName": "Father_Occ",
+              "split_condition": "Father_Edu -> -97,Primary education,(Upper) secondary education,Post-secondary non-tertiary education"
+            },
+            {
+              "id": 7,
+              "info": {
+                "Relative_Type_Mean": 0.814,
+                "Pop_Share": 23.67,
+                "Box_Number": 7
+              },
+              "split_condition": "Father_Edu -> No degree / No education,Tertiary education (not a university diploma)"
+            }
+          ],
+          "nodeName": "Father_Edu",
+          "split_condition": "Father_Edu -> -97,No degree / No education,Primary education,(Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma)"
+        },
+        {
+          "id": 8,
+          "info": {
+            "Relative_Type_Mean": 0.915,
+            "Pop_Share": 11.93,
+            "Box_Number": 8
+          },
+          "split_condition": "Father_Edu -> Lower secondary education,Bachelor's degree or more"
+        }
+      ],
+      "nodeName": "Father_Edu",
+      "split_condition": "Birth_Area -> Urban,2,3,4"
+    },
+    {
+      "id": 9,
+      "children": [
+        {
+          "id": 10,
+          "info": {
+            "Relative_Type_Mean": 1.12,
+            "Pop_Share": 26.45,
+            "Box_Number": 10
+          },
+          "split_condition": "Birth_Area -> 5,7"
+        },
+        {
+          "id": 11,
+          "info": {
+            "Relative_Type_Mean": 1.554,
+            "Pop_Share": 7.11,
+            "Box_Number": 11
+          },
+          "split_condition": "Birth_Area -> 6,8,9"
+        }
+      ],
+      "nodeName": "Birth_Area",
+      "split_condition": "Birth_Area -> 5,6,7,8,9"
+    }
+  ],
+  "nodeName": "Birth_Area"
+}

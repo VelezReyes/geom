@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "children": [
+            {
+              "id": 4,
+              "children": [
+                {
+                  "id": 5,
+                  "info": {
+                    "Relative_Type_Mean": 0.917,
+                    "Pop_Share": 16.84,
+                    "Box_Number": 5
+                  },
+                  "split_condition": "Ethnicity -> Atheistic/agnostic/none"
+                },
+                {
+                  "id": 6,
+                  "info": {
+                    "Relative_Type_Mean": 0.783,
+                    "Pop_Share": 17.55,
+                    "Box_Number": 6
+                  },
+                  "split_condition": "Ethnicity -> Buddhist"
+                }
+              ],
+              "nodeName": "Ethnicity",
+              "split_condition": "V8 -> 1"
+            },
+            {
+              "id": 7,
+              "info": {
+                "Relative_Type_Mean": 0.949,
+                "Pop_Share": 16.02,
+                "Box_Number": 7
+              },
+              "split_condition": "V8 -> 2"
+            }
+          ],
+          "nodeName": "V8",
+          "split_condition": "Father_Occ -> Agriculture, Forestry, and Fishing,Mining,Manufacturing,Wholesale trade,Retail trade"
+        },
+        {
+          "id": 8,
+          "info": {
+            "Relative_Type_Mean": 1.258,
+            "Pop_Share": 7.45,
+            "Box_Number": 8
+          },
+          "split_condition": "Father_Occ -> Construction,Transportation and public utilities"
+        }
+      ],
+      "nodeName": "Father_Occ",
+      "split_condition": "Father_Edu -> -97,No degree / No education,Primary education"
+    },
+    {
+      "id": 9,
+      "children": [
+        {
+          "id": 10,
+          "info": {
+            "Relative_Type_Mean": 1.054,
+            "Pop_Share": 38.83,
+            "Box_Number": 10
+          },
+          "split_condition": "Father_Edu -> Lower secondary education,(Upper) secondary education"
+        },
+        {
+          "id": 11,
+          "info": {
+            "Relative_Type_Mean": 1.389,
+            "Pop_Share": 3.31,
+            "Box_Number": 11
+          },
+          "split_condition": "Father_Edu -> Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+        }
+      ],
+      "nodeName": "Father_Edu",
+      "split_condition": "Father_Edu -> Lower secondary education,(Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+    }
+  ],
+  "nodeName": "Father_Edu"
+}

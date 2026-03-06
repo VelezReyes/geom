@@ -13,6 +13,7 @@ A full-stack monorepo for visualizing and analyzing global inequality and mobili
 - [Available Scripts](#available-scripts)
 - [Environment Variables](#environment-variables)
 - [Deployment](#deployment)
+- [Data Refresh Runbook](#data-refresh-runbook)
 - [Coding Rules](#coding-rules)
 - [Troubleshooting](#troubleshooting)
 
@@ -170,6 +171,9 @@ npm start
 | `npm test` | Run all workspace tests |
 | `npm run build` | Build React app for production |
 | `npm run prepare` | Install Husky git hooks |
+| `npm run data:trees:rebuild` | Rebuild Ex-Ante/Ex-Post tree JSONs from PDF-source RData |
+| `npm run data:trees:validate` | Validate tree leaf `Box_Number` against bubble CSV files |
+| `npm run data:sync:pdf-trees` | Rebuild trees, validate, seed backend, and run frontend build |
 
 ### Backend (`express-geom`)
 
@@ -236,6 +240,14 @@ The image uses Node 18 to build, then serves the static output via Nginx on port
 The Express server is intended to run on a Node-capable host (e.g., a VPS or container). Ensure the `/pdfs` directory is populated before starting.
 
 For a full deployment walkthrough, see [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+
+---
+
+## Data Refresh Runbook
+
+For the full step-by-step data refresh process (including PDF-tree alignment, metadata updates, validation, and troubleshooting), see:
+
+- [docs/DATA_REFRESH_RUNBOOK.md](docs/DATA_REFRESH_RUNBOOK.md)
 
 ---
 

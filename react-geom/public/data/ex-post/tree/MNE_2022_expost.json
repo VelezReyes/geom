@@ -1,0 +1,56 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "info": {
+            "Relative_Type_Mean": 0.772,
+            "Pop_Share": 25.32,
+            "Box_Number": 3
+          },
+          "split_condition": "V8 -> 1"
+        },
+        {
+          "id": 4,
+          "info": {
+            "Relative_Type_Mean": 0.943,
+            "Pop_Share": 22.66,
+            "Box_Number": 4
+          },
+          "split_condition": "V8 -> 2"
+        }
+      ],
+      "nodeName": "V8",
+      "split_condition": "Father_Edu -> -99,-97,No degree / No education,Primary education,Lower secondary education"
+    },
+    {
+      "id": 5,
+      "children": [
+        {
+          "id": 6,
+          "info": {
+            "Relative_Type_Mean": 1.093,
+            "Pop_Share": 43.88,
+            "Box_Number": 6
+          },
+          "split_condition": "Father_Edu -> (Upper) secondary education,Tertiary education (not a university diploma)"
+        },
+        {
+          "id": 7,
+          "info": {
+            "Relative_Type_Mean": 1.379,
+            "Pop_Share": 8.14,
+            "Box_Number": 7
+          },
+          "split_condition": "Father_Edu -> Post-secondary non-tertiary education,Bachelor's degree or more,Master's degree or PhD"
+        }
+      ],
+      "nodeName": "Father_Edu",
+      "split_condition": "Father_Edu -> (Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+    }
+  ],
+  "nodeName": "Father_Edu"
+}

@@ -11,7 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "npx husky install || echo 'Husky no instalado, omitiendo prepare'",
-    "build": "CI=false HTTPS=false PUBLIC_URL=/wp-content/reactpress/apps/react-geom/build react-scripts build"
+    "build": "CI=false HTTPS=false PUBLIC_URL=/wp-content/reactpress/apps/react-geom/build react-scripts build",
+    "data:trees:rebuild": "Rscript scripts/rebuild_tree_from_rdata.R",
+    "data:trees:validate": "Rscript scripts/validate_tree_bubble_alignment.R",
+    "data:sync:pdf-trees": "npm run data:trees:rebuild && npm run data:trees:validate && npm --prefix express-geom run seed && npm --prefix react-geom run build"
   },
   "author": "",
   "license": "ISC",

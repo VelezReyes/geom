@@ -1,0 +1,168 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "children": [
+            {
+              "id": 4,
+              "children": [
+                {
+                  "id": 5,
+                  "children": [
+                    {
+                      "id": 6,
+                      "info": {
+                        "Relative_Type_Mean": 0.884,
+                        "Pop_Share": 18.23,
+                        "Box_Number": 6
+                      },
+                      "split_condition": "Mother_Edu -> 0-5 Grades,6-8 Grades"
+                    },
+                    {
+                      "id": 7,
+                      "info": {
+                        "Relative_Type_Mean": 1.021,
+                        "Pop_Share": 9.41,
+                        "Box_Number": 7
+                      },
+                      "split_condition": "Mother_Edu -> 9-11 Grades"
+                    }
+                  ],
+                  "nodeName": "Mother_Edu",
+                  "split_condition": "Birth_Area -> Northeast,West,Alaska, Hawaii,Foreign country"
+                },
+                {
+                  "id": 8,
+                  "info": {
+                    "Relative_Type_Mean": 0.787,
+                    "Pop_Share": 9.63,
+                    "Box_Number": 8
+                  },
+                  "split_condition": "Birth_Area -> North central,South"
+                }
+              ],
+              "nodeName": "Birth_Area",
+              "split_condition": "Mother_Occ -> Low,Middle"
+            },
+            {
+              "id": 9,
+              "info": {
+                "Relative_Type_Mean": 1.171,
+                "Pop_Share": 11.19,
+                "Box_Number": 9
+              },
+              "split_condition": "Mother_Occ -> High"
+            }
+          ],
+          "nodeName": "Mother_Occ",
+          "split_condition": "Father_Occ -> Low,4,5,6"
+        },
+        {
+          "id": 10,
+          "children": [
+            {
+              "id": 11,
+              "children": [
+                {
+                  "id": 12,
+                  "info": {
+                    "Relative_Type_Mean": 0.576,
+                    "Pop_Share": 13.69,
+                    "Box_Number": 12
+                  },
+                  "split_condition": "Ethnicity -> White"
+                },
+                {
+                  "id": 13,
+                  "info": {
+                    "Relative_Type_Mean": 0.696,
+                    "Pop_Share": 7.97,
+                    "Box_Number": 13
+                  },
+                  "split_condition": "Ethnicity -> Black"
+                }
+              ],
+              "nodeName": "Ethnicity",
+              "split_condition": "Father_Edu -> 0-5 Grades,6-8 Grades,9-11 Grades,High school,12 Grades + non academic training"
+            },
+            {
+              "id": 14,
+              "children": [
+                {
+                  "id": 15,
+                  "info": {
+                    "Relative_Type_Mean": 0.718,
+                    "Pop_Share": 4.58,
+                    "Box_Number": 15
+                  },
+                  "split_condition": "Father_Edu -> Some College"
+                },
+                {
+                  "id": 16,
+                  "children": [
+                    {
+                      "id": 17,
+                      "info": {
+                        "Relative_Type_Mean": 0.728,
+                        "Pop_Share": 1.53,
+                        "Box_Number": 17
+                      },
+                      "split_condition": "Birth_Area -> Northeast,North central,West"
+                    },
+                    {
+                      "id": 18,
+                      "info": {
+                        "Relative_Type_Mean": 1.014,
+                        "Pop_Share": 1.07,
+                        "Box_Number": 18
+                      },
+                      "split_condition": "Birth_Area -> South,Alaska, Hawaii,Foreign country"
+                    }
+                  ],
+                  "nodeName": "Birth_Area",
+                  "split_condition": "Father_Edu -> College degree,Advanced College degree"
+                }
+              ],
+              "nodeName": "Father_Edu",
+              "split_condition": "Father_Edu -> Some College,College degree,Advanced College degree"
+            }
+          ],
+          "nodeName": "Father_Edu",
+          "split_condition": "Father_Occ -> Middle,High"
+        }
+      ],
+      "nodeName": "Father_Occ",
+      "split_condition": "Birth_Area -> Northeast,North central,South,West,Alaska, Hawaii,Foreign country"
+    },
+    {
+      "id": 19,
+      "children": [
+        {
+          "id": 20,
+          "info": {
+            "Relative_Type_Mean": 1.407,
+            "Pop_Share": 19.75,
+            "Box_Number": 20
+          },
+          "split_condition": "Father_Occ -> Low,4,5,6"
+        },
+        {
+          "id": 21,
+          "info": {
+            "Relative_Type_Mean": 0.874,
+            "Pop_Share": 2.96,
+            "Box_Number": 21
+          },
+          "split_condition": "Father_Occ -> Middle,High"
+        }
+      ],
+      "nodeName": "Father_Occ",
+      "split_condition": "Birth_Area -> 7,8"
+    }
+  ],
+  "nodeName": "Birth_Area"
+}

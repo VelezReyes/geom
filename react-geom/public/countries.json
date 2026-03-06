@@ -22,13 +22,6 @@
             2019
         ]
     },
-    "ALB": {
-        "name": "Albania",
-        "iso": "ALB",
-        "years": [
-            2022
-        ]
-    },
     "MKD": {
         "name": "North Macedonia",
         "iso": "MKD",
@@ -639,6 +632,7 @@
             2011,
             2013,
             2015,
+            2017,
             2019
         ]
     },

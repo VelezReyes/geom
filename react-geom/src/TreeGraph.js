@@ -7,6 +7,16 @@ import * as d3 from "d3";
 import Tooltip from "./Tooltip";
 import "./TreeGraph.css";
 
+const loadTreeWithCountryFallback = async (type, country, year) => {
+  const mainPath = `/data/${type}/tree/${country}_${year}_${type.replace("-", "")}.json`;
+  try {
+    return await d3.json(mainPath);
+  } catch (error) {
+    const fallbackPath = `/data/${type}/tree/${country.toLowerCase()}_${year}_${type.replace("-", "")}.json`;
+    return d3.json(fallbackPath);
+  }
+};
+
 function traverseTree(node, result = []) {
   if (node.children) {
     node.children.forEach((child) => {
@@ -257,7 +267,10 @@ const nodesGenerator = (showBubble, nodesThreshold, setHoveredNode, setInactiveN
       .attr("dy", "-1em")
       .attr("x", -5)
       .attr("text-anchor", "middle")
-      .text((d) => ExtendedVarNames[d.data.nodeName])
+      .text((d) => {
+        if (!d.data.nodeName) return "";
+        return ExtendedVarNames[d.data.nodeName] || d.data.nodeName;
+      })
       .style("fill-opacity", 1e-6)
       .attr("stroke-linejoin", "round")
       .attr("stroke-width", 3)
@@ -405,12 +418,14 @@ const printPlot = (data, setTooltip, inactiveNodes, gLinkRef, showBubble, nodesT
     minRelativeMean = Math.min(...allRelativeMeann);
     maxRelativeMean = Math.max(...allRelativeMeann);
 
+    // Use a depth-aware padding so shallow trees keep a readable y-axis.
+    const domainPadding = Math.max(1.2, root.height * 0.9);
     const yScale = d3.scaleLinear()
-      .domain([minRelativeMean, (maxRelativeMean + 5.5)])
+      .domain([minRelativeMean, (maxRelativeMean + domainPadding)])
       .range([height, margin.top])
 
     const yScaleEje = d3.scaleLinear()
-      .domain([minRelativeMean, (maxRelativeMean + 5.5)])
+      .domain([minRelativeMean, (maxRelativeMean + domainPadding)])
       .range([height + margin.bottom, margin.top])
 
     // adaptative from size of tree
@@ -519,10 +534,7 @@ function TreeGraph() {
       (country) => country.value === filters.country
     ).value;
 
-
-    d3.json(
-      `/data/${type}/tree/${country}_${filters.year}_${type.replace("-", "")}.json`
-    )
+    loadTreeWithCountryFallback(type, country, filters.year)
       .then((data) => {
         printPlot(data, setTooltip, inactiveNodes, gLinkRef, showBubble, nodesThreshold, ref, gNodeRef, setHoveredNode, setInactiveNodes, refConteiner);
       })

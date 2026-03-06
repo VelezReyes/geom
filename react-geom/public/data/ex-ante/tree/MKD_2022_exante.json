@@ -1,0 +1,56 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "info": {
+            "Relative_Type_Mean": 0.919,
+            "Pop_Share": 44.37,
+            "Box_Number": 3
+          },
+          "split_condition": "Father_Edu -> -97,Primary education,Lower secondary education,(Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more"
+        },
+        {
+          "id": 4,
+          "info": {
+            "Relative_Type_Mean": 0.817,
+            "Pop_Share": 23.77,
+            "Box_Number": 4
+          },
+          "split_condition": "Father_Edu -> No degree / No education,Master's degree or PhD"
+        }
+      ],
+      "nodeName": "Father_Edu",
+      "split_condition": "Birth_Area -> Urban,2,3,4,7"
+    },
+    {
+      "id": 5,
+      "children": [
+        {
+          "id": 6,
+          "info": {
+            "Relative_Type_Mean": 1.128,
+            "Pop_Share": 24.74,
+            "Box_Number": 6
+          },
+          "split_condition": "Birth_Area -> 5"
+        },
+        {
+          "id": 7,
+          "info": {
+            "Relative_Type_Mean": 1.554,
+            "Pop_Share": 7.11,
+            "Box_Number": 7
+          },
+          "split_condition": "Birth_Area -> 6,8,9"
+        }
+      ],
+      "nodeName": "Birth_Area",
+      "split_condition": "Birth_Area -> 5,6,8,9"
+    }
+  ],
+  "nodeName": "Birth_Area"
+}

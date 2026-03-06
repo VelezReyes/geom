@@ -1,0 +1,136 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "info": {
+            "Relative_Type_Mean": 1.022,
+            "Pop_Share": 7.63,
+            "Box_Number": 3
+          },
+          "split_condition": "Mother_Edu -> Primary [0-1],Secondary lower [2],Secondary upper [3-4],Tertiary [5-8],6"
+        },
+        {
+          "id": 4,
+          "children": [
+            {
+              "id": 5,
+              "info": {
+                "Relative_Type_Mean": 0.926,
+                "Pop_Share": 13.54,
+                "Box_Number": 5
+              },
+              "split_condition": "Ethnicity -> Black"
+            },
+            {
+              "id": 6,
+              "info": {
+                "Relative_Type_Mean": 0.831,
+                "Pop_Share": 19.24,
+                "Box_Number": 6
+              },
+              "split_condition": "Ethnicity -> White"
+            }
+          ],
+          "nodeName": "Ethnicity",
+          "split_condition": "Mother_Edu -> 5,7,8"
+        }
+      ],
+      "nodeName": "Mother_Edu",
+      "split_condition": "Father_Edu -> Primary [0-1]"
+    },
+    {
+      "id": 7,
+      "children": [
+        {
+          "id": 8,
+          "children": [
+            {
+              "id": 9,
+              "info": {
+                "Relative_Type_Mean": 1.178,
+                "Pop_Share": 1.26,
+                "Box_Number": 9
+              },
+              "split_condition": "Father_Occ -> Large employers & higher management,Intermediate"
+            },
+            {
+              "id": 10,
+              "children": [
+                {
+                  "id": 11,
+                  "info": {
+                    "Relative_Type_Mean": 1.234,
+                    "Pop_Share": 10.42,
+                    "Box_Number": 11
+                  },
+                  "split_condition": "Mother_Edu -> Primary [0-1],Secondary lower [2],Secondary upper [3-4]"
+                },
+                {
+                  "id": 12,
+                  "info": {
+                    "Relative_Type_Mean": 1.135,
+                    "Pop_Share": 10.97,
+                    "Box_Number": 12
+                  },
+                  "split_condition": "Mother_Edu -> Tertiary [5-8],5,6,7,8"
+                }
+              ],
+              "nodeName": "Mother_Edu",
+              "split_condition": "Father_Occ -> Higher professional,Lower management & professional,Small employers & own account"
+            }
+          ],
+          "nodeName": "Father_Occ",
+          "split_condition": "Mother_Occ -> Large employers & higher management,Higher professional,Lower management & professional"
+        },
+        {
+          "id": 13,
+          "children": [
+            {
+              "id": 14,
+              "info": {
+                "Relative_Type_Mean": 0.87,
+                "Pop_Share": 1.39,
+                "Box_Number": 14
+              },
+              "split_condition": "Father_Occ -> Large employers & higher management,Small employers & own account"
+            },
+            {
+              "id": 15,
+              "children": [
+                {
+                  "id": 16,
+                  "info": {
+                    "Relative_Type_Mean": 1.058,
+                    "Pop_Share": 19.95,
+                    "Box_Number": 16
+                  },
+                  "split_condition": "Mother_Edu -> Primary [0-1],Secondary lower [2],Secondary upper [3-4],Tertiary [5-8],5,6"
+                },
+                {
+                  "id": 17,
+                  "info": {
+                    "Relative_Type_Mean": 0.928,
+                    "Pop_Share": 15.61,
+                    "Box_Number": 17
+                  },
+                  "split_condition": "Mother_Edu -> 7,8"
+                }
+              ],
+              "nodeName": "Mother_Edu",
+              "split_condition": "Father_Occ -> Higher professional,Lower management & professional,Intermediate"
+            }
+          ],
+          "nodeName": "Father_Occ",
+          "split_condition": "Mother_Occ -> Intermediate,Small employers & own account,Lower supervisory & technical,Semi-Routine,Routine"
+        }
+      ],
+      "nodeName": "Mother_Occ",
+      "split_condition": "Father_Edu -> Secondary lower [2],Secondary upper [3-4],Tertiary [5-8]"
+    }
+  ],
+  "nodeName": "Father_Edu"
+}

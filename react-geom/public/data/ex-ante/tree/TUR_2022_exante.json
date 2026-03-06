@@ -1,0 +1,88 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "info": {
+            "Relative_Type_Mean": 0.834,
+            "Pop_Share": 63.23,
+            "Box_Number": 3
+          },
+          "split_condition": "Mother_Occ -> -99,-97,Agriculture, Forestry, and Fishing,Never worked"
+        },
+        {
+          "id": 4,
+          "children": [
+            {
+              "id": 5,
+              "children": [
+                {
+                  "id": 6,
+                  "info": {
+                    "Relative_Type_Mean": 0.824,
+                    "Pop_Share": 7.31,
+                    "Box_Number": 6
+                  },
+                  "split_condition": "Father_Edu -> No degree / No education,Lower secondary education,Bachelor's degree or more"
+                },
+                {
+                  "id": 7,
+                  "children": [
+                    {
+                      "id": 8,
+                      "info": {
+                        "Relative_Type_Mean": 1.158,
+                        "Pop_Share": 18,
+                        "Box_Number": 8
+                      },
+                      "split_condition": "Mother_Edu -> Primary education,(Upper) secondary education,9,10,11,12,13,14"
+                    },
+                    {
+                      "id": 9,
+                      "info": {
+                        "Relative_Type_Mean": 0.771,
+                        "Pop_Share": 2.73,
+                        "Box_Number": 9
+                      },
+                      "split_condition": "Mother_Edu -> Lower secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+                    }
+                  ],
+                  "nodeName": "Mother_Edu",
+                  "split_condition": "Father_Edu -> Primary education,(Upper) secondary education,Post-secondary non-tertiary education"
+                }
+              ],
+              "nodeName": "Father_Edu",
+              "split_condition": "Father_Edu -> No degree / No education,Primary education,Lower secondary education,(Upper) secondary education,Post-secondary non-tertiary education,Bachelor's degree or more"
+            },
+            {
+              "id": 10,
+              "info": {
+                "Relative_Type_Mean": 1.534,
+                "Pop_Share": 4.26,
+                "Box_Number": 10
+              },
+              "split_condition": "Father_Edu -> Tertiary education (not a university diploma),9"
+            }
+          ],
+          "nodeName": "Father_Edu",
+          "split_condition": "Mother_Occ -> Mining,Construction,Manufacturing,Transportation and public utilities,Wholesale trade,Retail trade,Finance, insurance and real estate,Services,Public sector (eg education, administration, health care),Non-classifiable establishments"
+        }
+      ],
+      "nodeName": "Mother_Occ",
+      "split_condition": "Birth_Area -> Urban,2,3,4,5,6,7"
+    },
+    {
+      "id": 11,
+      "info": {
+        "Relative_Type_Mean": 2.969,
+        "Pop_Share": 4.47,
+        "Box_Number": 11
+      },
+      "split_condition": "Birth_Area -> 8,9,10"
+    }
+  ],
+  "nodeName": "Birth_Area"
+}

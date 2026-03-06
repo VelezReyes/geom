@@ -9,6 +9,16 @@ import { legendColor } from "d3-svg-legend";
 import Tooltip from "./Tooltip";
 import "./BubblePlot.css";
 
+const loadBubbleCsvWithCountryFallback = async (type, country, year) => {
+  const mainPath = `/data/${type}/bubble-plot/${country}_${year}_${type.replace("-", "")}.csv`;
+  try {
+    return await d3.csv(mainPath);
+  } catch (error) {
+    const fallbackPath = `/data/${type}/bubble-plot/${country.toLowerCase()}_${year}_${type.replace("-", "")}.csv`;
+    return d3.csv(fallbackPath);
+  }
+};
+
 const ExtendedVarNames = {
   Ethnicity: "Ethnicity",
   Sex: "Sex",
@@ -131,12 +141,7 @@ function BubblePlot() {
       .attr("width", width)
       .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-    d3.csv(
-      `/data/${type}/bubble-plot/${country}_${year}_${type.replace(
-        "-",
-        ""
-      )}.csv`
-    )
+    loadBubbleCsvWithCountryFallback(type, country, year)
       .then((data) => {
         const max_x = d3.max(data, (d) => +d.Relative_Type_Mean);
         const max_y = d3.max(data, (d) => +d.Pop_Share);

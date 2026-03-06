@@ -1,0 +1,120 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "children": [
+            {
+              "id": 4,
+              "info": {
+                "Relative_Type_Mean": 0.921,
+                "Pop_Share": 24.11,
+                "Box_Number": 4
+              },
+              "split_condition": "Mother_Edu -> No degree / No education,Lower secondary education,(Upper) secondary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD,13,14"
+            },
+            {
+              "id": 5,
+              "info": {
+                "Relative_Type_Mean": 1.123,
+                "Pop_Share": 3.19,
+                "Box_Number": 5
+              },
+              "split_condition": "Mother_Edu -> Primary education,Post-secondary non-tertiary education,9,10,11"
+            }
+          ],
+          "nodeName": "Mother_Edu",
+          "split_condition": "Father_Edu -> -97,Primary education"
+        },
+        {
+          "id": 6,
+          "info": {
+            "Relative_Type_Mean": 0.918,
+            "Pop_Share": 30.56,
+            "Box_Number": 6
+          },
+          "split_condition": "Father_Edu -> No degree / No education"
+        }
+      ],
+      "nodeName": "Father_Edu",
+      "split_condition": "Father_Edu -> -97,No degree / No education,Primary education"
+    },
+    {
+      "id": 7,
+      "children": [
+        {
+          "id": 8,
+          "children": [
+            {
+              "id": 9,
+              "children": [
+                {
+                  "id": 10,
+                  "children": [
+                    {
+                      "id": 11,
+                      "info": {
+                        "Relative_Type_Mean": 0.965,
+                        "Pop_Share": 3.31,
+                        "Box_Number": 11
+                      },
+                      "split_condition": "Mother_Edu -> No degree / No education,Lower secondary education,10"
+                    },
+                    {
+                      "id": 12,
+                      "info": {
+                        "Relative_Type_Mean": 1.255,
+                        "Pop_Share": 2.96,
+                        "Box_Number": 12
+                      },
+                      "split_condition": "Mother_Edu -> Primary education,(Upper) secondary education,Master's degree or PhD,11,12"
+                    }
+                  ],
+                  "nodeName": "Mother_Edu",
+                  "split_condition": "Mother_Edu -> No degree / No education,Primary education,Lower secondary education,(Upper) secondary education,Master's degree or PhD,10,11,12"
+                },
+                {
+                  "id": 13,
+                  "info": {
+                    "Relative_Type_Mean": 0.983,
+                    "Pop_Share": 13.36,
+                    "Box_Number": 13
+                  },
+                  "split_condition": "Mother_Edu -> Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,9,13,14"
+                }
+              ],
+              "nodeName": "Mother_Edu",
+              "split_condition": "Father_Edu -> Lower secondary education"
+            },
+            {
+              "id": 14,
+              "info": {
+                "Relative_Type_Mean": 1.142,
+                "Pop_Share": 19.5,
+                "Box_Number": 14
+              },
+              "split_condition": "Father_Edu -> (Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+            }
+          ],
+          "nodeName": "Father_Edu",
+          "split_condition": "Birth_Area -> Urban,2,4,5,6,8,9"
+        },
+        {
+          "id": 15,
+          "info": {
+            "Relative_Type_Mean": 1.095,
+            "Pop_Share": 3.01,
+            "Box_Number": 15
+          },
+          "split_condition": "Birth_Area -> 3,7"
+        }
+      ],
+      "nodeName": "Birth_Area",
+      "split_condition": "Father_Edu -> Lower secondary education,(Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Bachelor's degree or more,Master's degree or PhD"
+    }
+  ],
+  "nodeName": "Father_Edu"
+}

@@ -3,6 +3,16 @@ import * as d3 from 'd3';
 import ResizeObserver from 'resize-observer-polyfill';
 import { FilterContext } from '../contexts/Filter.context';
 
+const loadCsvWithCountryFallback = async (basePath, country, year, suffix) => {
+    const primary = `${basePath}/${country}_${year}_${suffix}.csv`;
+    try {
+        return await d3.csv(primary);
+    } catch (error) {
+        const fallback = `${basePath}/${country.toLowerCase()}_${year}_${suffix}.csv`;
+        return d3.csv(fallback);
+    }
+};
+
 export const getData = async ({ country, year }) => {
     let data = {
         links: [],
@@ -12,8 +22,8 @@ export const getData = async ({ country, year }) => {
     try {
         data.links = await d3.json(`./data/alluvial/links/${country}_${year}_LINKS.json`);
         data.nodes = await d3.json(`./data/alluvial/nodes/${country}_${year}_NODES.json`);
-        let tooltipExAnte = await d3.csv(`/data/ex-ante/bubble-plot/${country}_${year}_exante.csv`);
-        let tooltipExPost = await d3.csv(`/data/ex-post/bubble-plot/${country}_${year}_expost.csv`);
+        let tooltipExAnte = await loadCsvWithCountryFallback('/data/ex-ante/bubble-plot', country, year, 'exante');
+        let tooltipExPost = await loadCsvWithCountryFallback('/data/ex-post/bubble-plot', country, year, 'expost');
         data.tooltipData = [...tooltipExAnte, ...tooltipExPost];
         return data;
     } catch (e) {
@@ -70,7 +80,10 @@ export const addTataForTooltips = ({ data, tree, nodeIndex }) => {
         const condition = dataOfNode.Box_Number == data.nodes[nodeIndex].id && dataOfNode.Type == tree;
         return condition;
     });
-    data.nodes[nodeIndex] = { ...data.nodes[nodeIndex], tooltipData: dataNodeToolTip[0] };
+    const fallbackTooltip = data.tooltipData.find((dataOfNode) => {
+        return dataOfNode.Box_Number == data.nodes[nodeIndex].id;
+    });
+    data.nodes[nodeIndex] = { ...data.nodes[nodeIndex], tooltipData: dataNodeToolTip[0] || fallbackTooltip || {} };
 }
 
 export const heightsNodesCalculate = ({ columnsFilter, data }) => {
@@ -251,6 +264,9 @@ export const lookForDataTextTooltip = ({ columnsScalerHeights, nodeOriginIndex }
 export const generateTextTooltip = ({ columnsScalerHeights, nodeOriginIndex }) => {
     //text tooltip
     const dataTooltip = lookForDataTextTooltip({ columnsScalerHeights, nodeOriginIndex });
+    if (!dataTooltip || typeof dataTooltip !== 'object') {
+        return `<p><b>Type:</b> ${columnsScalerHeights.dataAlluvial.nodes[nodeOriginIndex].id}</p>`;
+    }
     const dataTooltipUsers = {
         Mother_Edu: 'Mother Education',
         Birth_Area: 'Birth Area',

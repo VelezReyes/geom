@@ -3,6 +3,16 @@ import * as d3 from "d3";
 
 import "./TypesDescription.css";
 
+const loadExpostTypesWithCountryFallback = async (country, year) => {
+  const mainPath = `/data/ex-post/bubble-plot/${country}_${year}_expost.csv`;
+  try {
+    return await d3.csv(mainPath);
+  } catch (error) {
+    const fallbackPath = `/data/ex-post/bubble-plot/${country.toLowerCase()}_${year}_expost.csv`;
+    return d3.csv(fallbackPath);
+  }
+};
+
 const ExtendedVarNames = {
   Ethnicity: "Ethnicity",
   Sex: "Sex",
@@ -29,7 +39,7 @@ function TypesDescription({ filters }) {
     const year = filters.year;
 
     if (country && year) {
-      d3.csv(`/data/ex-post/bubble-plot/${country}_${year}_expost.csv`)
+      loadExpostTypesWithCountryFallback(country, year)
         .then((data) => {
           const typesDescription = {};
 

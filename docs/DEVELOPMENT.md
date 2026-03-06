@@ -13,6 +13,7 @@ This guide covers everything needed to set up a local development environment, w
 - [Adding a New Filter](#adding-a-new-filter)
 - [Adding PDF Reports](#adding-pdf-reports)
 - [Working with Data](#working-with-data)
+- [Data Refresh Runbook](#data-refresh-runbook)
 - [Testing](#testing)
 - [Deployment](#deployment)
   - [Netlify](#netlify)
@@ -275,6 +276,22 @@ After updating these files, rebuild the frontend to include the new data in the 
 
 - **Tooltips:** Edit `react-geom/public/tooltips.json` — these are loaded at runtime.
 - **Instructions:** Edit `react-geom/public/instructions.json` — these populate the help sidebar.
+
+---
+
+## Data Refresh Runbook
+
+For the complete step-by-step process (data replacement, PDF/tree alignment, validation, seeding, and troubleshooting), use:
+
+- [DATA_REFRESH_RUNBOOK.md](./DATA_REFRESH_RUNBOOK.md)
+
+Quick commands from repo root:
+
+```bash
+npm run data:trees:rebuild
+npm run data:trees:validate
+npm run data:sync:pdf-trees
+```
 
 ---
 

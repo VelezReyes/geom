@@ -28,6 +28,10 @@
         "label": "Bolivia"
     },
     {
+        "value": "BIH",
+        "label": "Bosnia and Herzegovina"
+    },
+    {
         "value": "BRA",
         "label": "Brazil"
     },
@@ -58,10 +62,6 @@
     {
         "value": "CY",
         "label": "Cyprus"
-    },
-    {
-        "value": "XKX",
-        "label": "Kosovo"
     },
     {
         "value": "CZ",
@@ -128,6 +128,10 @@
         "label": "India"
     },
     {
+        "value": "IDN",
+        "label": "Indonesia"
+    },
+    {
         "value": "IE",
         "label": "Ireland"
     },
@@ -142,6 +146,10 @@
     {
         "value": "KAZ",
         "label": "Kazakhstan"
+    },
+    {
+        "value": "XKX",
+        "label": "Kosovo"
     },
     {
         "value": "KGZ",
@@ -160,6 +168,14 @@
         "label": "Luxembourg"
     },
     {
+        "value": "MWI",
+        "label": "Malawi"
+    },
+    {
+        "value": "MLI",
+        "label": "Mali"
+    },
+    {
         "value": "MT",
         "label": "Malta"
     },
@@ -170,6 +186,10 @@
     {
         "value": "MNG",
         "label": "Mongolia"
+    },
+    {
+        "value": "MNE",
+        "label": "Montenegro"
     },
     {
         "value": "NPL",
@@ -186,6 +206,10 @@
     {
         "value": "NGA",
         "label": "Nigeria"
+    },
+    {
+        "value": "MKD",
+        "label": "North Macedonia"
     },
     {
         "value": "NO",
@@ -212,8 +236,16 @@
         "label": "Romania"
     },
     {
+        "value": "RUS",
+        "label": "Russia"
+    },
+    {
         "value": "SEN",
         "label": "Senegal"
+    },
+    {
+        "value": "SRB",
+        "label": "Serbia"
     },
     {
         "value": "SRL",
@@ -264,8 +296,8 @@
         "label": "Togo"
     },
     {
-        "value": "USA",
-        "label": "USA"
+        "value": "TUR",
+        "label": "Turkey"
     },
     {
         "value": "UGA",
@@ -274,6 +306,10 @@
     {
         "value": "UK",
         "label": "United Kingdom"
+    },
+    {
+        "value": "USA",
+        "label": "United States of America"
     },
     {
         "value": "UZB",

@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "info": {
+        "Relative_Type_Mean": 1.061,
+        "Pop_Share": 70.02,
+        "Box_Number": 2
+      },
+      "split_condition": "Birth_Area -> Urban,4,5,6,7,8,9"
+    },
+    {
+      "id": 3,
+      "children": [
+        {
+          "id": 4,
+          "info": {
+            "Relative_Type_Mean": 0.712,
+            "Pop_Share": 9.6,
+            "Box_Number": 4
+          },
+          "split_condition": "Birth_Area -> 2"
+        },
+        {
+          "id": 5,
+          "info": {
+            "Relative_Type_Mean": 0.912,
+            "Pop_Share": 20.37,
+            "Box_Number": 5
+          },
+          "split_condition": "Birth_Area -> 3"
+        }
+      ],
+      "nodeName": "Birth_Area",
+      "split_condition": "Birth_Area -> 2,3"
+    }
+  ],
+  "nodeName": "Birth_Area"
+}

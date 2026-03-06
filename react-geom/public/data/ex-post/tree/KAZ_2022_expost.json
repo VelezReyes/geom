@@ -1,0 +1,40 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "info": {
+        "Relative_Type_Mean": 1.056,
+        "Pop_Share": 35.42,
+        "Box_Number": 2
+      },
+      "split_condition": "Ethnicity -> Atheistic/agnostic/none"
+    },
+    {
+      "id": 3,
+      "children": [
+        {
+          "id": 4,
+          "info": {
+            "Relative_Type_Mean": 0.946,
+            "Pop_Share": 53.02,
+            "Box_Number": 4
+          },
+          "split_condition": "Birth_Area -> Urban,Others,3,4,5,6,7"
+        },
+        {
+          "id": 5,
+          "info": {
+            "Relative_Type_Mean": 0.982,
+            "Pop_Share": 11.56,
+            "Box_Number": 5
+          },
+          "split_condition": "Birth_Area -> 8,9,10"
+        }
+      ],
+      "nodeName": "Birth_Area",
+      "split_condition": "Ethnicity -> Buddhist"
+    }
+  ],
+  "nodeName": "Ethnicity"
+}

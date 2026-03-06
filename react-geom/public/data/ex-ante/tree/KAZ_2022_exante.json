@@ -1,0 +1,56 @@
+{
+  "id": 1,
+  "children": [
+    {
+      "id": 2,
+      "children": [
+        {
+          "id": 3,
+          "info": {
+            "Relative_Type_Mean": 0.884,
+            "Pop_Share": 16.93,
+            "Box_Number": 3
+          },
+          "split_condition": "V8 -> 1"
+        },
+        {
+          "id": 4,
+          "children": [
+            {
+              "id": 5,
+              "info": {
+                "Relative_Type_Mean": 1.17,
+                "Pop_Share": 15.52,
+                "Box_Number": 5
+              },
+              "split_condition": "Father_Edu -> -97,No degree / No education,Primary education,Lower secondary education,(Upper) secondary education,Post-secondary non-tertiary education,Tertiary education (not a university diploma),Master's degree or PhD"
+            },
+            {
+              "id": 6,
+              "info": {
+                "Relative_Type_Mean": 1.719,
+                "Pop_Share": 2.97,
+                "Box_Number": 6
+              },
+              "split_condition": "Father_Edu -> Bachelor's degree or more"
+            }
+          ],
+          "nodeName": "Father_Edu",
+          "split_condition": "V8 -> 2"
+        }
+      ],
+      "nodeName": "V8",
+      "split_condition": "Ethnicity -> Atheistic/agnostic/none"
+    },
+    {
+      "id": 7,
+      "info": {
+        "Relative_Type_Mean": 0.953,
+        "Pop_Share": 64.58,
+        "Box_Number": 7
+      },
+      "split_condition": "Ethnicity -> Buddhist"
+    }
+  ],
+  "nodeName": "Ethnicity"
+}
