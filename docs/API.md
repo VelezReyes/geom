@@ -1,222 +1,127 @@
 # API Reference
 
-The Express backend (`express-geom`) exposes a REST API on port `3001` (configurable via `PORT` environment variable).
-
-All endpoints are mounted under `/api/files`.
-
----
-
-## Table of Contents
-
-- [Base URL](#base-url)
-- [Endpoints](#endpoints)
-  - [GET /api/files](#get-apifiles)
-  - [POST /api/files](#post-apifiles)
-  - [GET /api/files/pdf](#get-apifilepdf)
-- [Error Responses](#error-responses)
-- [PDF Categories](#pdf-categories)
-- [Security](#security)
-
----
+This API is implemented by `express-geom` and is mounted under `/api/files`.
 
 ## Base URL
 
-**Development:** `http://localhost:3001`
+Development base URL:
 
-Set via the frontend's `REACT_APP_API_URL` environment variable.
+```text
+http://localhost:3001
+```
 
----
+The port is currently hardcoded in `express-geom/index.js`.
 
 ## Endpoints
 
-### GET /api/files
+### GET `/api/files`
 
-Returns all file records stored in the database.
+Returns seeded metadata from LowDB.
 
-**Request**
-
-```
-GET /api/files
-```
-
-No parameters required.
-
-**Response `200 OK`**
+Response shape:
 
 ```json
-[
-  {
-    "id": "abc123",
+{
+  "success": true,
+  "data": {
+    "alluvial": [{ "country": "ARG", "year": 2014 }],
+    "descriptive": [{ "country": "ARG", "year": 2014 }],
+    "ex-ante": [{ "country": "ARG", "year": 2014 }],
+    "ex-post": [{ "country": "ARG", "year": 2014 }],
+    "types": [{ "country": "ARG", "year": 2014 }]
+  }
+}
+```
+
+Notes:
+- `data` is a category map (not a flat list).
+- The category key is `descriptive`.
+
+### POST `/api/files`
+
+Pushes request body into `files` and returns it.
+
+Request:
+
+```json
+{
+  "category": "ex-ante",
+  "country": "BRA",
+  "year": 2021
+}
+```
+
+Response:
+
+```json
+{
+  "success": true,
+  "data": {
     "category": "ex-ante",
     "country": "BRA",
-    "year": 2020,
-    "filename": "BRA_2020.pdf"
-  },
-  ...
-]
-```
-
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | string | Unique record identifier |
-| `category` | string | PDF category (see [PDF Categories](#pdf-categories)) |
-| `country` | string | ISO 3166-1 alpha-3 country code |
-| `year` | number | Year of the report |
-| `filename` | string | PDF filename on disk |
-
----
-
-### POST /api/files
-
-Creates a new file record in the database.
-
-**Request**
-
-```
-POST /api/files
-Content-Type: application/json
-```
-
-**Body**
-
-```json
-{
-  "category": "ex-ante",
-  "country": "BRA",
-  "year": 2020,
-  "filename": "BRA_2020.pdf"
+    "year": 2021
+  }
 }
 ```
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `category` | string | Yes | One of the valid PDF categories |
-| `country` | string | Yes | ISO 3166-1 alpha-3 country code |
-| `year` | number | Yes | Report year |
-| `filename` | string | Yes | Filename of the PDF on disk |
+Notes:
+- There is currently no Joi validation on this endpoint.
+- This endpoint is not required for normal UI usage (seeding is the standard path).
 
-**Response `201 Created`**
+### GET `/api/files/pdf`
+
+Serves a PDF file from disk.
+
+Query params:
+- `category` (required): one of `alluvial`, `descriptive`, `ex-ante`, `ex-post`, `types`
+- `country` (required): country code from `countries.const.js`
+- `year` (required): integer between `1970` and current year
+
+Example:
+
+```text
+GET /api/files/pdf?category=ex-ante&country=USA&year=2018
+```
+
+File path resolution:
+
+```text
+express-geom/pdfs/<category>/<country>_<year>_all.pdf
+```
+
+Example:
+
+```text
+express-geom/pdfs/ex-ante/USA_2018_all.pdf
+```
+
+Validation errors return status `400` with shape:
 
 ```json
 {
-  "id": "abc123",
-  "category": "ex-ante",
-  "country": "BRA",
-  "year": 2020,
-  "filename": "BRA_2020.pdf"
+  "success": false,
+  "message": [
+    {
+      "message": "\"category\" must be one of [alluvial, descriptive, ex-ante, ex-post, types]"
+    }
+  ]
 }
 ```
 
-**Response `400 Bad Request`**
-
-Returned when validation fails (handled by Joi).
+If `sendFile` fails for missing file/path issues, Express returns an error status (typically `404`) and:
 
 ```json
 {
-  "error": "\"category\" is required"
+  "success": false,
+  "message": "error serving the file"
 }
 ```
 
----
+## Security and Middleware
 
-### GET /api/files/pdf
+Current middleware in `express-geom/index.js`:
+- `cors({ origin: '*' })`
+- `helmet()`
+- `express.json()`
 
-Streams a PDF file to the client, identified by category, country, and year.
-
-**Request**
-
-```
-GET /api/files/pdf?category=<category>&country=<country>&year=<year>
-```
-
-**Query Parameters**
-
-| Parameter | Type | Required | Description |
-|-----------|------|----------|-------------|
-| `category` | string | Yes | PDF category (see [PDF Categories](#pdf-categories)) |
-| `country` | string | Yes | ISO 3166-1 alpha-3 country code (e.g., `BRA`) |
-| `year` | string / number | Yes | Four-digit year (e.g., `2020`) |
-
-**Example**
-
-```
-GET /api/files/pdf?category=ex-ante&country=BRA&year=2020
-```
-
-**Response `200 OK`**
-
-Binary PDF stream.
-
-```
-Content-Type: application/pdf
-Content-Disposition: inline; filename="BRA_2020.pdf"
-```
-
-**Response `404 Not Found`**
-
-Returned when no matching record exists in the database or the file is missing from disk.
-
-```json
-{
-  "error": "File not found"
-}
-```
-
-**Response `400 Bad Request`**
-
-Returned when query parameter validation fails.
-
-```json
-{
-  "error": "\"category\" must be one of [alluvial, descriptive, ex-ante, ex-post, types]"
-}
-```
-
----
-
-## Error Responses
-
-All error responses use JSON with an `error` field:
-
-| Status | Meaning |
-|--------|---------|
-| `400` | Invalid or missing query/body parameters |
-| `404` | Requested resource not found |
-| `500` | Internal server error |
-
----
-
-## PDF Categories
-
-The `category` parameter must be one of the following:
-
-| Value | Description |
-|-------|-------------|
-| `alluvial` | Alluvial/Sankey flow diagram PDFs |
-| `descriptive` | Descriptive statistics PDFs |
-| `ex-ante` | Ex-ante (predicted inequality) analysis PDFs |
-| `ex-post` | Ex-post (decomposed inequality) analysis PDFs |
-| `types` | Type distribution PDFs |
-
-PDFs are stored on the backend filesystem at:
-
-```
-express-geom/pdfs/<category>/<COUNTRY>_<YEAR>.pdf
-```
-
-For example:
-```
-express-geom/pdfs/ex-ante/BRA_2020.pdf
-```
-
----
-
-## Security
-
-The backend applies the following security measures:
-
-- **Helmet** — Sets security-relevant HTTP response headers (Content-Security-Policy, X-Frame-Options, etc.)
-- **CORS** — Currently configured to allow all origins (`*`). Restrict `origin` in production.
-- **Joi validation** — All incoming query parameters and request bodies are validated before processing.
-
-> For production deployments, configure CORS to allow only your frontend's origin and consider adding rate limiting.
+For production, restrict CORS to known frontend origins.
