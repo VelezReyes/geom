@@ -136,6 +136,7 @@ npm run seed
 
 Use the runbook for complete release workflow:
 - [`./DATA_REFRESH_RUNBOOK.md`](./DATA_REFRESH_RUNBOOK.md)
+- For source-to-target mapping from `geom_v2/`, use [`./GEOM_V2_DATA_GUIDE.md`](./GEOM_V2_DATA_GUIDE.md)
 
 Quick commands from repo root:
 

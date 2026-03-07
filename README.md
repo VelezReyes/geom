@@ -152,3 +152,4 @@ Note: backend currently listens on hardcoded port `3001` in `express-geom/index.
 - [API Reference](docs/API.md)
 - [Development Guide](docs/DEVELOPMENT.md)
 - [Data Refresh Runbook](docs/DATA_REFRESH_RUNBOOK.md)
+- [GEOM_V2 Data Update Guide](docs/GEOM_V2_DATA_GUIDE.md)

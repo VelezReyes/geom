@@ -4,6 +4,8 @@ This runbook describes the end-to-end process to update GEOM datasets and keep E
 
 Use this when you receive a new `geom_v2` delivery, new PDFs, new countries, or schema updates.
 
+For a source-to-target mapping specifically focused on `geom_v2/` inputs, see [`GEOM_V2_DATA_GUIDE.md`](./GEOM_V2_DATA_GUIDE.md).
+
 ---
 
 ## 1. Scope and source of truth
