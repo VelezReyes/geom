@@ -22,13 +22,6 @@
             2019
         ]
     },
-    "MKD": {
-        "name": "North Macedonia",
-        "iso": "MKD",
-        "years": [
-            2022
-        ]
-    },
     "AUS": {
         "name": "Australia",
         "iso": "AUS",
@@ -129,13 +122,6 @@
         "iso": "COL",
         "years": [
             2010
-        ]
-    },
-    "SRB": {
-        "name": "Serbia",
-        "iso": "SRB",
-        "years": [
-            2022
         ]
     },
     "CY": {
@@ -326,15 +312,7 @@
         "name": "Kazakhstan",
         "iso": "KAZ",
         "years": [
-            2016,
-            2022
-        ]
-    },
-    "BIH": {
-        "name": "Bosnia and Herzegovina",
-        "iso": "BIH",
-        "years": [
-            2022
+            2016
         ]
     },
     "KGZ": {
@@ -370,13 +348,6 @@
             2019
         ]
     },
-    "TUR": {
-        "name": "Turkey",
-        "iso": "TUR",
-        "years": [
-            2022
-        ]
-    },
     "LU": {
         "name": "Luxembourg",
         "iso": "LUX",
@@ -384,13 +355,6 @@
             2005,
             2011,
             2019
-        ]
-    },
-    "XKX": {
-        "name": "Kosovo",
-        "iso": "XKX",
-        "years": [
-            2022
         ]
     },
     "LV": {
@@ -421,13 +385,6 @@
         "iso": "MNG",
         "years": [
             2016
-        ]
-    },
-    "MNE": {
-        "name": "Montenegro",
-        "iso": "MNE",
-        "years": [
-            2022
         ]
     },
     "MT": {
